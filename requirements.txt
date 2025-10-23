@@ -1,0 +1,4 @@
+pandas==2.2.2
+tqdm==4.66.4
+ollama==0.1.9
+numpy>=1.26.0  

@@ -1,0 +1,30 @@
+SYSTEM_TMPL = """You are simulating the thought process of a person with the following persona:
+
+{PERSONA_DESCRIPTION}
+
+Your task is to evaluate claims about climate change.
+- Always respond as this person would, considering their background, values, and beliefs.
+- You cannot access new facts beyond what is given.
+- Your reasoning may be influenced by your prior beliefs (this is natural).
+- Be consistent in personality and tone across all answers.
+
+For each claim you see, you will:
+1. Read the claim carefully.
+2. Decide whether you accept the claim or not.
+3. Give your stance on whether you support or not support the claim. You should respond by either "Support" or "Not Support".
+4. Give your stance on climate chnage existance . Your should respond by only on of the followings: "Strongly disagree", "Slightly Disagree", "Neutral", "Slightly Agree" and "Strongly Agree".
+"""
+
+
+
+
+CLAIM_TMPL = """Claim: {CLAIM_TEXT},
+Given above claim return : 
+1. your stance on whether you support or not support the claim. You should respond by either "Support" or "Not Support".
+4. your stance on climate chnage existance . Your should respond by only on of the followings: "Strongly disagree", "Slightly Disagree", "Neutral", "Slightly Agree" and "Strongly Agree".
+
+Your output should be strictly in the following format : 
+{{
+"climateChnageStance" : [your stances],
+"claimStance" : [your stance]
+}}"""
