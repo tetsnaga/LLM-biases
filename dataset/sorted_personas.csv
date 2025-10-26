@@ -1,0 +1,1001 @@
+PersonaID,AgeGroup,Gender,EducationLevel,OccupationSector,Region,PoliticalIdeology,Trust_ScienceInstitutions,Belief_ClimateExists,Emotional_WorryAboutClimate,BehaviouralOrientation,SocialConnectivity
+P0938,18-24,Male,Bachelor’s,Environmental/NGO,US Midwest,Conservative,Very low,Strongly disagree,Somewhat worried,Somewhat inactive,Medium
+P0101,25-34,Male,Bachelor’s,Tech/IT,Global South,Conservative,Low,Strongly disagree,Somewhat worried,Somewhat inactive,Medium
+P0868,35-44,Other/Non-binary,High School or less,Service/Office,Other,Conservative,Low,Strongly disagree,Somewhat worried,Neutral,High
+P0544,45+,Male,Bachelor’s,Tech/IT,US South,Liberal,High,Strongly disagree,Neutral / not very worried,Neutral,Medium
+P0687,25-34,Male,Master’s/PhD,Tech/IT,US South,Moderate Conservative,Very low,Strongly disagree,Neutral / not very worried,Somewhat inactive,Low
+P0541,35-44,Male,High School or less,Service/Office,Global South,Conservative,High,Strongly disagree,Very worried,Neutral,Medium
+P0540,18-24,Female,Bachelor’s,Environmental/NGO,Global South,Moderate Liberal,Low,Strongly disagree,Somewhat not worried,Somewhat inactive,High
+P0633,18-24,Male,High School or less,Service/Office,Global South,Moderate Conservative,High,Strongly disagree,Very worried,Neutral,Medium
+P0154,45+,Female,High School or less,Environmental/NGO,US West,Moderate Conservative,Moderate,Strongly disagree,Somewhat worried,Somewhat inactive,Medium
+P0428,25-34,Female,Master’s/PhD,Construction/Outdoor,US Northeast,Conservative,Low,Strongly disagree,Very worried,Neutral,Medium
+P0381,35-44,Female,Bachelor’s,Farming/Agriculture,US West,Centrist,Moderate,Strongly disagree,Somewhat not worried,Not oriented to action,Medium
+P0296,45+,Female,Bachelor’s,Tech/IT,Europe-North,Moderate Conservative,Moderate,Strongly disagree,Somewhat worried,Neutral,Medium
+P0431,18-24,Male,High School or less,Public sector,Europe-North,Conservative,Very high,Strongly disagree,Very worried,Neutral,Medium
+P0051,35-44,Female,High School or less,Education/Academic,Global South,Centrist,High,Strongly disagree,Somewhat worried,Neutral,Medium
+P0292,35-44,Male,Bachelor’s,Farming/Agriculture,Global South,Moderate Conservative,Very high,Strongly disagree,Somewhat worried,Neutral,High
+P0210,35-44,Female,High School or less,Tech/IT,Global South,Moderate Conservative,Very high,Strongly disagree,Somewhat worried,Neutral,Medium
+P0167,45+,Male,Master’s/PhD,Environmental/NGO,US West,Centrist,Low,Strongly disagree,Somewhat not worried,Not oriented to action,High
+P0526,25-34,Other/Non-binary,High School or less,Construction/Outdoor,US West,Conservative,Low,Strongly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0194,35-44,Male,Master’s/PhD,Farming/Agriculture,Global South,Moderate Conservative,Moderate,Strongly disagree,Very worried,Neutral,High
+P0305,25-34,Female,Bachelor’s,Service/Office,Global South,Conservative,High,Strongly disagree,Very worried,Neutral,Low
+P0812,25-34,Female,Bachelor’s,Manufacturing/Industrial,US Midwest,Conservative,Very high,Strongly disagree,Very worried,Neutral,Low
+P0161,35-44,Female,Bachelor’s,Construction/Outdoor,US South,Centrist,High,Strongly disagree,Very worried,Neutral,Medium
+P0090,35-44,Male,Master’s/PhD,Construction/Outdoor,US West,Moderate Conservative,Moderate,Strongly disagree,Neutral / not very worried,Somewhat inactive,High
+P0569,25-34,Male,High School or less,Manufacturing/Industrial,US West,Conservative,Low,Strongly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0165,45+,Male,Master’s/PhD,Farming/Agriculture,Europe-North,Conservative,High,Strongly disagree,Somewhat worried,Somewhat inactive,High
+P0087,45+,Male,Master’s/PhD,Public sector,Global South,Conservative,Very low,Strongly disagree,Somewhat not worried,Somewhat inactive,High
+P0914,25-34,Female,High School or less,Education/Academic,Global South,Moderate Conservative,Low,Strongly disagree,Neutral / not very worried,Neutral,Low
+P0652,25-34,Male,High School or less,Tech/IT,US South,Conservative,Moderate,Strongly disagree,Somewhat worried,Neutral,Medium
+P0177,45+,Male,Master’s/PhD,Farming/Agriculture,US West,Moderate Conservative,Moderate,Strongly disagree,Somewhat worried,Neutral,Low
+P0401,18-24,Female,High School or less,Manufacturing/Industrial,Global South,Conservative,Moderate,Strongly disagree,Somewhat not worried,Somewhat inactive,Low
+P0441,25-34,Female,Master’s/PhD,Education/Academic,US Northeast,Conservative,Very low,Strongly disagree,Somewhat worried,Somewhat inactive,Medium
+P0827,35-44,Female,Master’s/PhD,Service/Office,US Northeast,Moderate Conservative,Low,Strongly disagree,Very worried,Neutral,Medium
+P0079,18-24,Female,Master’s/PhD,Service/Office,Europe-North,Conservative,Very high,Strongly disagree,Somewhat worried,Neutral,High
+P0406,35-44,Male,High School or less,Construction/Outdoor,US Northeast,Centrist,Very low,Strongly disagree,Very worried,Neutral,Medium
+P0843,45+,Female,Bachelor’s,Construction/Outdoor,Europe-North,Conservative,High,Strongly disagree,Somewhat worried,Somewhat inactive,High
+P0824,35-44,Male,High School or less,Tech/IT,US Northeast,Conservative,Moderate,Strongly disagree,Very worried,Somewhat inactive,Medium
+P0553,25-34,Male,Bachelor’s,Education/Academic,Global South,Conservative,High,Strongly disagree,Somewhat worried,Neutral,High
+P0073,45+,Female,High School or less,Education/Academic,US West,Conservative,Low,Strongly disagree,Somewhat worried,Somewhat inactive,Medium
+P0313,35-44,Male,Bachelor’s,Service/Office,Europe-North,Conservative,Very high,Strongly disagree,Somewhat worried,Neutral,Low
+P0663,25-34,Female,Bachelor’s,Public sector,Europe-North,Conservative,Very high,Strongly disagree,Not worried at all,Somewhat inactive,Medium
+P0403,45+,Male,Bachelor’s,Farming/Agriculture,US West,Moderate Conservative,Moderate,Strongly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0899,25-34,Other/Non-binary,Bachelor’s,Service/Office,US West,Moderate Conservative,Moderate,Strongly disagree,Neutral / not very worried,Somewhat inactive,High
+P0858,25-34,Female,High School or less,Manufacturing/Industrial,US Midwest,Moderate Conservative,Moderate,Strongly disagree,Very worried,Neutral,High
+P0286,45+,Male,High School or less,Education/Academic,Other,Conservative,Very high,Strongly disagree,Somewhat worried,Somewhat inactive,Medium
+P0861,35-44,Male,Bachelor’s,Service/Office,Europe-North,Centrist,Low,Strongly disagree,Somewhat worried,Neutral,Medium
+P0859,25-34,Male,Bachelor’s,Manufacturing/Industrial,Europe-North,Conservative,Very low,Strongly disagree,Somewhat not worried,Somewhat inactive,Medium
+P0271,45+,Male,Bachelor’s,Public sector,US Midwest,Moderate Conservative,High,Strongly disagree,Somewhat not worried,Somewhat inactive,High
+P0885,18-24,Male,Bachelor’s,Service/Office,Global South,Centrist,High,Strongly disagree,Very worried,Neutral,Medium
+P0235,18-24,Male,Bachelor’s,Farming/Agriculture,US South,Conservative,High,Strongly disagree,Very worried,Neutral,Low
+P0981,18-24,Female,High School or less,Tech/IT,Other,Moderate Conservative,Very low,Strongly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0756,35-44,Male,Master’s/PhD,Farming/Agriculture,US South,Conservative,High,Strongly disagree,Somewhat worried,Neutral,Medium
+P0140,45+,Male,Master’s/PhD,Service/Office,US Midwest,Conservative,High,Strongly disagree,Very worried,Neutral,Medium
+P0014,45+,Male,High School or less,Service/Office,Global South,Liberal,High,Strongly disagree,Somewhat worried,Somewhat inactive,Medium
+P0496,45+,Female,Bachelor’s,Manufacturing/Industrial,US West,Conservative,Moderate,Strongly disagree,Somewhat worried,Neutral,Low
+P0263,25-34,Female,Master’s/PhD,Farming/Agriculture,Other,Centrist,Moderate,Strongly disagree,Very worried,Somewhat inactive,Medium
+P0730,45+,Male,Bachelor’s,Farming/Agriculture,Europe-North,Conservative,Low,Strongly disagree,Somewhat worried,Somewhat inactive,Medium
+P0136,35-44,Male,Bachelor’s,Service/Office,US Northeast,Conservative,Moderate,Strongly disagree,Not worried at all,Somewhat inactive,Low
+P0134,25-34,Male,Bachelor’s,Public sector,Global South,Conservative,Moderate,Strongly disagree,Somewhat worried,Neutral,Low
+P0745,45+,Male,Bachelor’s,Service/Office,Other,Moderate Conservative,Low,Strongly disagree,Somewhat worried,Somewhat inactive,Medium
+P0743,35-44,Female,Bachelor’s,Tech/IT,US South,Conservative,High,Strongly disagree,Somewhat worried,Somewhat inactive,Low
+P0733,35-44,Female,Bachelor’s,Service/Office,US Midwest,Conservative,Very low,Strongly disagree,Somewhat worried,Neutral,High
+P0599,45+,Male,Master’s/PhD,Education/Academic,US Midwest,Conservative,Moderate,Strongly disagree,Very worried,Neutral,Medium
+P0769,45+,Female,Bachelor’s,Manufacturing/Industrial,Global South,Conservative,Low,Strongly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0863,45+,Other/Non-binary,Master’s/PhD,Public sector,US South,Moderate Conservative,Very high,Strongly disagree,Somewhat worried,Neutral,Medium
+P0504,35-44,Male,Bachelor’s,Manufacturing/Industrial,Europe-North,Moderate Conservative,Moderate,Strongly disagree,Very worried,Neutral,Low
+P0699,35-44,Other/Non-binary,High School or less,Tech/IT,US West,Conservative,Moderate,Strongly disagree,Neutral / not very worried,Neutral,Medium
+P0897,45+,Other/Non-binary,Bachelor’s,Education/Academic,US South,Conservative,Moderate,Strongly disagree,Somewhat worried,Somewhat inactive,Low
+P0447,18-24,Male,Bachelor’s,Service/Office,US West,Moderate Conservative,Moderate,Strongly disagree,Somewhat worried,Neutral,Low
+P0520,25-34,Female,Master’s/PhD,Tech/IT,US Midwest,Centrist,Very high,Strongly disagree,Somewhat worried,Neutral,Low
+P0779,45+,Male,High School or less,Service/Office,US South,Moderate Conservative,Very low,Strongly disagree,Somewhat not worried,Somewhat inactive,High
+P0700,45+,Female,Bachelor’s,Construction/Outdoor,US West,Conservative,Moderate,Strongly disagree,Very worried,Neutral,Low
+P0145,18-24,Male,High School or less,Tech/IT,US South,Conservative,Very low,Strongly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0646,35-44,Male,Bachelor’s,Construction/Outdoor,US West,Conservative,High,Strongly disagree,Very worried,Neutral,Low
+P0031,45+,Male,Master’s/PhD,Farming/Agriculture,Global South,Conservative,High,Strongly disagree,Somewhat worried,Neutral,Low
+P0227,45+,Other/Non-binary,Bachelor’s,Farming/Agriculture,Other,Moderate Conservative,Very low,Strongly disagree,Very worried,Somewhat inactive,Low
+P0977,25-34,Female,High School or less,Service/Office,Europe-North,Conservative,Very low,Strongly disagree,Somewhat not worried,Not oriented to action,Low
+P0975,45+,Female,Bachelor’s,Construction/Outdoor,Global South,Conservative,Very high,Strongly disagree,Very worried,Neutral,Low
+P0513,25-34,Female,Bachelor’s,Manufacturing/Industrial,US Midwest,Moderate Conservative,Moderate,Strongly disagree,Very worried,Neutral,Medium
+P0141,45+,Male,High School or less,Farming/Agriculture,Europe-North,Conservative,Very low,Slightly disagree,Neutral / not very worried,Somewhat inactive,Low
+P0333,45+,Male,Bachelor’s,Farming/Agriculture,US South,Centrist,Low,Slightly disagree,Somewhat not worried,Somewhat inactive,Low
+P0617,35-44,Female,High School or less,Farming/Agriculture,Europe-North,Moderate Conservative,Very low,Slightly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0621,45+,Other/Non-binary,Master’s/PhD,Tech/IT,Global South,Moderate Conservative,Moderate,Slightly disagree,Somewhat worried,Somewhat inactive,Low
+P0841,25-34,Female,High School or less,Public sector,Global South,Moderate Liberal,High,Slightly disagree,Very worried,Neutral,High
+P0146,18-24,Male,Bachelor’s,Service/Office,US Midwest,Conservative,High,Slightly disagree,Neutral / not very worried,Somewhat inactive,Low
+P0354,25-34,Female,Bachelor’s,Service/Office,Europe-North,Moderate Conservative,Low,Slightly disagree,Very worried,Neutral,Medium
+P0627,25-34,Male,Master’s/PhD,Service/Office,US West,Moderate Conservative,High,Slightly disagree,Somewhat worried,Neutral,High
+P0137,18-24,Female,Bachelor’s,Education/Academic,Europe-North,Conservative,High,Slightly disagree,Very worried,Neutral,High
+P0631,35-44,Male,Bachelor’s,Tech/IT,Europe-North,Moderate Liberal,Moderate,Slightly disagree,Somewhat worried,Somewhat inactive,Medium
+P0159,18-24,Male,High School or less,Tech/IT,US West,Moderate Conservative,Very low,Slightly disagree,Very worried,Somewhat inactive,High
+P0331,25-34,Male,Master’s/PhD,Tech/IT,US South,Moderate Conservative,Very high,Slightly disagree,Somewhat not worried,Somewhat inactive,Low
+P0866,18-24,Female,Master’s/PhD,Tech/IT,Global South,Liberal,Very high,Slightly disagree,Very worried,Neutral,Medium
+P0865,25-34,Male,Bachelor’s,Tech/IT,Europe-North,Conservative,High,Slightly disagree,Somewhat worried,Neutral,Medium
+P0500,45+,Other/Non-binary,Bachelor’s,Service/Office,Other,Centrist,High,Slightly disagree,Somewhat not worried,Somewhat inactive,Medium
+P0840,35-44,Male,Master’s/PhD,Public sector,US West,Moderate Conservative,Moderate,Slightly disagree,Somewhat worried,Neutral,Medium
+P0780,45+,Female,Bachelor’s,Service/Office,US Midwest,Conservative,Moderate,Slightly disagree,Very worried,Neutral,High
+P0706,18-24,Male,Master’s/PhD,Service/Office,US Midwest,Moderate Conservative,High,Slightly disagree,Somewhat not worried,Somewhat inactive,High
+P0708,25-34,Male,Bachelor’s,Manufacturing/Industrial,US West,Centrist,Very high,Slightly disagree,Somewhat worried,Neutral,High
+P0709,25-34,Male,Bachelor’s,Environmental/NGO,US Midwest,Centrist,Very low,Slightly disagree,Not worried at all,Not oriented to action,Medium
+P0766,25-34,Male,Master’s/PhD,Public sector,Global South,Moderate Liberal,Moderate,Slightly disagree,Somewhat worried,Somewhat inactive,High
+P0711,25-34,Female,Bachelor’s,Service/Office,Europe-North,Liberal,Moderate,Slightly disagree,Neutral / not very worried,Somewhat inactive,Low
+P0270,35-44,Male,Bachelor’s,Environmental/NGO,Other,Moderate Liberal,Very low,Slightly disagree,Neutral / not very worried,Somewhat inactive,Low
+P0716,35-44,Female,Master’s/PhD,Manufacturing/Industrial,US Northeast,Moderate Conservative,High,Slightly disagree,Very worried,Neutral,Medium
+P0723,35-44,Female,High School or less,Service/Office,Europe-North,Moderate Liberal,Moderate,Slightly disagree,Very worried,Somewhat inactive,Low
+P0240,18-24,Female,Bachelor’s,Service/Office,Europe-North,Moderate Conservative,Very low,Slightly disagree,Very worried,Neutral,Medium
+P0749,45+,Male,Master’s/PhD,Construction/Outdoor,US Northeast,Conservative,Moderate,Slightly disagree,Neutral / not very worried,Not oriented to action,Medium
+P0746,45+,Female,Bachelor’s,Service/Office,US South,Moderate Conservative,High,Slightly disagree,Very worried,Neutral,Low
+P0247,45+,Male,Bachelor’s,Service/Office,US Midwest,Conservative,Low,Slightly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0248,25-34,Male,Bachelor’s,Manufacturing/Industrial,US Northeast,Moderate Liberal,Moderate,Slightly disagree,Neutral / not very worried,Somewhat inactive,Low
+P0744,35-44,Female,Bachelor’s,Environmental/NGO,US South,Moderate Conservative,High,Slightly disagree,Neutral / not very worried,Somewhat inactive,High
+P0284,25-34,Male,High School or less,Tech/IT,Global South,Conservative,Very low,Slightly disagree,Somewhat worried,Somewhat inactive,Medium
+P0168,35-44,Male,Master’s/PhD,Manufacturing/Industrial,Other,Centrist,High,Slightly disagree,Somewhat worried,Neutral,High
+P0787,45+,Female,Master’s/PhD,Environmental/NGO,Global South,Moderate Liberal,Moderate,Slightly disagree,Somewhat worried,Neutral,Low
+P0212,25-34,Female,High School or less,Environmental/NGO,Europe-North,Moderate Liberal,Low,Slightly disagree,Very worried,Neutral,Medium
+P0837,18-24,Male,Bachelor’s,Construction/Outdoor,Europe-North,Centrist,High,Slightly disagree,Somewhat worried,Neutral,Medium
+P0172,35-44,Female,Bachelor’s,Manufacturing/Industrial,US Midwest,Conservative,High,Slightly disagree,Very worried,Neutral,High
+P0835,25-34,Female,High School or less,Service/Office,US South,Conservative,Very low,Slightly disagree,Somewhat not worried,Somewhat inactive,High
+P0180,25-34,Male,Master’s/PhD,Education/Academic,US Midwest,Moderate Conservative,High,Slightly disagree,Very worried,Neutral,Medium
+P0318,25-34,Female,Bachelor’s,Environmental/NGO,US Northeast,Centrist,High,Slightly disagree,Somewhat not worried,Somewhat inactive,High
+P0191,45+,Other/Non-binary,Bachelor’s,Service/Office,US Midwest,Moderate Conservative,High,Slightly disagree,Somewhat not worried,Somewhat inactive,Medium
+P0810,25-34,Male,Master’s/PhD,Service/Office,Global South,Moderate Conservative,Very high,Slightly disagree,Very worried,Neutral,Medium
+P0674,25-34,Female,Bachelor’s,Environmental/NGO,Europe-North,Moderate Liberal,Moderate,Slightly disagree,Somewhat worried,Somewhat inactive,High
+P0199,45+,Male,High School or less,Construction/Outdoor,US South,Moderate Conservative,Moderate,Slightly disagree,Neutral / not very worried,Somewhat inactive,High
+P0803,18-24,Female,Bachelor’s,Tech/IT,US Midwest,Moderate Conservative,High,Slightly disagree,Very worried,Neutral,Low
+P0802,18-24,Male,High School or less,Environmental/NGO,US West,Centrist,High,Slightly disagree,Somewhat not worried,Not oriented to action,Medium
+P0202,35-44,Female,Bachelor’s,Farming/Agriculture,US Midwest,Moderate Conservative,Moderate,Slightly disagree,Very worried,Neutral,High
+P0206,35-44,Female,High School or less,Farming/Agriculture,US South,Conservative,Moderate,Slightly disagree,Somewhat worried,Somewhat inactive,Medium
+P0691,18-24,Female,Master’s/PhD,Service/Office,US West,Moderate Conservative,High,Slightly disagree,Somewhat worried,Neutral,High
+P0211,45+,Female,Bachelor’s,Education/Academic,US West,Conservative,Moderate,Slightly disagree,Somewhat not worried,Somewhat inactive,Medium
+P0696,25-34,Male,Bachelor’s,Service/Office,Europe-North,Conservative,Moderate,Slightly disagree,Somewhat worried,Somewhat inactive,High
+P0869,25-34,Female,Bachelor’s,Construction/Outdoor,Global South,Moderate Conservative,High,Slightly disagree,Very worried,Neutral,Medium
+P0876,35-44,Male,High School or less,Education/Academic,Europe-North,Conservative,Very low,Slightly disagree,Very worried,Neutral,High
+P0022,18-24,Female,Bachelor’s,Manufacturing/Industrial,US Midwest,Conservative,High,Slightly disagree,Somewhat worried,Somewhat inactive,Medium
+P0983,25-34,Female,High School or less,Tech/IT,US Northeast,Liberal,Moderate,Slightly disagree,Neutral / not very worried,Somewhat inactive,High
+P0020,45+,Male,Master’s/PhD,Service/Office,US West,Conservative,Very low,Slightly disagree,Very worried,Somewhat inactive,Medium
+P0917,25-34,Female,Bachelor’s,Manufacturing/Industrial,Europe-North,Centrist,Very high,Slightly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0021,45+,Female,Bachelor’s,Education/Academic,US Northeast,Centrist,Moderate,Slightly disagree,Not worried at all,Somewhat inactive,High
+P0531,35-44,Male,High School or less,Tech/IT,US South,Centrist,Low,Slightly disagree,Somewhat worried,Neutral,High
+P0460,25-34,Female,High School or less,Service/Office,US South,Moderate Conservative,Low,Slightly disagree,Not worried at all,Not oriented to action,Medium
+P0921,18-24,Female,Master’s/PhD,Public sector,Other,Moderate Conservative,High,Slightly disagree,Somewhat not worried,Somewhat inactive,Medium
+P0086,45+,Female,Master’s/PhD,Education/Academic,US South,Moderate Conservative,High,Slightly disagree,Somewhat worried,Somewhat inactive,High
+P0501,18-24,Other/Non-binary,Master’s/PhD,Service/Office,Europe-North,Conservative,High,Slightly disagree,Neutral / not very worried,Neutral,Low
+P0974,25-34,Male,High School or less,Education/Academic,Europe-North,Moderate Conservative,Moderate,Slightly disagree,Somewhat worried,Somewhat inactive,Low
+P0032,25-34,Male,High School or less,Manufacturing/Industrial,Global South,Conservative,Moderate,Slightly disagree,Not worried at all,Somewhat inactive,Medium
+P0402,18-24,Female,High School or less,Service/Office,US Midwest,Moderate Conservative,Low,Slightly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0386,45+,Male,Master’s/PhD,Construction/Outdoor,US West,Conservative,Moderate,Slightly disagree,Somewhat not worried,Somewhat inactive,Medium
+P0077,35-44,Male,Bachelor’s,Environmental/NGO,US South,Moderate Conservative,Moderate,Slightly disagree,Somewhat not worried,Somewhat inactive,Medium
+P0407,45+,Female,High School or less,Manufacturing/Industrial,Other,Moderate Conservative,Low,Slightly disagree,Very worried,Neutral,Medium
+P0072,35-44,Female,Bachelor’s,Manufacturing/Industrial,Global South,Conservative,High,Slightly disagree,Somewhat not worried,Somewhat inactive,Medium
+P0970,25-34,Female,Bachelor’s,Service/Office,US South,Centrist,Very low,Slightly disagree,Somewhat not worried,Not oriented to action,High
+P0412,25-34,Female,High School or less,Tech/IT,Global South,Moderate Conservative,Moderate,Slightly disagree,Somewhat worried,Somewhat inactive,Medium
+P0446,18-24,Female,Bachelor’s,Construction/Outdoor,US West,Moderate Liberal,Moderate,Slightly disagree,Neutral / not very worried,Somewhat inactive,High
+P0547,35-44,Female,High School or less,Farming/Agriculture,Global South,Centrist,Very low,Slightly disagree,Somewhat worried,Somewhat inactive,Medium
+P0523,45+,Female,Bachelor’s,Education/Academic,US West,Centrist,Moderate,Slightly disagree,Somewhat not worried,Somewhat inactive,Medium
+P0529,45+,Male,Master’s/PhD,Farming/Agriculture,US South,Moderate Conservative,High,Slightly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0426,45+,Male,High School or less,Education/Academic,US South,Conservative,High,Slightly disagree,Somewhat worried,Neutral,Medium
+P0055,25-34,Female,Bachelor’s,Manufacturing/Industrial,US Northeast,Conservative,Very high,Slightly disagree,Neutral / not very worried,Neutral,Medium
+P0535,25-34,Female,High School or less,Service/Office,US South,Liberal,Low,Slightly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0435,25-34,Other/Non-binary,Bachelor’s,Tech/IT,US South,Liberal,Very high,Slightly disagree,Somewhat worried,Neutral,Medium
+P0076,35-44,Male,Bachelor’s,Tech/IT,Global South,Conservative,Moderate,Slightly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0912,18-24,Male,Master’s/PhD,Education/Academic,Europe-North,Conservative,Moderate,Slightly disagree,Very worried,Neutral,Low
+P0050,18-24,Female,Master’s/PhD,Farming/Agriculture,US Northeast,Moderate Liberal,High,Slightly disagree,Neutral / not very worried,Somewhat inactive,High
+P0902,18-24,Female,High School or less,Public sector,US Northeast,Moderate Conservative,Low,Slightly disagree,Somewhat worried,Somewhat inactive,Medium
+P0895,45+,Female,Bachelor’s,Manufacturing/Industrial,Europe-North,Conservative,Moderate,Slightly disagree,Neutral / not very worried,Somewhat inactive,High
+P0114,35-44,Male,Master’s/PhD,Farming/Agriculture,Global South,Conservative,Moderate,Slightly disagree,Somewhat worried,Neutral,Low
+P0993,35-44,Female,High School or less,Service/Office,US South,Centrist,High,Slightly disagree,Somewhat worried,Neutral,High
+P0372,45+,Female,Bachelor’s,Tech/IT,Europe-North,Conservative,Low,Slightly disagree,Somewhat worried,Neutral,Medium
+P0879,35-44,Male,Bachelor’s,Manufacturing/Industrial,Global South,Conservative,Moderate,Slightly disagree,Not worried at all,Somewhat inactive,Medium
+P0362,25-34,Other/Non-binary,Master’s/PhD,Construction/Outdoor,Global South,Centrist,Moderate,Slightly disagree,Neutral / not very worried,Neutral,Medium
+P0004,45+,Male,Bachelor’s,Education/Academic,Europe-North,Conservative,Moderate,Slightly disagree,Somewhat worried,Neutral,Medium
+P0126,35-44,Male,Master’s/PhD,Service/Office,US Northeast,Conservative,Moderate,Slightly disagree,Very worried,Neutral,Medium
+P0376,18-24,Male,Master’s/PhD,Education/Academic,Other,Conservative,Moderate,Slightly disagree,Not worried at all,Not oriented to action,Medium
+P0585,25-34,Male,Master’s/PhD,Manufacturing/Industrial,US South,Conservative,Low,Slightly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0483,45+,Female,Bachelor’s,Construction/Outdoor,US West,Moderate Conservative,High,Slightly disagree,Not worried at all,Not oriented to action,Low
+P0909,25-34,Male,High School or less,Education/Academic,US Midwest,Centrist,Low,Slightly disagree,Somewhat not worried,Somewhat inactive,Medium
+P0011,45+,Male,Bachelor’s,Construction/Outdoor,Other,Conservative,High,Slightly disagree,Very worried,Neutral,Low
+P0464,45+,Female,Master’s/PhD,Tech/IT,US Midwest,Moderate Conservative,High,Slightly disagree,Very worried,Neutral,Low
+P0006,35-44,Male,Bachelor’s,Construction/Outdoor,US West,Conservative,Moderate,Slightly disagree,Somewhat not worried,Somewhat inactive,Low
+P0499,18-24,Male,Bachelor’s,Manufacturing/Industrial,US West,Conservative,High,Slightly disagree,Neutral / not very worried,Somewhat inactive,Medium
+P0582,35-44,Male,Master’s/PhD,Manufacturing/Industrial,US West,Moderate Conservative,Very low,Slightly disagree,Somewhat worried,Somewhat inactive,Low
+P0907,25-34,Male,Master’s/PhD,Public sector,US South,Moderate Conservative,Very high,Slightly disagree,Very worried,Somewhat inactive,Medium
+P0607,25-34,Female,High School or less,Tech/IT,Global South,Centrist,Moderate,Slightly disagree,Somewhat worried,Somewhat inactive,Medium
+P0472,45+,Female,High School or less,Farming/Agriculture,Global South,Moderate Conservative,Moderate,Neutral,Somewhat worried,Somewhat inactive,Medium
+P0697,18-24,Male,Bachelor’s,Education/Academic,Europe-North,Conservative,Low,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0462,18-24,Male,Bachelor’s,Manufacturing/Industrial,US West,Conservative,High,Neutral,Neutral / not very worried,Somewhat inactive,Low
+P0438,45+,Male,Bachelor’s,Service/Office,Other,Conservative,Very low,Neutral,Very worried,Somewhat inactive,High
+P0437,18-24,Other/Non-binary,Master’s/PhD,Manufacturing/Industrial,Europe-North,Conservative,Very high,Neutral,Neutral / not very worried,Neutral,Low
+P0482,35-44,Male,High School or less,Tech/IT,Europe-North,Moderate Conservative,High,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0692,45+,Other/Non-binary,High School or less,Environmental/NGO,US South,Centrist,Low,Neutral,Not worried at all,Not oriented to action,Medium
+P0475,18-24,Other/Non-binary,High School or less,Farming/Agriculture,Global South,Moderate Conservative,Moderate,Neutral,Very worried,Neutral,Low
+P0289,45+,Female,High School or less,Construction/Outdoor,Global South,Moderate Conservative,High,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0443,45+,Female,Bachelor’s,Education/Academic,US Northeast,Conservative,Moderate,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0518,45+,Female,High School or less,Service/Office,Global South,Centrist,Low,Neutral,Very worried,Somewhat inactive,Low
+P0445,18-24,Female,Bachelor’s,Education/Academic,US Midwest,Moderate Conservative,Very low,Neutral,Somewhat worried,Somewhat inactive,Medium
+P0449,35-44,Male,High School or less,Construction/Outdoor,Europe-North,Moderate Liberal,Moderate,Neutral,Very worried,Neutral,Low
+P0283,45+,Male,Bachelor’s,Service/Office,US South,Moderate Liberal,High,Neutral,Neutral / not very worried,Neutral,Medium
+P0720,18-24,Female,Bachelor’s,Service/Office,Other,Conservative,Very low,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0704,35-44,Male,Bachelor’s,Construction/Outdoor,US Northeast,Moderate Conservative,High,Neutral,Somewhat not worried,Not oriented to action,Medium
+P0452,18-24,Female,Bachelor’s,Tech/IT,Europe-North,Moderate Conservative,High,Neutral,Somewhat not worried,Somewhat inactive,High
+P0469,35-44,Male,Master’s/PhD,Tech/IT,Europe-North,Centrist,Very low,Neutral,Very worried,Somewhat inactive,Low
+P0727,35-44,Female,High School or less,Service/Office,Global South,Liberal,High,Neutral,Neutral / not very worried,Somewhat inactive,High
+P0459,45+,Female,Bachelor’s,Tech/IT,Global South,Centrist,High,Neutral,Neutral / not very worried,Somewhat inactive,Low
+P0710,45+,Female,Bachelor’s,Environmental/NGO,Europe-North,Moderate Liberal,Moderate,Neutral,Somewhat not worried,Somewhat inactive,Medium
+P0492,18-24,Other/Non-binary,Bachelor’s,Environmental/NGO,US West,Conservative,Low,Neutral,Very worried,Neutral,Medium
+P0265,18-24,Female,Master’s/PhD,Tech/IT,Other,Liberal,High,Neutral,Somewhat worried,Somewhat inactive,High
+P0461,18-24,Other/Non-binary,Bachelor’s,Public sector,Europe-North,Moderate Liberal,Moderate,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0522,18-24,Male,Bachelor’s,Farming/Agriculture,US West,Moderate Liberal,Moderate,Neutral,Very worried,Neutral,Medium
+P0358,25-34,Other/Non-binary,Bachelor’s,Service/Office,Global South,Centrist,Moderate,Neutral,Very worried,Neutral,High
+P0549,18-24,Male,High School or less,Public sector,Europe-North,Moderate Conservative,Moderate,Neutral,Neutral / not very worried,Somewhat inactive,High
+P0689,18-24,Male,High School or less,Education/Academic,US West,Centrist,Low,Neutral,Somewhat worried,Somewhat inactive,Low
+P0641,18-24,Female,High School or less,Construction/Outdoor,US West,Conservative,Moderate,Neutral,Very worried,Neutral,Medium
+P0389,45+,Male,Bachelor’s,Service/Office,Global South,Conservative,Moderate,Neutral,Very worried,Neutral,High
+P0387,35-44,Female,Bachelor’s,Tech/IT,US Northeast,Moderate Conservative,Moderate,Neutral,Somewhat worried,Neutral,Medium
+P0581,35-44,Male,Bachelor’s,Manufacturing/Industrial,US West,Liberal,Very high,Neutral,Very worried,Neutral,Medium
+P0332,45+,Female,Bachelor’s,Manufacturing/Industrial,Global South,Moderate Conservative,High,Neutral,Somewhat worried,Somewhat inactive,Low
+P0583,45+,Male,Master’s/PhD,Tech/IT,Global South,Moderate Conservative,Low,Neutral,Somewhat worried,Somewhat inactive,Medium
+P0634,35-44,Female,High School or less,Farming/Agriculture,Global South,Centrist,High,Neutral,Not worried at all,Somewhat inactive,High
+P0584,25-34,Other/Non-binary,Bachelor’s,Education/Academic,US Midwest,Conservative,Low,Neutral,Somewhat worried,Somewhat inactive,Low
+P0632,45+,Female,Bachelor’s,Construction/Outdoor,Europe-North,Moderate Conservative,Moderate,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0343,25-34,Male,Bachelor’s,Service/Office,US Northeast,Moderate Conservative,Moderate,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0589,45+,Female,Master’s/PhD,Manufacturing/Industrial,US West,Moderate Conservative,High,Neutral,Somewhat not worried,Somewhat inactive,High
+P0590,25-34,Male,Master’s/PhD,Environmental/NGO,Global South,Liberal,Low,Neutral,Somewhat worried,Somewhat inactive,Low
+P0620,18-24,Male,High School or less,Construction/Outdoor,Other,Moderate Liberal,Moderate,Neutral,Very worried,Neutral,Medium
+P0600,18-24,Male,Bachelor’s,Service/Office,Other,Conservative,Very high,Neutral,Somewhat worried,Neutral,Medium
+P0605,18-24,Female,High School or less,Farming/Agriculture,US Northeast,Conservative,Moderate,Neutral,Not worried at all,Somewhat inactive,Low
+P0618,25-34,Female,Bachelor’s,Tech/IT,Europe-North,Moderate Conservative,Low,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0361,18-24,Male,High School or less,Environmental/NGO,Europe-North,Centrist,Very high,Neutral,Somewhat worried,Neutral,High
+P0737,45+,Female,High School or less,Service/Office,Global South,Liberal,Very low,Neutral,Very worried,Somewhat inactive,Medium
+P0615,18-24,Other/Non-binary,Master’s/PhD,Construction/Outdoor,Europe-North,Centrist,High,Neutral,Very worried,Neutral,Medium
+P0577,18-24,Male,High School or less,Education/Academic,US West,Centrist,Moderate,Neutral,Very worried,Neutral,High
+P0571,35-44,Male,Bachelor’s,Service/Office,Global South,Moderate Conservative,Low,Neutral,Very worried,Neutral,Low
+P0395,35-44,Male,Bachelor’s,Tech/IT,Europe-North,Centrist,Moderate,Neutral,Somewhat worried,Neutral,Medium
+P0324,25-34,Female,Master’s/PhD,Tech/IT,US Midwest,Moderate Liberal,Low,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0538,45+,Male,High School or less,Service/Office,US West,Moderate Conservative,High,Neutral,Somewhat worried,Neutral,Medium
+P0422,18-24,Male,Master’s/PhD,Service/Office,Global South,Moderate Liberal,Moderate,Neutral,Somewhat worried,Neutral,Medium
+P0543,45+,Male,Bachelor’s,Service/Office,US Northeast,Liberal,High,Neutral,Somewhat worried,Somewhat inactive,Medium
+P0301,18-24,Male,Bachelor’s,Tech/IT,Other,Centrist,High,Neutral,Somewhat worried,Somewhat inactive,Medium
+P0419,25-34,Male,Master’s/PhD,Farming/Agriculture,Global South,Moderate Conservative,High,Neutral,Somewhat not worried,Somewhat inactive,High
+P0418,45+,Male,Master’s/PhD,Service/Office,US West,Moderate Conservative,Very low,Neutral,Not worried at all,Not oriented to action,Medium
+P0616,35-44,Female,High School or less,Construction/Outdoor,US Midwest,Moderate Conservative,Very low,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0414,25-34,Female,Master’s/PhD,Manufacturing/Industrial,US Northeast,Liberal,High,Neutral,Very worried,Neutral,Low
+P0550,35-44,Male,Master’s/PhD,Public sector,US West,Moderate Liberal,High,Neutral,Neutral / not very worried,Somewhat inactive,Low
+P0294,45+,Male,High School or less,Service/Office,Europe-North,Moderate Conservative,Moderate,Neutral,Somewhat worried,Neutral,High
+P0667,25-34,Female,Master’s/PhD,Education/Academic,Europe-North,Moderate Conservative,Moderate,Neutral,Very worried,Neutral,High
+P0661,25-34,Female,Bachelor’s,Service/Office,Europe-North,Moderate Conservative,Moderate,Neutral,Very worried,Neutral,High
+P0314,25-34,Male,Master’s/PhD,Education/Academic,Europe-North,Moderate Conservative,Very high,Neutral,Somewhat not worried,Somewhat inactive,High
+P0659,18-24,Female,Master’s/PhD,Service/Office,US South,Liberal,Very high,Neutral,Very worried,Neutral,Medium
+P0317,35-44,Other/Non-binary,Bachelor’s,Service/Office,Europe-North,Moderate Conservative,Very high,Neutral,Somewhat worried,Neutral,Medium
+P0657,35-44,Other/Non-binary,Bachelor’s,Service/Office,Global South,Moderate Conservative,Low,Neutral,Neutral / not very worried,Somewhat inactive,High
+P0564,35-44,Male,High School or less,Public sector,Europe-North,Conservative,Very high,Neutral,Somewhat worried,Somewhat inactive,Medium
+P0654,45+,Male,Bachelor’s,Tech/IT,Europe-North,Centrist,Very high,Neutral,Somewhat worried,Somewhat inactive,Medium
+P0399,35-44,Male,Bachelor’s,Education/Academic,US West,Conservative,High,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0568,25-34,Male,High School or less,Service/Office,US West,Moderate Conservative,High,Neutral,Somewhat not worried,Somewhat inactive,High
+P0662,18-24,Male,Bachelor’s,Manufacturing/Industrial,Europe-North,Moderate Conservative,High,Neutral,Neutral / not very worried,Not oriented to action,Medium
+P0738,35-44,Female,High School or less,Construction/Outdoor,Europe-North,Moderate Conservative,High,Neutral,Somewhat not worried,Somewhat inactive,Low
+P0750,18-24,Male,Bachelor’s,Tech/IT,Other,Moderate Conservative,High,Neutral,Neutral / not very worried,Somewhat inactive,Low
+P0123,45+,Female,Master’s/PhD,Service/Office,Other,Conservative,High,Neutral,Neutral / not very worried,Neutral,Low
+P0851,18-24,Female,High School or less,Construction/Outdoor,US South,Liberal,Low,Neutral,Somewhat worried,Somewhat inactive,Low
+P0846,35-44,Male,High School or less,Public sector,US South,Centrist,High,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0845,25-34,Female,Bachelor’s,Farming/Agriculture,Global South,Conservative,Very high,Neutral,Very worried,Neutral,Medium
+P0157,45+,Female,Master’s/PhD,Education/Academic,Europe-North,Liberal,High,Neutral,Neutral / not very worried,Neutral,Medium
+P0951,18-24,Male,High School or less,Service/Office,Europe-North,Centrist,Moderate,Neutral,Somewhat worried,Neutral,Medium
+P0158,45+,Female,High School or less,Tech/IT,Europe-North,Moderate Conservative,High,Neutral,Not worried at all,Somewhat inactive,High
+P0056,35-44,Female,Master’s/PhD,Farming/Agriculture,US South,Moderate Conservative,High,Neutral,Somewhat worried,Neutral,Medium
+P0054,18-24,Female,High School or less,Service/Office,Europe-North,Moderate Liberal,Very high,Neutral,Very worried,Neutral,Low
+P0166,45+,Male,Bachelor’s,Public sector,US Northeast,Centrist,Moderate,Neutral,Somewhat not worried,Somewhat inactive,High
+P0053,45+,Other/Non-binary,High School or less,Education/Academic,Europe-North,Centrist,Moderate,Neutral,Somewhat not worried,Somewhat inactive,Low
+P0169,18-24,Male,Bachelor’s,Manufacturing/Industrial,US Midwest,Moderate Conservative,Low,Neutral,Very worried,Somewhat inactive,Low
+P0830,25-34,Female,High School or less,Farming/Agriculture,US West,Moderate Liberal,Low,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0954,45+,Female,Bachelor’s,Manufacturing/Industrial,US South,Centrist,Low,Neutral,Neutral / not very worried,Neutral,Medium
+P0178,25-34,Female,Master’s/PhD,Service/Office,Europe-North,Moderate Conservative,High,Neutral,Very worried,Neutral,Medium
+P0048,18-24,Male,Bachelor’s,Environmental/NGO,US South,Moderate Conservative,Low,Neutral,Somewhat not worried,Somewhat inactive,High
+P0956,35-44,Male,High School or less,Tech/IT,Other,Centrist,Moderate,Neutral,Neutral / not very worried,Neutral,Low
+P0183,25-34,Male,High School or less,Environmental/NGO,Global South,Conservative,Low,Neutral,Not worried at all,Not oriented to action,Low
+P0822,35-44,Female,Master’s/PhD,Construction/Outdoor,Global South,Centrist,Low,Neutral,Very worried,Neutral,Medium
+P0820,45+,Female,Master’s/PhD,Construction/Outdoor,Other,Centrist,Moderate,Neutral,Somewhat worried,Somewhat inactive,Low
+P0958,45+,Male,Master’s/PhD,Public sector,US South,Liberal,Moderate,Neutral,Very worried,Neutral,Low
+P0044,25-34,Male,Master’s/PhD,Tech/IT,Europe-North,Conservative,Moderate,Neutral,Somewhat worried,Neutral,Low
+P0152,25-34,Male,High School or less,Service/Office,Global South,Moderate Conservative,Moderate,Neutral,Somewhat worried,Somewhat inactive,Low
+P0853,25-34,Male,Bachelor’s,Education/Academic,US South,Moderate Conservative,Very low,Neutral,Somewhat worried,Somewhat inactive,Low
+P0857,35-44,Male,Bachelor’s,Service/Office,US Midwest,Moderate Liberal,Moderate,Neutral,Very worried,Somewhat inactive,Low
+P0147,35-44,Female,High School or less,Farming/Agriculture,Europe-North,Centrist,Low,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0096,35-44,Male,Bachelor’s,Environmental/NGO,US Northeast,Moderate Conservative,Low,Neutral,Not worried at all,Not oriented to action,High
+P0098,35-44,Male,Master’s/PhD,Service/Office,US West,Centrist,Very high,Neutral,Neutral / not very worried,Somewhat inactive,Low
+P0913,35-44,Male,Bachelor’s,Construction/Outdoor,US West,Conservative,Very low,Neutral,Somewhat worried,Neutral,High
+P0910,18-24,Other/Non-binary,Master’s/PhD,Tech/IT,Global South,Liberal,Low,Neutral,Somewhat worried,Neutral,High
+P0104,18-24,Female,Bachelor’s,Service/Office,US Midwest,Centrist,Very high,Neutral,Somewhat worried,Neutral,Medium
+P0908,45+,Other/Non-binary,Bachelor’s,Service/Office,US Northeast,Moderate Conservative,Very high,Neutral,Somewhat worried,Somewhat inactive,High
+P0905,18-24,Female,Master’s/PhD,Tech/IT,US West,Moderate Conservative,High,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0919,35-44,Female,High School or less,Service/Office,US Northeast,Moderate Liberal,Moderate,Neutral,Somewhat worried,Neutral,Medium
+P0089,35-44,Other/Non-binary,High School or less,Farming/Agriculture,Global South,Conservative,Moderate,Neutral,Somewhat not worried,Somewhat inactive,Medium
+P0084,45+,Female,Bachelor’s,Tech/IT,Europe-North,Moderate Conservative,Low,Neutral,Neutral / not very worried,Somewhat inactive,Low
+P0816,18-24,Male,Bachelor’s,Farming/Agriculture,Europe-North,Moderate Conservative,High,Neutral,Very worried,Neutral,Medium
+P0083,45+,Female,High School or less,Tech/IT,Europe-North,Moderate Conservative,Very high,Neutral,Somewhat not worried,Somewhat inactive,Medium
+P0118,45+,Male,Bachelor’s,Construction/Outdoor,US South,Conservative,Low,Neutral,Somewhat not worried,Not oriented to action,Medium
+P0119,25-34,Female,Master’s/PhD,Tech/IT,Global South,Moderate Conservative,Moderate,Neutral,Somewhat worried,Neutral,Medium
+P0880,45+,Female,Bachelor’s,Public sector,US West,Conservative,Moderate,Neutral,Somewhat not worried,Somewhat inactive,Medium
+P0078,25-34,Female,Master’s/PhD,Public sector,US Northeast,Liberal,High,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0930,25-34,Female,High School or less,Service/Office,Europe-North,Centrist,Very low,Neutral,Very worried,Neutral,Low
+P0125,45+,Male,Master’s/PhD,Construction/Outdoor,US West,Conservative,High,Neutral,Very worried,Neutral,High
+P0071,35-44,Male,High School or less,Service/Office,Europe-North,Liberal,Very low,Neutral,Very worried,Neutral,Low
+P0931,45+,Male,Bachelor’s,Education/Academic,Europe-North,Moderate Conservative,Moderate,Neutral,Somewhat worried,Neutral,Low
+P0867,45+,Male,High School or less,Construction/Outdoor,Europe-North,Centrist,Very low,Neutral,Somewhat worried,Somewhat inactive,High
+P0069,35-44,Male,High School or less,Environmental/NGO,US West,Centrist,Very low,Neutral,Somewhat worried,Somewhat inactive,High
+P0924,18-24,Male,Bachelor’s,Service/Office,US West,Centrist,High,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0042,45+,Female,High School or less,Manufacturing/Industrial,Europe-North,Moderate Conservative,Moderate,Neutral,Very worried,Neutral,Medium
+P0834,25-34,Female,High School or less,Service/Office,Global South,Liberal,Moderate,Neutral,Very worried,Neutral,Low
+P0093,35-44,Male,Master’s/PhD,Manufacturing/Industrial,US Midwest,Centrist,Very high,Neutral,Very worried,Neutral,Low
+P0794,45+,Female,High School or less,Education/Academic,US West,Moderate Conservative,Very low,Neutral,Somewhat not worried,Not oriented to action,Medium
+P0026,18-24,Male,Bachelor’s,Manufacturing/Industrial,Europe-North,Moderate Conservative,High,Neutral,Somewhat worried,Neutral,Low
+P0767,18-24,Female,Master’s/PhD,Construction/Outdoor,US Northeast,Moderate Conservative,High,Neutral,Not worried at all,Not oriented to action,Medium
+P0238,35-44,Female,Master’s/PhD,Tech/IT,Global South,Moderate Conservative,High,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0024,35-44,Other/Non-binary,Master’s/PhD,Farming/Agriculture,US South,Moderate Liberal,Low,Neutral,Somewhat worried,Somewhat inactive,High
+P0990,35-44,Male,Bachelor’s,Education/Academic,US Northeast,Moderate Conservative,High,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0207,45+,Female,Master’s/PhD,Construction/Outdoor,US South,Conservative,High,Neutral,Not worried at all,Not oriented to action,Medium
+P0785,25-34,Female,High School or less,Education/Academic,US Midwest,Centrist,Very low,Neutral,Neutral / not very worried,Somewhat inactive,Low
+P0759,25-34,Male,High School or less,Service/Office,Europe-North,Centrist,Very high,Neutral,Neutral / not very worried,Not oriented to action,High
+P0777,45+,Male,Master’s/PhD,Public sector,Europe-North,Conservative,Moderate,Neutral,Very worried,Neutral,High
+P0016,18-24,Male,Bachelor’s,Construction/Outdoor,US Midwest,Conservative,Moderate,Neutral,Neutral / not very worried,Somewhat inactive,High
+P0775,18-24,Male,Master’s/PhD,Construction/Outdoor,US West,Moderate Liberal,High,Neutral,Very worried,Neutral,High
+P0232,45+,Male,High School or less,Environmental/NGO,US South,Moderate Conservative,High,Neutral,Somewhat not worried,Somewhat inactive,Medium
+P0772,35-44,Male,High School or less,Public sector,Europe-North,Moderate Conservative,Very high,Neutral,Somewhat worried,Neutral,Medium
+P0783,18-24,Female,High School or less,Service/Office,Other,Liberal,High,Neutral,Somewhat worried,Neutral,High
+P0241,18-24,Male,Master’s/PhD,Service/Office,Europe-North,Centrist,High,Neutral,Somewhat worried,Neutral,Medium
+P0791,18-24,Male,High School or less,Farming/Agriculture,US Midwest,Conservative,Very low,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0242,25-34,Male,Bachelor’s,Construction/Outdoor,Global South,Centrist,High,Neutral,Neutral / not very worried,Somewhat inactive,High
+P0966,25-34,Female,Bachelor’s,Farming/Agriculture,Europe-North,Moderate Conservative,Low,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0998,25-34,Male,High School or less,Manufacturing/Industrial,Europe-North,Moderate Conservative,Moderate,Neutral,Somewhat worried,Neutral,Medium
+P0808,18-24,Other/Non-binary,High School or less,Tech/IT,Other,Conservative,High,Neutral,Somewhat not worried,Somewhat inactive,Low
+P0037,25-34,Female,Bachelor’s,Service/Office,US West,Liberal,High,Neutral,Very worried,Neutral,High
+P0742,25-34,Male,Bachelor’s,Service/Office,US Midwest,Conservative,Low,Neutral,Neutral / not very worried,Somewhat inactive,High
+P0007,25-34,Male,High School or less,Manufacturing/Industrial,US South,Conservative,Very low,Neutral,Somewhat worried,Somewhat inactive,Low
+P0036,25-34,Male,Bachelor’s,Public sector,Europe-North,Conservative,Moderate,Neutral,Very worried,Neutral,Medium
+P0972,25-34,Male,Bachelor’s,Construction/Outdoor,US West,Centrist,High,Neutral,Somewhat worried,Somewhat inactive,Low
+P0768,35-44,Female,Bachelor’s,Service/Office,Other,Conservative,Low,Neutral,Somewhat not worried,Somewhat inactive,Low
+P0995,25-34,Other/Non-binary,Master’s/PhD,Education/Academic,Other,Centrist,High,Neutral,Somewhat worried,Somewhat inactive,High
+P0976,25-34,Female,High School or less,Service/Office,US West,Moderate Conservative,Moderate,Neutral,Neutral / not very worried,Somewhat inactive,Medium
+P0244,18-24,Female,Bachelor’s,Construction/Outdoor,Other,Centrist,Low,Neutral,Very worried,Neutral,Low
+P0204,35-44,Male,Bachelor’s,Manufacturing/Industrial,US West,Liberal,Low,Neutral,Somewhat worried,Somewhat inactive,High
+P0996,35-44,Other/Non-binary,Master’s/PhD,Environmental/NGO,Other,Liberal,Low,Slightly agree,Somewhat worried,Neutral,Low
+P0922,25-34,Female,Bachelor’s,Farming/Agriculture,US Midwest,Moderate Liberal,Moderate,Slightly agree,Somewhat not worried,Not oriented to action,Medium
+P0551,25-34,Female,High School or less,Education/Academic,US South,Conservative,High,Slightly agree,Very worried,Neutral,High
+P0552,35-44,Female,High School or less,Education/Academic,Global South,Liberal,Very high,Slightly agree,Very worried,Neutral,High
+P0573,45+,Female,High School or less,Education/Academic,US West,Centrist,High,Slightly agree,Somewhat worried,Neutral,Low
+P0987,18-24,Female,High School or less,Tech/IT,Other,Moderate Conservative,Low,Slightly agree,Very worried,Neutral,Low
+P0557,18-24,Male,High School or less,Education/Academic,Global South,Centrist,Very high,Slightly agree,Very worried,Neutral,Medium
+P0928,45+,Male,Bachelor’s,Manufacturing/Industrial,US South,Moderate Conservative,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0493,25-34,Female,Bachelor’s,Education/Academic,Europe-North,Liberal,High,Slightly agree,Somewhat worried,Neutral,Medium
+P0561,45+,Female,High School or less,Education/Academic,Europe-North,Moderate Liberal,Moderate,Slightly agree,Somewhat worried,Neutral,Medium
+P0481,45+,Male,Bachelor’s,Service/Office,US West,Moderate Conservative,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0566,18-24,Female,Bachelor’s,Tech/IT,Europe-North,Centrist,Low,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0485,18-24,Male,Master’s/PhD,Service/Office,Europe-North,Centrist,Moderate,Slightly agree,Neutral / not very worried,Not oriented to action,Medium
+P0918,25-34,Male,Master’s/PhD,Manufacturing/Industrial,Global South,Liberal,High,Slightly agree,Not worried at all,Somewhat inactive,Medium
+P0927,18-24,Female,High School or less,Tech/IT,US Northeast,Liberal,Very high,Slightly agree,Somewhat worried,Somewhat inactive,High
+P0925,18-24,Female,High School or less,Manufacturing/Industrial,US Midwest,Centrist,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0489,18-24,Male,Master’s/PhD,Construction/Outdoor,US West,Conservative,Moderate,Slightly agree,Neutral / not very worried,Neutral,Medium
+P0992,18-24,Male,Bachelor’s,Construction/Outdoor,US Midwest,Centrist,High,Slightly agree,Very worried,Somewhat inactive,Low
+P0563,25-34,Female,High School or less,Tech/IT,US Northeast,Liberal,Low,Slightly agree,Very worried,Neutral,Medium
+P0961,35-44,Male,Bachelor’s,Education/Academic,US Midwest,Centrist,High,Slightly agree,Very worried,Neutral,Medium
+P0933,25-34,Female,Master’s/PhD,Service/Office,US Northeast,Centrist,High,Slightly agree,Somewhat not worried,Somewhat inactive,Medium
+P0960,35-44,Male,Bachelor’s,Manufacturing/Industrial,US Northeast,Liberal,Moderate,Slightly agree,Very worried,Neutral,Low
+P0969,25-34,Male,High School or less,Public sector,Europe-North,Centrist,Low,Slightly agree,Very worried,Neutral,Medium
+P0521,18-24,Female,Bachelor’s,Education/Academic,Global South,Centrist,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0527,25-34,Male,Bachelor’s,Manufacturing/Industrial,US Northeast,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0957,18-24,Female,Master’s/PhD,Education/Academic,Europe-North,Moderate Conservative,High,Slightly agree,Very worried,Neutral,Medium
+P0973,45+,Female,High School or less,Tech/IT,US West,Moderate Liberal,Moderate,Slightly agree,Very worried,Neutral,Low
+P0517,35-44,Male,High School or less,Tech/IT,Europe-North,Conservative,High,Slightly agree,Very worried,Neutral,High
+P0510,45+,Male,Bachelor’s,Farming/Agriculture,US Midwest,Liberal,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0574,18-24,Male,Bachelor’s,Public sector,Europe-North,Liberal,Very low,Slightly agree,Somewhat not worried,Somewhat inactive,Medium
+P0953,45+,Male,Bachelor’s,Construction/Outdoor,US West,Moderate Liberal,Very high,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0532,45+,Male,High School or less,Service/Office,Other,Moderate Conservative,Very high,Slightly agree,Very worried,Neutral,Low
+P0533,45+,Male,Master’s/PhD,Public sector,Europe-North,Moderate Conservative,Very high,Slightly agree,Somewhat worried,Neutral,High
+P0534,25-34,Male,Bachelor’s,Farming/Agriculture,US South,Moderate Liberal,High,Slightly agree,Very worried,Neutral,Low
+P0508,45+,Female,High School or less,Environmental/NGO,Europe-North,Liberal,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0978,45+,Female,Bachelor’s,Education/Academic,Europe-North,Centrist,High,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0536,25-34,Other/Non-binary,Master’s/PhD,Tech/IT,US Midwest,Centrist,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0949,45+,Male,Bachelor’s,Farming/Agriculture,US Midwest,Moderate Liberal,Low,Slightly agree,Very worried,Neutral,Low
+P0948,35-44,Female,Bachelor’s,Manufacturing/Industrial,Other,Moderate Liberal,Low,Slightly agree,Somewhat not worried,Somewhat inactive,Medium
+P0947,45+,Female,High School or less,Service/Office,US Northeast,Moderate Conservative,Low,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0946,45+,Female,Master’s/PhD,Manufacturing/Industrial,US Midwest,Moderate Conservative,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0979,35-44,Female,High School or less,Tech/IT,Other,Conservative,Moderate,Slightly agree,Very worried,Somewhat inactive,Medium
+P0980,35-44,Male,High School or less,Farming/Agriculture,US West,Moderate Liberal,Very low,Slightly agree,Very worried,Neutral,Medium
+P0944,45+,Male,Master’s/PhD,Environmental/NGO,Global South,Conservative,Moderate,Slightly agree,Somewhat not worried,Somewhat inactive,Low
+P0941,45+,Female,Bachelor’s,Tech/IT,US West,Moderate Liberal,Moderate,Slightly agree,Very worried,Somewhat inactive,Medium
+P0964,25-34,Female,Bachelor’s,Manufacturing/Industrial,Global South,Conservative,High,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0935,25-34,Female,Master’s/PhD,Tech/IT,Europe-North,Moderate Liberal,High,Slightly agree,Very worried,Neutral,Medium
+P0934,25-34,Male,Master’s/PhD,Service/Office,US West,Moderate Conservative,Very high,Slightly agree,Somewhat not worried,Not oriented to action,Medium
+P0984,45+,Female,High School or less,Tech/IT,Other,Centrist,Very low,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0548,35-44,Male,Bachelor’s,Education/Academic,US Northeast,Centrist,High,Slightly agree,Somewhat not worried,Somewhat inactive,High
+P0986,45+,Female,High School or less,Manufacturing/Industrial,US West,Moderate Liberal,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,High
+P0940,25-34,Male,Master’s/PhD,Manufacturing/Industrial,US West,Liberal,Very high,Slightly agree,Somewhat not worried,Somewhat inactive,High
+P0740,18-24,Male,High School or less,Education/Academic,Other,Moderate Conservative,High,Slightly agree,Not worried at all,Somewhat inactive,Medium
+P0915,18-24,Male,High School or less,Farming/Agriculture,US South,Moderate Conservative,High,Slightly agree,Somewhat worried,Somewhat inactive,High
+P0688,18-24,Male,Master’s/PhD,Education/Academic,US West,Moderate Liberal,High,Slightly agree,Somewhat worried,Neutral,Low
+P0806,25-34,Male,Bachelor’s,Service/Office,Global South,Moderate Liberal,Low,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0682,18-24,Female,Master’s/PhD,Tech/IT,Europe-North,Centrist,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0681,25-34,Male,Master’s/PhD,Public sector,Global South,Conservative,Low,Slightly agree,Somewhat worried,Neutral,Medium
+P0807,35-44,Female,Master’s/PhD,Service/Office,Europe-North,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0677,35-44,Female,High School or less,Farming/Agriculture,US Midwest,Liberal,Low,Slightly agree,Somewhat worried,Somewhat inactive,High
+P0673,35-44,Female,High School or less,Service/Office,Global South,Conservative,Moderate,Slightly agree,Somewhat not worried,Somewhat inactive,Low
+P0811,18-24,Male,Bachelor’s,Education/Academic,US Midwest,Liberal,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0672,25-34,Other/Non-binary,Master’s/PhD,Manufacturing/Industrial,Global South,Moderate Conservative,Very high,Slightly agree,Somewhat worried,Somewhat inactive,High
+P0671,18-24,Female,Bachelor’s,Manufacturing/Industrial,US West,Moderate Conservative,Moderate,Slightly agree,Very worried,Neutral,Medium
+P0668,25-34,Female,High School or less,Construction/Outdoor,Other,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Neutral,Medium
+P0813,35-44,Female,Bachelor’s,Education/Academic,Other,Centrist,Moderate,Slightly agree,Not worried at all,Somewhat inactive,Medium
+P0818,18-24,Female,Bachelor’s,Environmental/NGO,Global South,Liberal,High,Slightly agree,Neutral / not very worried,Neutral,High
+P0819,35-44,Male,Bachelor’s,Public sector,US South,Liberal,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0821,25-34,Male,Master’s/PhD,Service/Office,Global South,Moderate Conservative,High,Slightly agree,Very worried,Neutral,High
+P0660,25-34,Female,High School or less,Service/Office,US West,Moderate Liberal,Very low,Slightly agree,Very worried,Neutral,Low
+P0825,45+,Other/Non-binary,Bachelor’s,Tech/IT,Europe-North,Moderate Liberal,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0800,18-24,Male,Bachelor’s,Tech/IT,US Midwest,Moderate Conservative,Very high,Slightly agree,Somewhat not worried,Somewhat inactive,High
+P0797,18-24,Male,High School or less,Public sector,Other,Liberal,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0792,45+,Female,High School or less,Service/Office,Europe-North,Moderate Liberal,Very high,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0694,35-44,Female,High School or less,Farming/Agriculture,Other,Moderate Liberal,High,Slightly agree,Very worried,Neutral,Medium
+P0741,18-24,Male,Bachelor’s,Public sector,Other,Moderate Liberal,High,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0734,45+,Male,Bachelor’s,Tech/IT,US West,Centrist,Very high,Slightly agree,Somewhat not worried,Not oriented to action,Low
+P0747,35-44,Female,Master’s/PhD,Tech/IT,US West,Liberal,Very high,Slightly agree,Very worried,Neutral,Medium
+P0728,18-24,Male,Master’s/PhD,Manufacturing/Industrial,Other,Moderate Liberal,High,Slightly agree,Very worried,Neutral,Medium
+P0724,35-44,Other/Non-binary,Bachelor’s,Tech/IT,Other,Centrist,High,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0479,25-34,Female,Bachelor’s,Manufacturing/Industrial,US West,Moderate Liberal,Moderate,Slightly agree,Very worried,Neutral,Medium
+P0718,45+,Female,Master’s/PhD,Education/Academic,US Northeast,Moderate Liberal,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0754,35-44,Female,Master’s/PhD,Construction/Outdoor,Global South,Conservative,Low,Slightly agree,Very worried,Neutral,Medium
+P0658,18-24,Female,Bachelor’s,Tech/IT,US West,Moderate Conservative,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0757,35-44,Female,Master’s/PhD,Service/Office,Europe-North,Liberal,Very high,Slightly agree,Very worried,Neutral,Medium
+P0713,35-44,Other/Non-binary,Bachelor’s,Manufacturing/Industrial,US South,Centrist,Low,Slightly agree,Neutral / not very worried,Not oriented to action,Medium
+P0771,25-34,Male,Master’s/PhD,Manufacturing/Industrial,Europe-North,Moderate Conservative,Very high,Slightly agree,Very worried,Neutral,Low
+P0705,45+,Female,Bachelor’s,Manufacturing/Industrial,US Northeast,Liberal,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0701,25-34,Female,High School or less,Service/Office,US West,Liberal,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0778,18-24,Female,Master’s/PhD,Manufacturing/Industrial,Europe-North,Moderate Liberal,Low,Slightly agree,Very worried,Neutral,Medium
+P0784,18-24,Female,Master’s/PhD,Manufacturing/Industrial,Global South,Moderate Liberal,Moderate,Slightly agree,Somewhat worried,Neutral,Medium
+P0788,35-44,Male,Bachelor’s,Tech/IT,US Midwest,Liberal,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0790,25-34,Female,Master’s/PhD,Education/Academic,US West,Moderate Conservative,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0714,18-24,Female,High School or less,Manufacturing/Industrial,Europe-North,Conservative,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0655,18-24,Male,Bachelor’s,Manufacturing/Industrial,US West,Centrist,Very low,Slightly agree,Somewhat worried,Neutral,Medium
+P0836,45+,Female,Master’s/PhD,Tech/IT,Europe-North,Centrist,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0651,25-34,Female,Bachelor’s,Manufacturing/Industrial,Global South,Moderate Liberal,Very low,Slightly agree,Somewhat worried,Neutral,Low
+P0614,35-44,Female,Master’s/PhD,Service/Office,Europe-North,Moderate Conservative,High,Slightly agree,Very worried,Neutral,High
+P0878,45+,Female,Master’s/PhD,Public sector,Europe-North,Liberal,High,Slightly agree,Not worried at all,Somewhat inactive,Low
+P0613,45+,Male,Bachelor’s,Farming/Agriculture,US Midwest,Liberal,High,Slightly agree,Not worried at all,Not oriented to action,Medium
+P0612,35-44,Female,Bachelor’s,Tech/IT,US South,Conservative,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0609,35-44,Female,Bachelor’s,Manufacturing/Industrial,US West,Conservative,Moderate,Slightly agree,Somewhat not worried,Somewhat inactive,Low
+P0739,35-44,Female,Bachelor’s,Tech/IT,Global South,Moderate Liberal,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0604,35-44,Male,Master’s/PhD,Tech/IT,Other,Moderate Liberal,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0603,35-44,Male,Bachelor’s,Environmental/NGO,Global South,Liberal,Very high,Slightly agree,Somewhat worried,Neutral,Low
+P0875,18-24,Female,High School or less,Construction/Outdoor,US South,Liberal,Moderate,Slightly agree,Somewhat not worried,Somewhat inactive,Medium
+P0602,35-44,Other/Non-binary,Bachelor’s,Tech/IT,US West,Liberal,Moderate,Slightly agree,Very worried,Somewhat inactive,Medium
+P0598,18-24,Female,Master’s/PhD,Education/Academic,Other,Moderate Liberal,Moderate,Slightly agree,Very worried,Somewhat inactive,Medium
+P0596,45+,Female,Bachelor’s,Farming/Agriculture,US South,Centrist,High,Slightly agree,Not worried at all,Somewhat inactive,Medium
+P0891,18-24,Female,Bachelor’s,Education/Academic,US Northeast,Liberal,Very high,Slightly agree,Very worried,Neutral,Medium
+P0898,25-34,Male,Bachelor’s,Service/Office,Global South,Moderate Liberal,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0904,18-24,Female,Bachelor’s,Tech/IT,US South,Moderate Conservative,Low,Slightly agree,Somewhat worried,Neutral,High
+P0586,18-24,Female,Master’s/PhD,Public sector,US West,Moderate Liberal,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0911,35-44,Other/Non-binary,High School or less,Farming/Agriculture,US Northeast,Centrist,Low,Slightly agree,Somewhat not worried,Somewhat inactive,Low
+P0579,45+,Other/Non-binary,Bachelor’s,Service/Office,Europe-North,Liberal,Low,Slightly agree,Very worried,Neutral,Low
+P0888,35-44,Male,Bachelor’s,Service/Office,US Northeast,Centrist,Very low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0576,25-34,Male,Master’s/PhD,Farming/Agriculture,US South,Moderate Liberal,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0873,18-24,Female,Master’s/PhD,Manufacturing/Industrial,US South,Moderate Conservative,High,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0864,45+,Male,High School or less,Construction/Outdoor,US West,Liberal,Low,Slightly agree,Not worried at all,Somewhat inactive,Medium
+P0650,45+,Male,High School or less,Education/Academic,Europe-North,Centrist,Low,Slightly agree,Very worried,Neutral,Medium
+P0643,35-44,Other/Non-binary,Master’s/PhD,Service/Office,Global South,Centrist,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0642,18-24,Female,Master’s/PhD,Construction/Outdoor,Global South,Centrist,Very high,Slightly agree,Somewhat worried,Neutral,Medium
+P0842,25-34,Female,Master’s/PhD,Tech/IT,US South,Conservative,Very low,Slightly agree,Very worried,Somewhat inactive,Medium
+P0844,45+,Female,Bachelor’s,Education/Academic,Global South,Centrist,High,Slightly agree,Very worried,Somewhat inactive,High
+P0640,45+,Female,High School or less,Construction/Outdoor,US West,Moderate Conservative,Very low,Slightly agree,Neutral / not very worried,Not oriented to action,Medium
+P0639,35-44,Male,Bachelor’s,Public sector,US West,Conservative,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0638,18-24,Male,Master’s/PhD,Service/Office,US West,Moderate Liberal,High,Slightly agree,Somewhat worried,Neutral,Medium
+P0871,35-44,Female,Bachelor’s,Manufacturing/Industrial,US West,Centrist,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0637,35-44,Female,Bachelor’s,Manufacturing/Industrial,US South,Centrist,Low,Slightly agree,Neutral / not very worried,Neutral,Low
+P0635,18-24,Male,Bachelor’s,Service/Office,US Northeast,Moderate Conservative,High,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0629,35-44,Female,Master’s/PhD,Service/Office,US Northeast,Liberal,Very high,Slightly agree,Very worried,Neutral,Medium
+P0628,25-34,Female,Bachelor’s,Tech/IT,US Midwest,Moderate Conservative,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0626,18-24,Female,Master’s/PhD,Public sector,US Midwest,Moderate Liberal,High,Slightly agree,Very worried,Neutral,Medium
+P0625,45+,Male,Bachelor’s,Public sector,US Midwest,Liberal,Moderate,Slightly agree,Somewhat not worried,Somewhat inactive,High
+P0624,25-34,Male,Bachelor’s,Farming/Agriculture,Global South,Moderate Liberal,Very high,Slightly agree,Somewhat worried,Neutral,Low
+P0619,25-34,Male,Master’s/PhD,Service/Office,US West,Centrist,Low,Slightly agree,Very worried,Neutral,Medium
+P0860,45+,Other/Non-binary,High School or less,Tech/IT,US Northeast,Liberal,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0636,45+,Other/Non-binary,Bachelor’s,Public sector,Europe-North,Centrist,Moderate,Slightly agree,Somewhat not worried,Somewhat inactive,Low
+P0478,25-34,Male,High School or less,Service/Office,Europe-North,Liberal,Moderate,Slightly agree,Somewhat not worried,Somewhat inactive,Low
+P1000,45+,Female,Bachelor’s,Service/Office,US West,Liberal,High,Slightly agree,Very worried,Neutral,Medium
+P0220,35-44,Female,Bachelor’s,Construction/Outdoor,US West,Liberal,Moderate,Slightly agree,Not worried at all,Somewhat inactive,Medium
+P0187,35-44,Female,High School or less,Environmental/NGO,US Northeast,Conservative,Very low,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0092,35-44,Female,Master’s/PhD,Service/Office,US West,Liberal,Very high,Slightly agree,Neutral / not very worried,Neutral,Medium
+P0267,25-34,Male,Bachelor’s,Public sector,Global South,Moderate Liberal,Very high,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0269,45+,Female,High School or less,Environmental/NGO,Europe-North,Conservative,Low,Slightly agree,Very worried,Neutral,Medium
+P0100,18-24,Other/Non-binary,High School or less,Education/Academic,US Northeast,Liberal,Low,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0102,25-34,Female,High School or less,Farming/Agriculture,Global South,Moderate Liberal,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0182,35-44,Male,Master’s/PhD,Education/Academic,US South,Centrist,Moderate,Slightly agree,Very worried,Neutral,Medium
+P0379,18-24,Other/Non-binary,Bachelor’s,Service/Office,Global South,Moderate Liberal,Very low,Slightly agree,Somewhat worried,Somewhat inactive,High
+P0106,35-44,Male,High School or less,Education/Academic,US Midwest,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0181,18-24,Male,Bachelor’s,Tech/IT,US Northeast,Moderate Conservative,Moderate,Slightly agree,Somewhat not worried,Somewhat inactive,High
+P0274,18-24,Male,Master’s/PhD,Manufacturing/Industrial,US South,Conservative,Very high,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0370,45+,Male,Bachelor’s,Construction/Outdoor,US South,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0369,45+,Female,Bachelor’s,Service/Office,US South,Moderate Liberal,High,Slightly agree,Somewhat not worried,Somewhat inactive,Medium
+P0109,35-44,Female,Bachelor’s,Service/Office,US Midwest,Liberal,High,Slightly agree,Somewhat not worried,Somewhat inactive,Low
+P0179,35-44,Female,High School or less,Farming/Agriculture,US Northeast,Moderate Liberal,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0365,45+,Female,Master’s/PhD,Tech/IT,Europe-North,Moderate Liberal,Very high,Slightly agree,Neutral / not very worried,Neutral,Low
+P0273,45+,Other/Non-binary,Master’s/PhD,Service/Office,US West,Centrist,Very high,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0111,18-24,Female,Master’s/PhD,Service/Office,Global South,Moderate Conservative,Moderate,Slightly agree,Very worried,Neutral,Medium
+P0383,35-44,Male,Master’s/PhD,Tech/IT,US West,Moderate Conservative,Very high,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0264,25-34,Female,Master’s/PhD,Farming/Agriculture,Other,Liberal,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0260,25-34,Male,Bachelor’s,Construction/Outdoor,US South,Liberal,High,Slightly agree,Somewhat worried,Neutral,Medium
+P0066,18-24,Male,Bachelor’s,Manufacturing/Industrial,US South,Liberal,Very low,Slightly agree,Somewhat not worried,Somewhat inactive,Low
+P0261,25-34,Male,Bachelor’s,Farming/Agriculture,US South,Liberal,High,Slightly agree,Somewhat worried,Neutral,Low
+P0262,45+,Other/Non-binary,Master’s/PhD,Service/Office,Europe-North,Centrist,Low,Slightly agree,Very worried,Neutral,Medium
+P0070,25-34,Female,Bachelor’s,Education/Academic,US South,Centrist,Very low,Slightly agree,Very worried,Somewhat inactive,Low
+P0074,45+,Female,High School or less,Service/Office,US South,Centrist,Moderate,Slightly agree,Very worried,Neutral,Medium
+P0396,45+,Male,Bachelor’s,Manufacturing/Industrial,US South,Liberal,Moderate,Slightly agree,Somewhat worried,Neutral,High
+P0085,35-44,Male,Bachelor’s,Tech/IT,Global South,Liberal,High,Slightly agree,Very worried,Neutral,Medium
+P0394,45+,Male,Bachelor’s,Public sector,US South,Centrist,Very low,Slightly agree,Somewhat worried,Neutral,Low
+P0393,45+,Male,High School or less,Construction/Outdoor,Europe-North,Conservative,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0392,35-44,Other/Non-binary,Bachelor’s,Farming/Agriculture,US Midwest,Liberal,Very high,Slightly agree,Very worried,Neutral,Medium
+P0391,35-44,Male,Bachelor’s,Public sector,US West,Centrist,Very low,Slightly agree,Very worried,Neutral,Low
+P0189,18-24,Other/Non-binary,Bachelor’s,Public sector,Other,Moderate Liberal,High,Slightly agree,Very worried,Neutral,Medium
+P0081,25-34,Male,High School or less,Education/Academic,Other,Moderate Conservative,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0388,35-44,Other/Non-binary,High School or less,Farming/Agriculture,US Midwest,Conservative,Very low,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0082,25-34,Male,Master’s/PhD,Construction/Outdoor,US West,Centrist,Very high,Slightly agree,Not worried at all,Somewhat inactive,Medium
+P0075,35-44,Male,Master’s/PhD,Farming/Agriculture,Global South,Moderate Conservative,Moderate,Slightly agree,Neutral / not very worried,Not oriented to action,Low
+P0065,18-24,Male,Bachelor’s,Tech/IT,US South,Liberal,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0112,45+,Female,High School or less,Education/Academic,US West,Moderate Conservative,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0359,18-24,Female,High School or less,Construction/Outdoor,US West,Moderate Conservative,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0327,45+,Male,Master’s/PhD,Environmental/NGO,US West,Liberal,High,Slightly agree,Somewhat worried,Neutral,Low
+P0298,45+,Female,Master’s/PhD,Construction/Outdoor,US Northeast,Liberal,Very high,Slightly agree,Very worried,Neutral,Medium
+P0326,18-24,Female,Bachelor’s,Construction/Outdoor,US West,Centrist,Low,Slightly agree,Not worried at all,Not oriented to action,Low
+P0325,35-44,Other/Non-binary,High School or less,Service/Office,Europe-North,Liberal,Very low,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0129,18-24,Female,High School or less,Construction/Outdoor,US West,Centrist,High,Slightly agree,Very worried,Neutral,Low
+P0155,35-44,Male,High School or less,Manufacturing/Industrial,US West,Centrist,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0322,35-44,Female,Bachelor’s,Tech/IT,US Midwest,Moderate Conservative,High,Slightly agree,Not worried at all,Somewhat inactive,Medium
+P0297,18-24,Female,Bachelor’s,Construction/Outdoor,Global South,Liberal,High,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0130,18-24,Female,Bachelor’s,Environmental/NGO,Europe-North,Moderate Liberal,High,Slightly agree,Very worried,Somewhat inactive,High
+P0300,45+,Female,Master’s/PhD,Farming/Agriculture,Global South,Centrist,Moderate,Slightly agree,Very worried,Neutral,Low
+P0316,18-24,Other/Non-binary,High School or less,Service/Office,US Northeast,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0135,35-44,Female,Bachelor’s,Farming/Agriculture,Europe-North,Moderate Conservative,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0138,45+,Male,Bachelor’s,Tech/IT,Europe-North,Moderate Conservative,Very low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0139,25-34,Female,High School or less,Construction/Outdoor,Global South,Centrist,Moderate,Slightly agree,Very worried,Neutral,Medium
+P0308,35-44,Female,High School or less,Tech/IT,Europe-North,Moderate Liberal,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0149,25-34,Female,High School or less,Tech/IT,Global South,Conservative,Very low,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0299,25-34,Male,Bachelor’s,Education/Academic,US South,Moderate Conservative,High,Slightly agree,Somewhat not worried,Somewhat inactive,Medium
+P0280,35-44,Female,Master’s/PhD,Education/Academic,US West,Centrist,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,High
+P0124,45+,Female,High School or less,Manufacturing/Industrial,Europe-North,Conservative,Low,Slightly agree,Somewhat not worried,Not oriented to action,Medium
+P0329,45+,Female,Bachelor’s,Manufacturing/Industrial,US Midwest,Moderate Liberal,High,Slightly agree,Somewhat worried,Neutral,Low
+P0355,25-34,Male,Master’s/PhD,Tech/IT,Other,Moderate Conservative,High,Slightly agree,Somewhat worried,Neutral,High
+P0353,35-44,Other/Non-binary,Bachelor’s,Service/Office,Other,Centrist,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0175,35-44,Male,High School or less,Tech/IT,US Northeast,Centrist,Low,Slightly agree,Somewhat worried,Somewhat inactive,High
+P0282,45+,Female,High School or less,Service/Office,Other,Moderate Liberal,Very low,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0349,35-44,Male,High School or less,Tech/IT,US Midwest,Centrist,Very low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0291,18-24,Female,Bachelor’s,Tech/IT,US South,Moderate Liberal,Very high,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0344,45+,Male,Master’s/PhD,Farming/Agriculture,Global South,Moderate Liberal,Very high,Slightly agree,Somewhat worried,Neutral,Medium
+P0328,45+,Female,Master’s/PhD,Tech/IT,US South,Centrist,High,Slightly agree,Not worried at all,Somewhat inactive,Medium
+P0342,45+,Female,High School or less,Service/Office,US South,Liberal,Very high,Slightly agree,Somewhat worried,Neutral,Medium
+P0162,45+,Male,High School or less,Public sector,Global South,Moderate Liberal,Very high,Slightly agree,Not worried at all,Somewhat inactive,Low
+P0295,18-24,Other/Non-binary,Bachelor’s,Public sector,US South,Moderate Conservative,Low,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0122,18-24,Male,Bachelor’s,Tech/IT,US South,Moderate Liberal,High,Slightly agree,Somewhat worried,Neutral,Medium
+P0336,25-34,Male,Master’s/PhD,Tech/IT,Europe-North,Centrist,High,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0335,35-44,Male,Bachelor’s,Tech/IT,US Midwest,Centrist,High,Slightly agree,Very worried,Neutral,High
+P0334,35-44,Female,Bachelor’s,Tech/IT,Global South,Conservative,High,Slightly agree,Very worried,Neutral,High
+P0330,45+,Male,Master’s/PhD,Education/Academic,Europe-North,Liberal,Very high,Slightly agree,Neutral / not very worried,Neutral,High
+P0341,18-24,Female,Master’s/PhD,Public sector,US West,Liberal,High,Slightly agree,Neutral / not very worried,Not oriented to action,Medium
+P0192,35-44,Male,High School or less,Public sector,Other,Moderate Conservative,Low,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0080,35-44,Female,Master’s/PhD,Construction/Outdoor,US Northeast,Conservative,Moderate,Slightly agree,Very worried,Somewhat inactive,Medium
+P0063,18-24,Male,High School or less,Service/Office,Europe-North,Moderate Liberal,High,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0468,18-24,Female,Bachelor’s,Farming/Agriculture,US Northeast,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0041,35-44,Other/Non-binary,Bachelor’s,Environmental/NGO,Global South,Centrist,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0436,25-34,Male,Bachelor’s,Education/Academic,Global South,Moderate Liberal,Moderate,Slightly agree,Not worried at all,Somewhat inactive,Low
+P0239,18-24,Female,Master’s/PhD,Service/Office,US Midwest,Centrist,High,Slightly agree,Not worried at all,Not oriented to action,Low
+P0218,18-24,Male,Bachelor’s,Manufacturing/Industrial,Global South,Centrist,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0225,45+,Male,Master’s/PhD,Education/Academic,US South,Moderate Conservative,High,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0039,45+,Male,Bachelor’s,Tech/IT,US Midwest,Moderate Conservative,Moderate,Slightly agree,Very worried,Somewhat inactive,Low
+P0217,35-44,Male,Bachelor’s,Service/Office,Global South,Liberal,Moderate,Slightly agree,Very worried,Neutral,Low
+P0442,25-34,Male,High School or less,Education/Academic,US West,Moderate Liberal,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0444,35-44,Male,High School or less,Service/Office,US South,Moderate Conservative,Moderate,Slightly agree,Very worried,Neutral,Medium
+P0237,18-24,Male,Master’s/PhD,Tech/IT,US West,Conservative,High,Slightly agree,Very worried,Neutral,Medium
+P0450,25-34,Female,Bachelor’s,Service/Office,US Northeast,Centrist,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0012,35-44,Female,Bachelor’s,Farming/Agriculture,US South,Liberal,Low,Slightly agree,Very worried,Somewhat inactive,High
+P0451,18-24,Male,Bachelor’s,Farming/Agriculture,Global South,Moderate Conservative,Low,Slightly agree,Very worried,Somewhat inactive,Medium
+P0465,35-44,Female,High School or less,Service/Office,US Northeast,Centrist,Low,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0035,25-34,Male,Bachelor’s,Manufacturing/Industrial,US South,Moderate Conservative,Low,Slightly agree,Somewhat worried,Neutral,Medium
+P0064,45+,Female,Bachelor’s,Tech/IT,Other,Moderate Liberal,Moderate,Slightly agree,Somewhat not worried,Not oriented to action,High
+P0463,45+,Male,High School or less,Service/Office,Europe-North,Liberal,Very low,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0234,18-24,Female,High School or less,Manufacturing/Industrial,Europe-North,Liberal,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,High
+P0230,45+,Female,Bachelor’s,Service/Office,US Northeast,Centrist,High,Slightly agree,Somewhat worried,Neutral,Low
+P0454,35-44,Female,Bachelor’s,Farming/Agriculture,Global South,Centrist,Very low,Slightly agree,Somewhat not worried,Somewhat inactive,Low
+P0233,35-44,Male,Bachelor’s,Public sector,US Midwest,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Low
+P0213,35-44,Female,Bachelor’s,Tech/IT,US West,Moderate Liberal,Moderate,Slightly agree,Somewhat worried,Neutral,High
+P0029,45+,Female,Master’s/PhD,Construction/Outdoor,US South,Liberal,Moderate,Slightly agree,Somewhat worried,Somewhat inactive,High
+P0457,25-34,Male,Bachelor’s,Tech/IT,US Northeast,Liberal,High,Slightly agree,Somewhat worried,Neutral,Medium
+P0209,35-44,Female,Master’s/PhD,Service/Office,Global South,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0455,25-34,Female,High School or less,Service/Office,Other,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0008,35-44,Male,High School or less,Tech/IT,US South,Centrist,Very low,Slightly agree,Not worried at all,Somewhat inactive,Medium
+P0224,18-24,Female,Bachelor’s,Environmental/NGO,US Midwest,Moderate Conservative,Low,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0243,35-44,Female,Master’s/PhD,Farming/Agriculture,US Northeast,Moderate Liberal,High,Slightly agree,Neutral / not very worried,Neutral,Low
+P0430,35-44,Male,Bachelor’s,Tech/IT,US Northeast,Liberal,High,Slightly agree,Very worried,Somewhat inactive,Medium
+P0193,18-24,Female,Bachelor’s,Tech/IT,Europe-North,Centrist,Moderate,Slightly agree,Somewhat worried,Neutral,High
+P0002,35-44,Male,High School or less,Tech/IT,Europe-North,Liberal,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0195,18-24,Female,Master’s/PhD,Manufacturing/Industrial,US West,Moderate Liberal,High,Slightly agree,Very worried,Somewhat inactive,Medium
+P0062,45+,Other/Non-binary,High School or less,Tech/IT,Europe-North,Moderate Conservative,Very low,Slightly agree,Neutral / not very worried,Somewhat inactive,High
+P0474,35-44,Male,Bachelor’s,Farming/Agriculture,Other,Centrist,Moderate,Slightly agree,Somewhat worried,Neutral,Low
+P0410,25-34,Male,High School or less,Public sector,Global South,Liberal,Low,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0257,45+,Male,Bachelor’s,Service/Office,Global South,Liberal,High,Slightly agree,Very worried,Neutral,Low
+P0417,25-34,Other/Non-binary,High School or less,Service/Office,Global South,Moderate Liberal,Low,Slightly agree,Very worried,Neutral,Low
+P0245,25-34,Female,Master’s/PhD,Farming/Agriculture,Global South,Moderate Liberal,Very high,Slightly agree,Very worried,Neutral,Medium
+P0471,25-34,Female,Bachelor’s,Education/Academic,Global South,Centrist,Very high,Slightly agree,Somewhat worried,Neutral,High
+P0222,35-44,Female,Bachelor’s,Public sector,US West,Liberal,Very high,Slightly agree,Somewhat worried,Somewhat inactive,Medium
+P0252,25-34,Female,High School or less,Environmental/NGO,Global South,Liberal,Very low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0421,45+,Female,High School or less,Education/Academic,Europe-North,Centrist,Very low,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0473,25-34,Female,Bachelor’s,Environmental/NGO,US West,Moderate Liberal,Low,Slightly agree,Somewhat worried,Somewhat inactive,Low
+P0223,18-24,Female,Bachelor’s,Education/Academic,Europe-North,Liberal,Very high,Slightly agree,Somewhat worried,Neutral,Low
+P0246,25-34,Female,Bachelor’s,Service/Office,US South,Liberal,Moderate,Slightly agree,Somewhat worried,Neutral,High
+P0427,35-44,Male,High School or less,Environmental/NGO,Europe-North,Conservative,Moderate,Slightly agree,Somewhat not worried,Somewhat inactive,High
+P0251,25-34,Male,Master’s/PhD,Public sector,Other,Liberal,High,Slightly agree,Very worried,Neutral,Medium
+P0046,35-44,Male,High School or less,Service/Office,US Midwest,Centrist,Very high,Slightly agree,Very worried,Neutral,Medium
+P0027,45+,Male,Bachelor’s,Manufacturing/Industrial,US Northeast,Moderate Conservative,Moderate,Slightly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0049,18-24,Male,High School or less,Tech/IT,Europe-North,Liberal,Moderate,Slightly agree,Somewhat worried,Neutral,Low
+P0423,18-24,Female,Bachelor’s,Manufacturing/Industrial,US Northeast,Centrist,Very high,Slightly agree,Very worried,Neutral,Low
+P0250,35-44,Female,Bachelor’s,Service/Office,Global South,Liberal,Low,Slightly agree,Very worried,Neutral,Medium
+P0848,18-24,Female,Bachelor’s,Public sector,US West,Centrist,Very high,Strongly agree,Very worried,Neutral,Medium
+P0847,25-34,Other/Non-binary,Bachelor’s,Tech/IT,Europe-North,Liberal,High,Strongly agree,Somewhat worried,Neutral,Low
+P0163,45+,Female,High School or less,Manufacturing/Industrial,Global South,Moderate Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0793,35-44,Male,High School or less,Education/Academic,Global South,Liberal,Very low,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0160,25-34,Male,Bachelor’s,Service/Office,US South,Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0782,35-44,Female,Bachelor’s,Manufacturing/Industrial,US South,Moderate Liberal,High,Strongly agree,Very worried,Neutral,High
+P0151,35-44,Male,Master’s/PhD,Service/Office,Europe-North,Centrist,High,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0214,18-24,Male,Master’s/PhD,Construction/Outdoor,Other,Liberal,High,Strongly agree,Somewhat worried,Neutral,Medium
+P0208,35-44,Female,Bachelor’s,Manufacturing/Industrial,US West,Moderate Conservative,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0219,45+,Female,Master’s/PhD,Tech/IT,US South,Centrist,Very high,Strongly agree,Somewhat worried,Neutral,High
+P0852,25-34,Female,High School or less,Education/Academic,US West,Centrist,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0786,18-24,Female,High School or less,Education/Academic,Other,Liberal,Low,Strongly agree,Somewhat worried,Neutral,Medium
+P0153,45+,Female,Bachelor’s,Service/Office,Europe-North,Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0215,25-34,Female,High School or less,Manufacturing/Industrial,Global South,Liberal,Low,Strongly agree,Very worried,Neutral,Low
+P0850,45+,Female,Bachelor’s,Service/Office,US Midwest,Moderate Conservative,Very low,Strongly agree,Very worried,Neutral,Medium
+P0849,25-34,Male,Master’s/PhD,Education/Academic,US Midwest,Liberal,Very high,Strongly agree,Very worried,Neutral,Low
+P0216,25-34,Male,High School or less,Tech/IT,Other,Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,High
+P0789,35-44,Female,Master’s/PhD,Construction/Outdoor,Global South,Moderate Liberal,Moderate,Strongly agree,Very worried,Neutral,High
+P0156,45+,Female,High School or less,Service/Office,Global South,Centrist,Low,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0205,25-34,Male,High School or less,Service/Office,US Northeast,Moderate Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0164,45+,Female,High School or less,Tech/IT,Europe-North,Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0184,35-44,Female,High School or less,Service/Office,US Midwest,Moderate Liberal,Low,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0185,45+,Other/Non-binary,Bachelor’s,Environmental/NGO,Europe-North,Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0186,18-24,Female,High School or less,Manufacturing/Industrial,Europe-North,Centrist,Very low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0188,35-44,Male,Master’s/PhD,Service/Office,Global South,Moderate Liberal,High,Strongly agree,Somewhat worried,Neutral,Medium
+P0817,45+,Female,Bachelor’s,Education/Academic,US Northeast,Moderate Liberal,Low,Strongly agree,Somewhat worried,Neutral,Medium
+P0200,45+,Female,Bachelor’s,Environmental/NGO,US Northeast,Moderate Liberal,Low,Strongly agree,Not worried at all,Not oriented to action,Medium
+P0854,45+,Female,Bachelor’s,Service/Office,Europe-North,Moderate Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0201,45+,Male,High School or less,Environmental/NGO,US West,Moderate Liberal,Very low,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0804,35-44,Other/Non-binary,Master’s/PhD,Tech/IT,US Northeast,Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0198,18-24,Male,Master’s/PhD,Public sector,Europe-North,Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0815,25-34,Female,Master’s/PhD,Construction/Outdoor,Global South,Centrist,Very high,Strongly agree,Somewhat worried,Neutral,Low
+P0197,25-34,Female,Bachelor’s,Public sector,US Northeast,Centrist,Very high,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0196,45+,Female,Master’s/PhD,Education/Academic,US Northeast,Moderate Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0809,25-34,Male,Master’s/PhD,Environmental/NGO,Other,Liberal,Moderate,Strongly agree,Not worried at all,Somewhat inactive,Low
+P0814,45+,Male,High School or less,Tech/IT,US South,Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0190,45+,Female,Bachelor’s,Construction/Outdoor,US South,Moderate Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0805,45+,Female,Bachelor’s,Farming/Agriculture,Europe-North,Conservative,High,Strongly agree,Very worried,Somewhat inactive,Medium
+P0795,25-34,Female,Master’s/PhD,Education/Academic,US Midwest,Liberal,Moderate,Strongly agree,Very worried,Somewhat inactive,High
+P0823,45+,Male,High School or less,Service/Office,US Northeast,Liberal,Low,Strongly agree,Somewhat worried,Neutral,Low
+P0203,25-34,Male,High School or less,Construction/Outdoor,US Midwest,Moderate Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,High
+P0170,45+,Female,Bachelor’s,Farming/Agriculture,Europe-North,Liberal,Very high,Strongly agree,Somewhat worried,Neutral,Medium
+P0839,45+,Male,Bachelor’s,Tech/IT,US Northeast,Moderate Liberal,High,Strongly agree,Somewhat worried,Neutral,High
+P0838,35-44,Other/Non-binary,Master’s/PhD,Environmental/NGO,Global South,Liberal,High,Strongly agree,Somewhat worried,Neutral,Low
+P0171,45+,Other/Non-binary,High School or less,Education/Academic,US Northeast,Moderate Conservative,Low,Strongly agree,Somewhat worried,Neutral,Medium
+P0173,45+,Female,Bachelor’s,Service/Office,US West,Centrist,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0174,18-24,Male,Bachelor’s,Farming/Agriculture,Europe-North,Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0796,18-24,Female,High School or less,Service/Office,Global South,Centrist,Very high,Strongly agree,Somewhat worried,Neutral,Medium
+P0801,45+,Male,Bachelor’s,Construction/Outdoor,Europe-North,Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0833,45+,Other/Non-binary,Bachelor’s,Education/Academic,US South,Liberal,High,Strongly agree,Very worried,Somewhat inactive,Low
+P0831,45+,Male,Master’s/PhD,Service/Office,Global South,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0176,35-44,Female,Bachelor’s,Service/Office,Global South,Moderate Conservative,Moderate,Strongly agree,Very worried,Neutral,Low
+P0798,18-24,Female,Master’s/PhD,Tech/IT,US Northeast,Liberal,Very high,Strongly agree,Very worried,Neutral,Low
+P0829,18-24,Female,Bachelor’s,Public sector,US West,Moderate Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0828,25-34,Other/Non-binary,Bachelor’s,Tech/IT,US West,Moderate Liberal,Very high,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0826,25-34,Female,High School or less,Public sector,US South,Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,High
+P0799,45+,Male,Bachelor’s,Service/Office,Global South,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0832,35-44,Male,Bachelor’s,Service/Office,US Northeast,Moderate Conservative,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0855,35-44,Male,Master’s/PhD,Tech/IT,Other,Moderate Liberal,Very high,Strongly agree,Neutral / not very worried,Neutral,Medium
+P0476,45+,Other/Non-binary,Bachelor’s,Farming/Agriculture,US Midwest,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0150,35-44,Male,High School or less,Farming/Agriculture,US South,Moderate Liberal,Moderate,Strongly agree,Very worried,Somewhat inactive,Medium
+P0040,45+,Male,Bachelor’s,Construction/Outdoor,Other,Centrist,Very high,Strongly agree,Somewhat worried,Neutral,Low
+P0963,25-34,Male,Bachelor’s,Service/Office,US West,Centrist,Very high,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0962,25-34,Male,Bachelor’s,Service/Office,US South,Liberal,Very low,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0043,25-34,Male,Bachelor’s,Construction/Outdoor,US South,Moderate Conservative,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0959,18-24,Male,Bachelor’s,Construction/Outdoor,US South,Liberal,Moderate,Strongly agree,Very worried,Neutral,Low
+P0045,45+,Other/Non-binary,Bachelor’s,Education/Academic,Europe-North,Centrist,High,Strongly agree,Very worried,Neutral,Medium
+P0047,18-24,Female,High School or less,Service/Office,US South,Moderate Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0955,25-34,Male,Bachelor’s,Service/Office,Other,Moderate Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0052,25-34,Female,High School or less,Public sector,Global South,Liberal,Very low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0952,25-34,Female,Master’s/PhD,Service/Office,US West,Centrist,Very high,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0057,45+,Male,Bachelor’s,Manufacturing/Industrial,US South,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0950,45+,Male,High School or less,Public sector,Other,Conservative,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0058,25-34,Female,Bachelor’s,Environmental/NGO,Europe-North,Moderate Liberal,Very high,Strongly agree,Very worried,Neutral,High
+P0059,35-44,Male,Master’s/PhD,Service/Office,Europe-North,Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0060,25-34,Male,High School or less,Public sector,US West,Moderate Conservative,Moderate,Strongly agree,Very worried,Neutral,High
+P0061,35-44,Male,Master’s/PhD,Construction/Outdoor,Global South,Centrist,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0945,18-24,Other/Non-binary,Master’s/PhD,Service/Office,Global South,Liberal,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0943,45+,Other/Non-binary,High School or less,Service/Office,Europe-North,Centrist,Very high,Strongly agree,Somewhat worried,Neutral,Medium
+P0942,25-34,Female,Master’s/PhD,Tech/IT,Global South,Moderate Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0939,45+,Male,Master’s/PhD,Public sector,Europe-North,Centrist,Very low,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0937,35-44,Female,Master’s/PhD,Public sector,US Northeast,Liberal,Very high,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0936,45+,Male,Bachelor’s,Construction/Outdoor,US South,Moderate Liberal,High,Strongly agree,Not worried at all,Somewhat inactive,Medium
+P0067,35-44,Male,High School or less,Education/Academic,US West,Moderate Conservative,Very low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0965,18-24,Female,Bachelor’s,Education/Academic,Europe-North,Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,High
+P0068,18-24,Male,High School or less,Tech/IT,Global South,Moderate Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0967,45+,Female,Master’s/PhD,Environmental/NGO,US Northeast,Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0038,35-44,Female,High School or less,Education/Academic,Global South,Moderate Conservative,High,Strongly agree,Very worried,Neutral,Medium
+P0997,45+,Male,Master’s/PhD,Education/Academic,US West,Liberal,Very high,Strongly agree,Somewhat worried,Neutral,High
+P0003,25-34,Male,Master’s/PhD,Service/Office,US Northeast,Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0005,18-24,Male,High School or less,Manufacturing/Industrial,Europe-North,Moderate Liberal,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0994,18-24,Female,Bachelor’s,Tech/IT,US West,Moderate Liberal,Low,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0009,18-24,Male,High School or less,Tech/IT,Global South,Moderate Liberal,Very high,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0991,45+,Female,High School or less,Tech/IT,Europe-North,Moderate Conservative,Low,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0010,45+,Male,Bachelor’s,Tech/IT,Europe-North,Moderate Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,Low
+P0989,25-34,Male,High School or less,Public sector,US Midwest,Moderate Liberal,Low,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0988,25-34,Female,Bachelor’s,Public sector,US Midwest,Moderate Conservative,High,Strongly agree,Very worried,Neutral,High
+P0013,45+,Other/Non-binary,High School or less,Service/Office,US Northeast,Moderate Conservative,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0985,35-44,Male,Master’s/PhD,Service/Office,Global South,Liberal,High,Strongly agree,Somewhat worried,Neutral,High
+P0015,18-24,Male,High School or less,Tech/IT,US South,Liberal,Very high,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0017,18-24,Male,Bachelor’s,Service/Office,Global South,Moderate Conservative,Very low,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0982,35-44,Female,Master’s/PhD,Education/Academic,US Northeast,Liberal,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,High
+P0018,25-34,Male,Bachelor’s,Service/Office,US South,Liberal,Low,Strongly agree,Somewhat worried,Somewhat inactive,High
+P0019,45+,Female,Master’s/PhD,Public sector,Global South,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0023,35-44,Other/Non-binary,High School or less,Tech/IT,US South,Moderate Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0025,45+,Female,Bachelor’s,Environmental/NGO,Europe-North,Liberal,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,High
+P0028,18-24,Male,Master’s/PhD,Public sector,Europe-North,Moderate Conservative,High,Strongly agree,Somewhat worried,Neutral,Low
+P0030,45+,Female,Master’s/PhD,Education/Academic,Global South,Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0033,45+,Male,Master’s/PhD,Construction/Outdoor,Other,Moderate Liberal,Very high,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0034,35-44,Male,Bachelor’s,Manufacturing/Industrial,Global South,Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0971,35-44,Female,High School or less,Service/Office,US Midwest,Liberal,Very low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0968,18-24,Male,Master’s/PhD,Farming/Agriculture,US West,Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,Medium
+P0856,18-24,Female,Bachelor’s,Education/Academic,US Midwest,Moderate Liberal,Very high,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0932,18-24,Female,Bachelor’s,Environmental/NGO,US Northeast,Liberal,Low,Strongly agree,Somewhat worried,Neutral,Medium
+P0926,25-34,Male,Master’s/PhD,Manufacturing/Industrial,Europe-North,Moderate Liberal,Very high,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0117,25-34,Female,Master’s/PhD,Tech/IT,US Northeast,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0887,35-44,Female,Bachelor’s,Service/Office,Global South,Moderate Liberal,Very high,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0886,25-34,Female,Bachelor’s,Manufacturing/Industrial,Europe-North,Moderate Conservative,High,Strongly agree,Somewhat worried,Neutral,High
+P0120,25-34,Male,High School or less,Environmental/NGO,US West,Liberal,Very high,Strongly agree,Very worried,Neutral,Low
+P0781,45+,Other/Non-binary,Bachelor’s,Tech/IT,US Northeast,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0883,45+,Male,High School or less,Manufacturing/Industrial,Europe-North,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0882,25-34,Other/Non-binary,Bachelor’s,Tech/IT,US West,Liberal,Very low,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0881,25-34,Other/Non-binary,High School or less,Farming/Agriculture,Europe-North,Moderate Liberal,Moderate,Strongly agree,Not worried at all,Somewhat inactive,Low
+P0121,45+,Female,High School or less,Service/Office,Global South,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0877,25-34,Female,Bachelor’s,Education/Academic,Other,Moderate Liberal,High,Strongly agree,Somewhat worried,Neutral,Low
+P0127,45+,Female,High School or less,Tech/IT,US West,Liberal,Very high,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0128,35-44,Male,High School or less,Manufacturing/Industrial,US Northeast,Moderate Liberal,Low,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0874,35-44,Female,Bachelor’s,Manufacturing/Industrial,Other,Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,High
+P0872,45+,Male,High School or less,Farming/Agriculture,US South,Liberal,Very high,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0870,35-44,Male,Master’s/PhD,Farming/Agriculture,US West,Liberal,High,Strongly agree,Very worried,Neutral,High
+P0131,45+,Male,Bachelor’s,Tech/IT,Global South,Moderate Conservative,High,Strongly agree,Somewhat not worried,Somewhat inactive,High
+P0132,45+,Female,Bachelor’s,Tech/IT,Global South,Liberal,Moderate,Strongly agree,Very worried,Neutral,High
+P0133,18-24,Other/Non-binary,Bachelor’s,Environmental/NGO,Europe-North,Moderate Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0142,35-44,Male,High School or less,Construction/Outdoor,Global South,Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,Medium
+P0862,18-24,Male,High School or less,Farming/Agriculture,US South,Moderate Conservative,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0143,18-24,Male,Master’s/PhD,Tech/IT,Europe-North,Moderate Conservative,Moderate,Strongly agree,Neutral / not very worried,Not oriented to action,Medium
+P0144,35-44,Male,Master’s/PhD,Education/Academic,Europe-North,Liberal,Low,Strongly agree,Very worried,Somewhat inactive,High
+P0148,35-44,Male,Master’s/PhD,Service/Office,Global South,Moderate Conservative,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0889,25-34,Female,High School or less,Service/Office,Europe-North,Moderate Liberal,Low,Strongly agree,Very worried,Neutral,Low
+P0929,18-24,Male,Bachelor’s,Manufacturing/Industrial,US South,Moderate Liberal,Low,Strongly agree,Somewhat not worried,Somewhat inactive,High
+P0890,45+,Female,High School or less,Farming/Agriculture,Global South,Centrist,Moderate,Strongly agree,Somewhat worried,Neutral,Medium
+P0892,45+,Male,High School or less,Environmental/NGO,US Northeast,Centrist,Low,Strongly agree,Neutral / not very worried,Neutral,High
+P0923,35-44,Female,Bachelor’s,Construction/Outdoor,US West,Moderate Conservative,Very low,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0088,35-44,Female,Bachelor’s,Tech/IT,Europe-North,Moderate Conservative,Very low,Strongly agree,Very worried,Neutral,Low
+P0920,35-44,Female,Bachelor’s,Farming/Agriculture,US South,Liberal,High,Strongly agree,Somewhat worried,Neutral,Medium
+P0091,25-34,Male,Bachelor’s,Service/Office,Other,Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,High
+P0094,25-34,Male,Master’s/PhD,Farming/Agriculture,Global South,Liberal,Very high,Strongly agree,Somewhat worried,Neutral,High
+P0916,18-24,Male,Bachelor’s,Service/Office,Global South,Moderate Liberal,Low,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0095,18-24,Female,High School or less,Manufacturing/Industrial,US Midwest,Liberal,Low,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0097,35-44,Male,Bachelor’s,Service/Office,Other,Liberal,Very high,Strongly agree,Somewhat worried,Neutral,Medium
+P0099,45+,Male,Bachelor’s,Manufacturing/Industrial,US South,Centrist,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0103,45+,Female,Bachelor’s,Farming/Agriculture,Other,Moderate Conservative,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0105,25-34,Female,Master’s/PhD,Tech/IT,US Northeast,Liberal,Very high,Strongly agree,Somewhat worried,Neutral,Medium
+P0107,25-34,Female,High School or less,Manufacturing/Industrial,US South,Liberal,High,Strongly agree,Neutral / not very worried,Neutral,High
+P0906,18-24,Male,Bachelor’s,Service/Office,US Northeast,Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0108,25-34,Female,Bachelor’s,Public sector,Global South,Liberal,Low,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0903,25-34,Other/Non-binary,Bachelor’s,Construction/Outdoor,US South,Moderate Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0110,18-24,Female,High School or less,Tech/IT,Europe-North,Moderate Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0901,35-44,Female,Master’s/PhD,Education/Academic,Global South,Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0900,25-34,Other/Non-binary,High School or less,Tech/IT,US West,Liberal,Low,Strongly agree,Very worried,Neutral,Low
+P0113,35-44,Female,Bachelor’s,Construction/Outdoor,US Northeast,Moderate Liberal,High,Strongly agree,Somewhat worried,Neutral,Medium
+P0896,25-34,Male,High School or less,Service/Office,Europe-North,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0115,45+,Male,Master’s/PhD,Tech/IT,US South,Centrist,Very high,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0894,35-44,Female,Bachelor’s,Public sector,Europe-North,Moderate Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0893,18-24,Male,Bachelor’s,Education/Academic,US West,Liberal,Very high,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0116,45+,Female,High School or less,Manufacturing/Industrial,US West,Moderate Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,Medium
+P0884,25-34,Male,Master’s/PhD,Tech/IT,Global South,Liberal,Very high,Strongly agree,Very worried,Somewhat inactive,Medium
+P0255,18-24,Female,Bachelor’s,Service/Office,Other,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0776,25-34,Female,Master’s/PhD,Construction/Outdoor,US Midwest,Centrist,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0382,45+,Other/Non-binary,High School or less,Construction/Outdoor,Europe-North,Liberal,Low,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0384,25-34,Female,High School or less,Service/Office,Europe-North,Moderate Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0385,25-34,Male,High School or less,Tech/IT,US South,Liberal,High,Strongly agree,Somewhat worried,Neutral,High
+P0580,45+,Female,Master’s/PhD,Environmental/NGO,Other,Moderate Liberal,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0578,25-34,Female,Bachelor’s,Construction/Outdoor,Global South,Conservative,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0390,45+,Male,Bachelor’s,Tech/IT,Global South,Liberal,Very high,Strongly agree,Somewhat worried,Neutral,Medium
+P0575,35-44,Female,Bachelor’s,Tech/IT,Europe-North,Centrist,High,Strongly agree,Neutral / not very worried,Neutral,Medium
+P0572,25-34,Male,Bachelor’s,Farming/Agriculture,Global South,Liberal,High,Strongly agree,Somewhat worried,Neutral,Medium
+P0570,45+,Male,Bachelor’s,Tech/IT,Global South,Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0397,45+,Other/Non-binary,Bachelor’s,Farming/Agriculture,US West,Moderate Liberal,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0567,35-44,Male,Master’s/PhD,Manufacturing/Industrial,US Northeast,Liberal,Moderate,Strongly agree,Very worried,Somewhat inactive,Low
+P0398,25-34,Male,Bachelor’s,Service/Office,US West,Moderate Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0565,25-34,Female,High School or less,Tech/IT,Global South,Moderate Liberal,Low,Strongly agree,Neutral / not very worried,Neutral,Medium
+P0400,35-44,Male,High School or less,Farming/Agriculture,Europe-North,Liberal,Very high,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0404,25-34,Female,High School or less,Public sector,Europe-North,Moderate Liberal,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0562,45+,Male,High School or less,Service/Office,Europe-North,Liberal,Very high,Strongly agree,Neutral / not very worried,Neutral,Low
+P0405,18-24,Female,High School or less,Construction/Outdoor,US South,Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0560,45+,Other/Non-binary,High School or less,Environmental/NGO,US South,Centrist,Very low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0559,18-24,Other/Non-binary,Bachelor’s,Farming/Agriculture,US West,Moderate Conservative,Very high,Strongly agree,Somewhat worried,Neutral,High
+P0558,25-34,Other/Non-binary,Bachelor’s,Service/Office,US South,Conservative,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0408,25-34,Male,Master’s/PhD,Service/Office,US West,Moderate Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,Low
+P0556,25-34,Female,Bachelor’s,Environmental/NGO,US Midwest,Moderate Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0555,18-24,Male,High School or less,Manufacturing/Industrial,Other,Centrist,Very low,Strongly agree,Somewhat worried,Neutral,Low
+P0380,45+,Female,High School or less,Construction/Outdoor,US South,Centrist,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0587,35-44,Female,Bachelor’s,Tech/IT,Global South,Moderate Conservative,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0588,45+,Male,Bachelor’s,Tech/IT,US South,Liberal,Very high,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0378,35-44,Male,High School or less,Environmental/NGO,Europe-North,Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0356,25-34,Male,High School or less,Public sector,US West,Centrist,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0357,35-44,Female,Master’s/PhD,Manufacturing/Industrial,Europe-North,Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0360,35-44,Male,High School or less,Public sector,US Northeast,Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0363,45+,Male,Bachelor’s,Tech/IT,US South,Moderate Liberal,Very high,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0364,18-24,Male,Bachelor’s,Tech/IT,US Northeast,Moderate Conservative,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0611,25-34,Male,Bachelor’s,Construction/Outdoor,Europe-North,Liberal,Very high,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0610,35-44,Male,High School or less,Farming/Agriculture,US Northeast,Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,Medium
+P0608,45+,Female,Bachelor’s,Service/Office,US West,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0366,25-34,Female,Bachelor’s,Education/Academic,Europe-North,Liberal,Very high,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0606,18-24,Female,High School or less,Education/Academic,US South,Moderate Conservative,Low,Strongly agree,Somewhat worried,Neutral,Low
+P0367,45+,Male,High School or less,Tech/IT,Global South,Centrist,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0554,45+,Other/Non-binary,Master’s/PhD,Service/Office,US Midwest,Centrist,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0368,25-34,Male,Bachelor’s,Manufacturing/Industrial,Global South,Moderate Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0371,45+,Male,High School or less,Construction/Outdoor,Other,Moderate Liberal,Very high,Strongly agree,Very worried,Neutral,Medium
+P0373,45+,Male,High School or less,Tech/IT,Europe-North,Liberal,High,Strongly agree,Very worried,Neutral,High
+P0374,45+,Female,Bachelor’s,Service/Office,Europe-North,Centrist,Moderate,Strongly agree,Somewhat worried,Neutral,Low
+P0597,35-44,Male,Bachelor’s,Public sector,Global South,Liberal,High,Strongly agree,Very worried,Neutral,High
+P0375,45+,Male,Master’s/PhD,Manufacturing/Industrial,Europe-North,Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,High
+P0595,45+,Female,Bachelor’s,Manufacturing/Industrial,US Northeast,Liberal,High,Strongly agree,Not worried at all,Not oriented to action,Low
+P0594,25-34,Female,Master’s/PhD,Service/Office,Europe-North,Centrist,Very high,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0593,35-44,Male,Master’s/PhD,Tech/IT,Other,Moderate Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0592,45+,Male,Master’s/PhD,Service/Office,Europe-North,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0591,45+,Male,Bachelor’s,Construction/Outdoor,US West,Moderate Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,High
+P0377,45+,Female,Master’s/PhD,Service/Office,US West,Centrist,Very high,Strongly agree,Neutral / not very worried,Neutral,Low
+P0601,45+,Female,High School or less,Farming/Agriculture,Global South,Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0352,18-24,Female,High School or less,Public sector,US Northeast,Liberal,Very high,Strongly agree,Somewhat worried,Neutral,Medium
+P0409,25-34,Female,Master’s/PhD,Service/Office,US Northeast,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0413,18-24,Other/Non-binary,High School or less,Service/Office,Global South,Liberal,Low,Strongly agree,Somewhat not worried,Not oriented to action,Medium
+P0509,18-24,Male,Bachelor’s,Tech/IT,Europe-North,Moderate Liberal,Low,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0456,18-24,Female,Bachelor’s,Environmental/NGO,US Northeast,Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0507,35-44,Male,Bachelor’s,Education/Academic,US Midwest,Centrist,Low,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0506,18-24,Female,Bachelor’s,Public sector,US Northeast,Moderate Conservative,High,Strongly agree,Somewhat worried,Neutral,Low
+P0505,18-24,Male,Master’s/PhD,Tech/IT,US West,Moderate Conservative,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,High
+P0503,35-44,Female,Bachelor’s,Service/Office,US Northeast,Centrist,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0502,18-24,Female,Master’s/PhD,Farming/Agriculture,US West,Moderate Conservative,Moderate,Strongly agree,Somewhat worried,Neutral,High
+P0458,18-24,Female,High School or less,Education/Academic,Europe-North,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0999,35-44,Other/Non-binary,Bachelor’s,Education/Academic,Global South,Moderate Conservative,Very high,Strongly agree,Very worried,Neutral,Low
+P0498,35-44,Other/Non-binary,Bachelor’s,Construction/Outdoor,US West,Liberal,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0497,45+,Male,High School or less,Farming/Agriculture,Global South,Moderate Liberal,High,Strongly agree,Very worried,Somewhat inactive,Medium
+P0495,35-44,Female,Master’s/PhD,Tech/IT,Global South,Liberal,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0494,45+,Male,High School or less,Farming/Agriculture,US West,Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0466,25-34,Male,High School or less,Manufacturing/Industrial,US West,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0467,25-34,Male,High School or less,Construction/Outdoor,Global South,Moderate Liberal,High,Strongly agree,Somewhat worried,Neutral,Medium
+P0491,25-34,Female,Bachelor’s,Construction/Outdoor,Global South,Liberal,Low,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0490,45+,Male,Bachelor’s,Education/Academic,US Midwest,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0488,18-24,Female,High School or less,Service/Office,Global South,Moderate Liberal,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0487,35-44,Male,High School or less,Service/Office,Global South,Moderate Liberal,High,Strongly agree,Very worried,Somewhat inactive,High
+P0486,18-24,Other/Non-binary,Bachelor’s,Education/Academic,Europe-North,Liberal,High,Strongly agree,Not worried at all,Somewhat inactive,Low
+P0470,45+,Female,Bachelor’s,Tech/IT,Global South,Centrist,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0484,35-44,Male,Master’s/PhD,Farming/Agriculture,US West,Moderate Conservative,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0480,45+,Female,High School or less,Environmental/NGO,Europe-North,Liberal,Very high,Strongly agree,Somewhat worried,Neutral,Medium
+P0511,35-44,Male,Bachelor’s,Service/Office,US West,Conservative,Moderate,Strongly agree,Somewhat worried,Neutral,Low
+P0512,35-44,Female,High School or less,Farming/Agriculture,US South,Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0514,18-24,Female,High School or less,Service/Office,US South,Moderate Conservative,Low,Strongly agree,Somewhat not worried,Not oriented to action,High
+P0515,45+,Female,High School or less,Public sector,Global South,Centrist,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0415,35-44,Male,Bachelor’s,Manufacturing/Industrial,Europe-North,Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0416,35-44,Female,Master’s/PhD,Construction/Outdoor,US Midwest,Moderate Liberal,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0546,25-34,Female,High School or less,Construction/Outdoor,US South,Moderate Liberal,Very low,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0545,35-44,Female,Bachelor’s,Service/Office,Europe-North,Liberal,High,Strongly agree,Very worried,Somewhat inactive,High
+P0420,18-24,Male,High School or less,Service/Office,Europe-North,Liberal,Low,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0542,45+,Male,Bachelor’s,Tech/IT,Global South,Liberal,Very high,Strongly agree,Very worried,Neutral,Low
+P0424,25-34,Male,Bachelor’s,Service/Office,US South,Moderate Liberal,High,Strongly agree,Somewhat worried,Neutral,High
+P0539,45+,Other/Non-binary,Bachelor’s,Construction/Outdoor,Global South,Moderate Liberal,High,Strongly agree,Not worried at all,Somewhat inactive,Low
+P0425,25-34,Male,Bachelor’s,Education/Academic,US Midwest,Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0537,18-24,Female,High School or less,Service/Office,Global South,Moderate Liberal,Very high,Strongly agree,Somewhat worried,Neutral,Medium
+P0429,18-24,Female,High School or less,Construction/Outdoor,Europe-North,Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0411,35-44,Female,Bachelor’s,Manufacturing/Industrial,Europe-North,Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0432,45+,Male,High School or less,Public sector,Europe-North,Liberal,Moderate,Strongly agree,Very worried,Somewhat inactive,Medium
+P0434,35-44,Female,Master’s/PhD,Education/Academic,US Northeast,Centrist,High,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0530,45+,Female,High School or less,Service/Office,US West,Centrist,High,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0528,35-44,Male,Bachelor’s,Education/Academic,Other,Moderate Conservative,Very low,Strongly agree,Somewhat worried,Somewhat inactive,High
+P0439,45+,Female,High School or less,Tech/IT,US South,Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0440,35-44,Female,Bachelor’s,Public sector,US West,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0525,45+,Female,Master’s/PhD,Farming/Agriculture,US West,Centrist,High,Strongly agree,Very worried,Neutral,Low
+P0524,18-24,Male,High School or less,Environmental/NGO,Europe-North,Moderate Conservative,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0448,45+,Female,Bachelor’s,Construction/Outdoor,Global South,Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0519,45+,Male,Master’s/PhD,Service/Office,Other,Centrist,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0453,25-34,Male,Bachelor’s,Farming/Agriculture,US West,Centrist,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0516,25-34,Male,Bachelor’s,Public sector,US West,Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0433,35-44,Male,Bachelor’s,Construction/Outdoor,US South,Moderate Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0221,35-44,Male,High School or less,Service/Office,US Northeast,Moderate Liberal,Very high,Strongly agree,Not worried at all,Somewhat inactive,Medium
+P0351,18-24,Female,Master’s/PhD,Service/Office,US West,Moderate Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0623,45+,Male,High School or less,Education/Academic,Global South,Liberal,Very high,Strongly agree,Very worried,Neutral,Medium
+P0259,45+,Male,High School or less,Public sector,Global South,Moderate Liberal,Very high,Strongly agree,Somewhat worried,Neutral,Low
+P0732,35-44,Female,Bachelor’s,Public sector,US Midwest,Centrist,Low,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0731,25-34,Female,Master’s/PhD,Education/Academic,Other,Moderate Conservative,High,Strongly agree,Somewhat worried,Neutral,High
+P0729,25-34,Male,High School or less,Tech/IT,US West,Moderate Conservative,High,Strongly agree,Very worried,Neutral,Medium
+P0726,18-24,Female,Master’s/PhD,Service/Office,US South,Conservative,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0725,45+,Female,Bachelor’s,Manufacturing/Industrial,US West,Conservative,Low,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0266,45+,Female,Bachelor’s,Manufacturing/Industrial,US West,Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0722,35-44,Female,Bachelor’s,Tech/IT,Other,Moderate Conservative,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0721,25-34,Male,Master’s/PhD,Service/Office,Europe-North,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0719,45+,Male,Bachelor’s,Service/Office,US West,Centrist,Very high,Strongly agree,Very worried,Neutral,High
+P0268,45+,Other/Non-binary,Bachelor’s,Public sector,US West,Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0717,25-34,Male,Bachelor’s,Manufacturing/Industrial,Global South,Liberal,Very low,Strongly agree,Somewhat worried,Neutral,Medium
+P0715,25-34,Male,Bachelor’s,Farming/Agriculture,Global South,Liberal,High,Strongly agree,Very worried,Neutral,High
+P0272,45+,Female,Master’s/PhD,Service/Office,US South,Liberal,Very high,Strongly agree,Very worried,Neutral,Medium
+P0712,25-34,Female,Master’s/PhD,Tech/IT,US Northeast,Moderate Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0275,45+,Male,Bachelor’s,Tech/IT,US West,Liberal,Low,Strongly agree,Very worried,Somewhat inactive,High
+P0276,25-34,Male,Bachelor’s,Tech/IT,Global South,Moderate Liberal,High,Strongly agree,Somewhat worried,Neutral,Low
+P0277,18-24,Male,Bachelor’s,Manufacturing/Industrial,Europe-North,Centrist,High,Strongly agree,Somewhat worried,Neutral,High
+P0707,18-24,Male,High School or less,Manufacturing/Industrial,Europe-North,Liberal,High,Strongly agree,Very worried,Somewhat inactive,Medium
+P0278,45+,Male,Bachelor’s,Service/Office,Europe-North,Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0279,25-34,Female,High School or less,Manufacturing/Industrial,US Northeast,Moderate Conservative,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0703,18-24,Female,Master’s/PhD,Construction/Outdoor,US Northeast,Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0702,25-34,Male,High School or less,Public sector,US South,Moderate Conservative,Moderate,Strongly agree,Very worried,Neutral,Low
+P0258,45+,Male,Master’s/PhD,Service/Office,Europe-North,Centrist,High,Strongly agree,Very worried,Somewhat inactive,High
+P0735,45+,Other/Non-binary,Bachelor’s,Manufacturing/Industrial,US Midwest,Liberal,High,Strongly agree,Somewhat worried,Neutral,High
+P0736,45+,Male,Bachelor’s,Service/Office,Global South,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0256,45+,Female,High School or less,Public sector,US South,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0774,18-24,Male,Bachelor’s,Construction/Outdoor,Europe-North,Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0773,35-44,Male,Bachelor’s,Farming/Agriculture,Global South,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0226,18-24,Male,High School or less,Farming/Agriculture,US West,Moderate Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0770,45+,Female,Master’s/PhD,Service/Office,US South,Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0228,25-34,Female,Master’s/PhD,Education/Academic,Europe-North,Centrist,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0229,45+,Male,Bachelor’s,Manufacturing/Industrial,Other,Moderate Liberal,Very low,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0231,25-34,Female,Bachelor’s,Service/Office,US South,Moderate Conservative,Very high,Strongly agree,Somewhat worried,Somewhat inactive,High
+P0765,18-24,Female,Master’s/PhD,Tech/IT,US South,Centrist,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0764,35-44,Female,Master’s/PhD,Service/Office,US Midwest,Liberal,High,Strongly agree,Somewhat worried,Neutral,Low
+P0763,45+,Female,Bachelor’s,Tech/IT,Global South,Liberal,Low,Strongly agree,Neutral / not very worried,Neutral,Low
+P0762,25-34,Other/Non-binary,Bachelor’s,Farming/Agriculture,Other,Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0281,45+,Female,Bachelor’s,Public sector,Global South,Moderate Conservative,Moderate,Strongly agree,Very worried,Neutral,Low
+P0761,18-24,Male,Bachelor’s,Farming/Agriculture,Europe-North,Moderate Liberal,High,Strongly agree,Very worried,Somewhat inactive,High
+P0758,45+,Other/Non-binary,Bachelor’s,Construction/Outdoor,US West,Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,Low
+P0236,18-24,Female,High School or less,Tech/IT,US West,Moderate Conservative,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0755,45+,Male,High School or less,Construction/Outdoor,US Midwest,Centrist,Very low,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0753,18-24,Other/Non-binary,Master’s/PhD,Construction/Outdoor,Global South,Liberal,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0752,35-44,Female,High School or less,Education/Academic,Global South,Liberal,Moderate,Strongly agree,Somewhat worried,Somewhat inactive,High
+P0751,45+,Female,High School or less,Tech/IT,US West,Liberal,Very high,Strongly agree,Somewhat worried,Neutral,High
+P0748,45+,Female,High School or less,Education/Academic,Europe-North,Moderate Conservative,Very low,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0249,45+,Male,Bachelor’s,Manufacturing/Industrial,Global South,Moderate Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,Medium
+P0253,45+,Male,High School or less,Construction/Outdoor,Global South,Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0254,25-34,Female,Bachelor’s,Education/Academic,US South,Moderate Liberal,Very high,Strongly agree,Somewhat worried,Neutral,High
+P0477,25-34,Female,Master’s/PhD,Manufacturing/Industrial,Other,Moderate Liberal,Very low,Strongly agree,Very worried,Neutral,Low
+P0760,25-34,Female,Master’s/PhD,Tech/IT,US West,Liberal,Very low,Strongly agree,Neutral / not very worried,Neutral,High
+P0622,35-44,Male,High School or less,Tech/IT,US Midwest,Moderate Liberal,Very low,Strongly agree,Very worried,Neutral,High
+P0285,25-34,Male,Bachelor’s,Service/Office,Europe-North,Liberal,High,Strongly agree,Neutral / not very worried,Neutral,High
+P0287,35-44,Male,Master’s/PhD,Construction/Outdoor,Other,Moderate Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0312,18-24,Male,High School or less,Manufacturing/Industrial,Global South,Moderate Liberal,Low,Strongly agree,Very worried,Neutral,Low
+P0315,25-34,Female,Master’s/PhD,Tech/IT,US Midwest,Moderate Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0319,35-44,Male,Master’s/PhD,Farming/Agriculture,US South,Centrist,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0320,45+,Male,High School or less,Service/Office,Europe-North,Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0656,45+,Female,High School or less,Environmental/NGO,US South,Centrist,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0321,35-44,Male,Bachelor’s,Construction/Outdoor,Europe-North,Conservative,Moderate,Strongly agree,Somewhat worried,Neutral,Medium
+P0653,45+,Female,High School or less,Service/Office,Global South,Moderate Liberal,Very low,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0323,35-44,Female,High School or less,Construction/Outdoor,US Midwest,Moderate Conservative,Low,Strongly agree,Very worried,Somewhat inactive,Low
+P0649,25-34,Male,Bachelor’s,Manufacturing/Industrial,US Northeast,Liberal,High,Strongly agree,Somewhat worried,Neutral,Medium
+P0648,25-34,Female,High School or less,Manufacturing/Industrial,US Midwest,Liberal,High,Strongly agree,Very worried,Neutral,Medium
+P0647,25-34,Female,Master’s/PhD,Service/Office,Global South,Centrist,High,Strongly agree,Very worried,Somewhat inactive,Medium
+P0645,35-44,Female,Bachelor’s,Tech/IT,Global South,Moderate Conservative,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0644,45+,Male,Master’s/PhD,Tech/IT,US West,Liberal,High,Strongly agree,Somewhat not worried,Not oriented to action,Low
+P0337,18-24,Male,Bachelor’s,Service/Office,Europe-North,Liberal,High,Strongly agree,Somewhat worried,Neutral,Medium
+P0338,45+,Female,Master’s/PhD,Education/Academic,Other,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0339,45+,Female,High School or less,Public sector,Other,Moderate Liberal,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0340,45+,Male,High School or less,Public sector,US Midwest,Centrist,Very low,Strongly agree,Neutral / not very worried,Not oriented to action,High
+P0630,45+,Male,High School or less,Education/Academic,Europe-North,Centrist,Very low,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0345,35-44,Female,High School or less,Service/Office,Global South,Centrist,Very low,Strongly agree,Somewhat not worried,Not oriented to action,Low
+P0346,45+,Male,Master’s/PhD,Service/Office,Europe-North,Liberal,Very high,Strongly agree,Somewhat not worried,Somewhat inactive,Medium
+P0347,45+,Other/Non-binary,High School or less,Service/Office,Europe-North,Centrist,High,Strongly agree,Very worried,Somewhat inactive,High
+P0348,45+,Female,Master’s/PhD,Public sector,Other,Centrist,High,Strongly agree,Very worried,Neutral,Low
+P0350,35-44,Female,Bachelor’s,Manufacturing/Industrial,US West,Liberal,High,Strongly agree,Somewhat worried,Somewhat inactive,Low
+P0311,35-44,Male,High School or less,Service/Office,Global South,Liberal,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0310,45+,Male,High School or less,Service/Office,US South,Conservative,Moderate,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0664,35-44,Female,Bachelor’s,Education/Academic,Global South,Liberal,High,Strongly agree,Very worried,Neutral,High
+P0665,18-24,Female,High School or less,Education/Academic,Other,Moderate Liberal,Very high,Strongly agree,Somewhat worried,Neutral,Medium
+P0288,25-34,Female,Bachelor’s,Education/Academic,Global South,Moderate Conservative,Moderate,Strongly agree,Somewhat worried,Neutral,High
+P0695,18-24,Female,Bachelor’s,Construction/Outdoor,US Midwest,Centrist,Moderate,Strongly agree,Somewhat not worried,Not oriented to action,High
+P0290,45+,Female,Bachelor’s,Construction/Outdoor,US Northeast,Moderate Liberal,Moderate,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0693,25-34,Female,High School or less,Farming/Agriculture,Europe-North,Centrist,Very low,Strongly agree,Somewhat worried,Somewhat inactive,High
+P0293,25-34,Female,High School or less,Environmental/NGO,Europe-North,Moderate Liberal,Moderate,Strongly agree,Somewhat worried,Neutral,Medium
+P0690,25-34,Male,Master’s/PhD,Tech/IT,US South,Moderate Liberal,High,Strongly agree,Very worried,Neutral,Low
+P0686,18-24,Female,Bachelor’s,Tech/IT,Global South,Conservative,High,Strongly agree,Very worried,Neutral,High
+P0685,35-44,Male,Bachelor’s,Service/Office,Global South,Moderate Liberal,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0684,45+,Female,Master’s/PhD,Service/Office,Europe-North,Liberal,Very high,Strongly agree,Neutral / not very worried,Somewhat inactive,Medium
+P0683,35-44,Male,Bachelor’s,Public sector,Europe-North,Liberal,High,Strongly agree,Somewhat worried,Somewhat inactive,Medium
+P0680,18-24,Male,Bachelor’s,Tech/IT,Other,Liberal,Very high,Strongly agree,Somewhat worried,Neutral,Low
+P0698,45+,Female,Bachelor’s,Tech/IT,US South,Centrist,Low,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0679,45+,Female,Master’s/PhD,Environmental/NGO,Other,Conservative,Low,Strongly agree,Somewhat not worried,Somewhat inactive,Low
+P0302,18-24,Female,High School or less,Manufacturing/Industrial,Global South,Liberal,Low,Strongly agree,Very worried,Somewhat inactive,Medium
+P0676,25-34,Female,High School or less,Construction/Outdoor,Other,Moderate Liberal,Very high,Strongly agree,Somewhat worried,Neutral,High
+P0675,35-44,Female,High School or less,Construction/Outdoor,US Northeast,Liberal,High,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0303,35-44,Male,Master’s/PhD,Service/Office,US Northeast,Liberal,High,Strongly agree,Somewhat not worried,Somewhat inactive,High
+P0304,35-44,Female,High School or less,Tech/IT,US South,Liberal,High,Strongly agree,Neutral / not very worried,Neutral,Medium
+P0306,45+,Male,High School or less,Education/Academic,US Midwest,Moderate Conservative,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,High
+P0307,45+,Male,Bachelor’s,Farming/Agriculture,Other,Moderate Conservative,Moderate,Strongly agree,Somewhat worried,Neutral,Medium
+P0670,35-44,Male,Master’s/PhD,Education/Academic,US West,Moderate Liberal,Very high,Strongly agree,Very worried,Neutral,Low
+P0669,25-34,Male,High School or less,Education/Academic,US South,Centrist,Low,Strongly agree,Neutral / not very worried,Somewhat inactive,Low
+P0309,45+,Male,Bachelor’s,Construction/Outdoor,US Midwest,Liberal,High,Strongly agree,Somewhat worried,Neutral,Medium
+P0666,18-24,Female,Master’s/PhD,Tech/IT,Europe-North,Moderate Liberal,Very high,Strongly agree,Somewhat worried,Neutral,High
+P0678,18-24,Female,Master’s/PhD,Farming/Agriculture,Europe-North,Moderate Liberal,Moderate,Strongly agree,Very worried,Neutral,Medium
+P0001,35-44,Male,High School or less,Manufacturing/Industrial,Global South,Moderate Conservative,Very low,Strongly agree,Very worried,Neutral,Medium
