@@ -1,0 +1,1082 @@
+[
+  {
+    "claim_id": "1007",
+    "stance_label": "SUPPORTS",
+    "claim": "‘With levels of carbon dioxide in the atmosphere consistently breaking new records, the influence of human activities on the climate system has become more and more evident,’ said Taalas.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "3119",
+    "stance_label": "SUPPORTS",
+    "claim": "CO2 constitutes 80% of the non-condensing greenhouse gas forcing.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "72",
+    "stance_label": "REFUTES",
+    "claim": "[O]ne of the previously fastest shrinking glaciers in the world is growing again, calling into question the narrative that rapid climate change [...]",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2591",
+    "stance_label": "SUPPORTS",
+    "claim": "We now know that the planetary energy balance is determined by the upper levels of the troposphere and that the saturation of the absorption at the central frequency does not preclude the possibility to absorb more energy.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2118",
+    "stance_label": "REFUTES",
+    "claim": "Humans are too insignificant to affect global climate",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "846",
+    "stance_label": "SUPPORTS",
+    "claim": "In other words, we have, trapped in Arctic permafrost, twice as much carbon as is currently wrecking the atmosphere of the planet, all of it scheduled to be released at a date that keeps getting moved up, partially in the form of a gas that multiplies its warming power 86 times over.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2744",
+    "stance_label": "SUPPORTS",
+    "claim": "Dropped stations show more warming than kept stations.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "956",
+    "stance_label": "SUPPORTS",
+    "claim": "Data from NOAA’s Barrow Alaska station ‘indicate that October through December emissions of CO2 from surrounding tundra increased by 73 percent since 1975, supporting the view that rising temperatures have made Arctic ecosystems a net source of CO2.’”",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2849",
+    "stance_label": "REFUTES",
+    "claim": "\"by the 2001 [IPCC] climate assessment...the Medieval Warm Period had been ingeniously wiped out.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "935",
+    "stance_label": "REFUTES",
+    "claim": "The winds around the continent seem to be strengthening, stirring the ocean and bringing up a layer of warmer water that has most likely been there for centuries.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "263",
+    "stance_label": "REFUTES",
+    "claim": "it later emerged that its creator Dr Michael Mann had spliced too [sic] datasets together – tree-rings showing temperatures going back hundreds of years, then recent thermometer readings for the more recent decades.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2682",
+    "stance_label": "REFUTES",
+    "claim": "The IPCC’s predicted equilibrium warming path bears no relation to the far lesser rate of “global warming” that has been observed in the 21st century to date.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2632",
+    "stance_label": "SUPPORTS",
+    "claim": "At least close to the new spot and to the equator, nothing less than global warming is expected\"",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2711",
+    "stance_label": "REFUTES",
+    "claim": "'Antarctic sea ice set a new record in October 2007, as photographs distributed by the National Oceanic and Atmospheric Administration showed penguins and other cold-weather creatures able to stand farther north on Southern Hemisphere sea ice than has ever been recorded.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1400",
+    "stance_label": "SUPPORTS",
+    "claim": "The late 1970s marked the end of a 30-year cooling trend.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2766",
+    "stance_label": "SUPPORTS",
+    "claim": "The most interesting thing here is that the albedo forcings, in watts/sq meter seem to be fairly large.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2837",
+    "stance_label": "SUPPORTS",
+    "claim": "In fact, the rate of increase from September onward is the fastest rate of change on record, either upwards or downwards.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "512",
+    "stance_label": "REFUTES",
+    "claim": "water vapour has been the main greenhouse gas and carbon dioxide has had a minuscule effect on global climate",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "342",
+    "stance_label": "REFUTES",
+    "claim": "While members of the media may nod along to such claims [about changes in weather extremes], the evidence paints a different story",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "888",
+    "stance_label": "SUPPORTS",
+    "claim": "the mild warming of around 0.8 degrees Celsius that the planet has experienced since the middle of the 19th century",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2090",
+    "stance_label": "REFUTES",
+    "claim": "Arctic icemelt is a natural cycle",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "69",
+    "stance_label": "REFUTES",
+    "claim": "Sea level rise is not going to happen.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "9",
+    "stance_label": "REFUTES",
+    "claim": "Ironic' study finds more CO2 has slightly cooled the planet",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2305",
+    "stance_label": "SUPPORTS",
+    "claim": "Nevertheless over the last decade, daily record high temperatures occurred twice as often as record lows.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1629",
+    "stance_label": "SUPPORTS",
+    "claim": "97% of climate experts agree humans are causing global warming.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1616",
+    "stance_label": "REFUTES",
+    "claim": "UAH atmospheric temperatures prove climate models and/or surface temperature data sets are wrong.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "441",
+    "stance_label": "SUPPORTS",
+    "claim": "For the year-to-date, the Earth is seeing its 5th-warmest start to the year.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "243",
+    "stance_label": "SUPPORTS",
+    "claim": "In its 5th assessment report in 2013, the IPCC estimated that human emissions are probably responsible for more than half of the observed increase in global average temperature from 1951 to 2010.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2935",
+    "stance_label": "REFUTES",
+    "claim": "Claims have recently surfaced in the blogosphere that an increasing number of scientists are warning of an imminent global cooling, some even going so far as to call it a \"growing consensus\".",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2577",
+    "stance_label": "REFUTES",
+    "claim": "\"Three recent articles give us reason to question the alarmists’ claims  that coral reefs are in deep trouble due to the buildup of greenhouse  gases.\" (World Climate Report)",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1130",
+    "stance_label": "REFUTES",
+    "claim": "The record warm years of 2015 and 2016 were primarily caused by the super El Nino.’”",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1908",
+    "stance_label": "SUPPORTS",
+    "claim": "In reality, gas produced by fracking is worse for the climate than coal.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2916",
+    "stance_label": "REFUTES",
+    "claim": "If Senator Wong was really serious about her  science she would stop breathing because you inhale air that's got 385  parts per million carbon dioxide in it",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1578",
+    "stance_label": "REFUTES",
+    "claim": "Less than half of published scientists endorse global warming.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1109",
+    "stance_label": "SUPPORTS",
+    "claim": "“The chain of events that links the melting Arctic with weather to the south begins with rising global temperatures causing more sea ice to melt.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1347",
+    "stance_label": "SUPPORTS",
+    "claim": "Scientists say the recent climate agreement negotiated in Paris is not remotely ambitious enough to forestall a significant melting of Greenland and Antarctica, though if fully implemented, it may slow the pace somewhat.”",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1825",
+    "stance_label": "REFUTES",
+    "claim": "Climate change is a hoax invented by the Chinese.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1075",
+    "stance_label": "SUPPORTS",
+    "claim": "“At the bottom of the world, sea ice is also at all-time record low levels around Antarctica, the data center said.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2803",
+    "stance_label": "SUPPORTS",
+    "claim": "When we do the calculations and include all radiative forcings and the amount of heat being absorbed by the oceans, it shows that the Earth has warmed almost exactly as much as we would expect.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2959",
+    "stance_label": "SUPPORTS",
+    "claim": "Even if the warming were as big as the IPCC imagines, it would not be as dangerous as Mr. Brown suggests.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "978",
+    "stance_label": "SUPPORTS",
+    "claim": "The extreme cycles of dry and wet weather appear to have been intensifying over the last three decades.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1404",
+    "stance_label": "SUPPORTS",
+    "claim": "receding polar ice caps have little if any negative impact on human health and welfare, and likely a positive benefit",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2871",
+    "stance_label": "REFUTES",
+    "claim": "'The UN’s Intergovernmental Panel on Climate Change misled the press and public into believing that thousands of scientists backed its claims on manmade global warming, according to Mike Hulme, a prominent climate scientist and IPCC insider.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2493",
+    "stance_label": "REFUTES",
+    "claim": "Mount Kilimanjaro's shrinking glacier is complicated and not due to just global warming.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1484",
+    "stance_label": "REFUTES",
+    "claim": "the Intergovernmental Panel on Climate Change is misleading humanity about climate change and sea levels, and that in fact a new solar-driven cooling period is not far off.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2940",
+    "stance_label": "REFUTES",
+    "claim": "Rather than 100 years of unprecedented global warming as predicted by  IPCC, the global temperatures have leveled off and we seem to be heading  for cooler weather.\"",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1469",
+    "stance_label": "REFUTES",
+    "claim": "Discovery Of Massive Volcanic CO2 Emissions Discredits Global Warming Theory.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1155",
+    "stance_label": "SUPPORTS",
+    "claim": "But observations, such as those on our CO2 Coalition website, show that increased CO2 levels over the next century will cause modest and beneficial warming—perhaps as much as one degree Celsius (1.8 degrees Fahrenheit)",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2422",
+    "stance_label": "REFUTES",
+    "claim": "As of today,JAXA shows that we have more ice than any time on this date for the past 8 years of Aqua satellite measurement for this AMSRE dataset.\"",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2431",
+    "stance_label": "REFUTES",
+    "claim": "Short term cooling over the last few years is largely due to a strong La Nina phase in the Pacific Ocean and a prolonged solar minimum.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1983",
+    "stance_label": "REFUTES",
+    "claim": "the media created the term \"polar vortex\" and the cold air proves \"the ice isn't melting.\"",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1607",
+    "stance_label": "REFUTES",
+    "claim": "CO2 limits won't cool the planet.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "626",
+    "stance_label": "SUPPORTS",
+    "claim": "The trend has been measured by a network of tidal gauges, many of which have been collecting data for over a century.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2542",
+    "stance_label": "REFUTES",
+    "claim": "The statement that so-called greenhouse gases,  especially CO2, contribute to near-surface atmospheric warming is in  glaring contradiction to well-known physical laws relating to gas and  vapour, as well as to general caloric theory.'",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2989",
+    "stance_label": "SUPPORTS",
+    "claim": "While preventing global warming is relatively cheap, economists can't even accurately estimate the accelerating costs of climate damages if we continue with business-as-usual.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1829",
+    "stance_label": "SUPPORTS",
+    "claim": "\"the cascading effects\" of climate change contributed to the rise of ISIS.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2205",
+    "stance_label": "REFUTES",
+    "claim": "\"In fact global warming has stopped and a cooling is beginning.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1383",
+    "stance_label": "SUPPORTS",
+    "claim": "a new study by a leading climate economist, Richard Tol of the University of Sussex, concludes that warming may well bring gains, because carbon dioxide causes crops and wild ecosystems to grow greener and more drought-resistant.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "3052",
+    "stance_label": "REFUTES",
+    "claim": "\"...there has been no increase in the global average surface temperature for the past 16 years\" (Judith Curry and David Rose)",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1351",
+    "stance_label": "SUPPORTS",
+    "claim": "a marginally significant warming trend in the data over the past several years, erasing the temperature plateau that vexed climate alarmists have found difficult to explain.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "449",
+    "stance_label": "REFUTES",
+    "claim": "So it’s clear now we’re not seeing dangerous global warming, and the climate models are wrong.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1815",
+    "stance_label": "REFUTES",
+    "claim": "Humans have been through climate changes before- but mostly cold ones and",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2076",
+    "stance_label": "REFUTES",
+    "claim": "Snowfall is increasing in the fall and winter in the Northern Hemisphere and North America with many records being set.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1464",
+    "stance_label": "SUPPORTS",
+    "claim": "The U.S. has also witnessed increasing numbers of intense rainfall events.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1178",
+    "stance_label": "SUPPORTS",
+    "claim": "“The most famous of these studies, published in 2010 by Paul Kench and Arthur Webb of the South Pacific Applied Geoscience Commission in Fiji, showed that of 27 Pacific islands, 14% lost area.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1367",
+    "stance_label": "REFUTES",
+    "claim": "But we do have other reliable indicators of temperatures before the late 1800s, and the evidence shows temperatures have been warmer than today for most of the past several thousand years, including warmer-than-present temperatures for most of the human civilization time period",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1150",
+    "stance_label": "SUPPORTS",
+    "claim": "To make matters worse, the water temperatures in the Arctic Ocean are several degrees above average, which is an expected result of having less sea ice.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1503",
+    "stance_label": "REFUTES",
+    "claim": "climate models have overestimated the amount of global warming and failed to predict what climatologists call the warming ‘hiatus’.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2499",
+    "stance_label": "SUPPORTS",
+    "claim": "First, they concur with the believers that the Earth has been warming since the end of a Little Ice Age around 1850.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "344",
+    "stance_label": "REFUTES",
+    "claim": "Globally there’s no clear evidence of trends and patterns in extreme events such as droughts, hurricanes and floods.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2531",
+    "stance_label": "SUPPORTS",
+    "claim": "\"In 1999 New Scientist reported a comment by the leading Indian glaciologist Syed Hasnain, who said in an email interview with this author that all the glaciers in the central and eastern Himalayas could disappear by 2035.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2187",
+    "stance_label": "SUPPORTS",
+    "claim": "Scientific analysis of past climates shows that greenhouse gasses, principally CO2, have controlled most ancient climate changes.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2060",
+    "stance_label": "SUPPORTS",
+    "claim": "Global warming is causing more hurricanes and stronger hurricanes.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1871",
+    "stance_label": "REFUTES",
+    "claim": "Donald Trump \"thinks that climate change is a hoax, invented by the Chinese.\"",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1088",
+    "stance_label": "SUPPORTS",
+    "claim": "‘We don’t expect record years every year, but the ongoing long-term warming trend is clear.’”",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2898",
+    "stance_label": "SUPPORTS",
+    "claim": "The report suggests significantly smaller overall  ice-mass losses than previous estimates.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2568",
+    "stance_label": "REFUTES",
+    "claim": "\"The IPCC also made false predictions on the Amazon rain forests, referenced to a non peer-reviewed paper produced by an advocacy group working with the WWF.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "633",
+    "stance_label": "REFUTES",
+    "claim": "Currently, sea-level rise does not seem to depend on ocean temperature, and certainly not on CO2.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1360",
+    "stance_label": "REFUTES",
+    "claim": "In fact, the trend, while not statistically significant, is downward.”",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1789",
+    "stance_label": "SUPPORTS",
+    "claim": "CO2 limits won't cool the planet, but they can make the difference between continued accelerating global warming to catastrophic levels vs. slowing and eventually stopping the warming at hopefully safe levels.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "398",
+    "stance_label": "REFUTES",
+    "claim": "nothing we can do to stop the Earth’s naturally occurring climate cycles.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1482",
+    "stance_label": "REFUTES",
+    "claim": "18 proxies tell us the world was the same or warmer 1,000 years ago.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1372",
+    "stance_label": "SUPPORTS",
+    "claim": "The strong El Niño has continued into 2016, raising the possibility that this year will, yet again, set a global temperature record",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "311",
+    "stance_label": "REFUTES",
+    "claim": "there has been no systematic increase in the frequency of extreme weather events,",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1842",
+    "stance_label": "SUPPORTS",
+    "claim": "A video shows Koko the gorilla spontaneously using sign language to issue a warning about climate change.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "502",
+    "stance_label": "SUPPORTS",
+    "claim": "But abnormal temperature spikes in February and earlier this month have left it vulnerable to winds, which have pushed the ice further away from the coast than at any time since satellite records began in the 1970s.”",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "79",
+    "stance_label": "SUPPORTS",
+    "claim": "The rate of warming according to the data is much slower than the models used by the IPCC",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2122",
+    "stance_label": "REFUTES",
+    "claim": "Dropped stations introduce warming bias",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1627",
+    "stance_label": "SUPPORTS",
+    "claim": "In the last 35 years of global warming, sun and climate have been going in opposite directions.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2460",
+    "stance_label": "SUPPORTS",
+    "claim": "That drop in temperature came after what was described in the National Geographic as 'six decades of abnormal warmth'.\"",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2641",
+    "stance_label": "REFUTES",
+    "claim": "In a paper published online this week in the Journal of Geophysical Research-Atmosphere, economics professor Ross McKitrick says the resulting discrepancies may be leading to an overstatement of the role of greenhouse gases in the atmosphere.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2250",
+    "stance_label": "REFUTES",
+    "claim": "Some global warming 'skeptics' argue that the Earth's climate sensitivity is so low that a doubling of atmospheric CO2 will result in a surface temperature change on the order of 1°C or less, and that therefore global warming is nothing to worry about.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1603",
+    "stance_label": "SUPPORTS",
+    "claim": "Coral atolls grow as sea levels rise.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "0",
+    "stance_label": "SUPPORTS",
+    "claim": "Global warming is driving polar bears toward extinction",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "96",
+    "stance_label": "REFUTES",
+    "claim": "The IPCC, the Intergovernmental Panel on Climate Change, which is sort of the voice of the consensus, concedes that there has been no increase in extreme weather events.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1844",
+    "stance_label": "SUPPORTS",
+    "claim": "After the 9/11 terrorist attacks grounded commercial air traffic, \"there was a temperature drop while the airplanes weren't flying, for the week afterwards.\"",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "990",
+    "stance_label": "SUPPORTS",
+    "claim": "many of south Florida’s drainage systems and seawalls are no longer enough",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2130",
+    "stance_label": "SUPPORTS",
+    "claim": "Plant stomata show higher and more variable CO2 levels",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1477",
+    "stance_label": "SUPPORTS",
+    "claim": "Human-produced carbon might be one of the factors of climate change, but there’s simply no evidence that it is a significant one.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2329",
+    "stance_label": "REFUTES",
+    "claim": "We know the Northwest Passage had been open before.\"",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2229",
+    "stance_label": "SUPPORTS",
+    "claim": "but Antarctica is losing land ice at an accelerating rate, which has implications for sea level rise.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1544",
+    "stance_label": "REFUTES",
+    "claim": "Arctic icemelt is a natural cycle.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1376",
+    "stance_label": "REFUTES",
+    "claim": "Also, it is increasingly clear that the planet was significantly warmer than today several times during the past 10,000 years.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "93",
+    "stance_label": "REFUTES",
+    "claim": "unadjusted data suggests that temperatures in Australia have only increased by 0.3 degrees over the past century, not the 1 degree usually claimed",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2426",
+    "stance_label": "SUPPORTS",
+    "claim": "\"Twentieth century global warming did not start until  1910.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "447",
+    "stance_label": "REFUTES",
+    "claim": "“Every day, nature puts twenty times as much carbon dioxide into the atmosphere as all of Earth industries.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "450",
+    "stance_label": "REFUTES",
+    "claim": "If we double atmospheric carbon dioxide[…] we’d only raise global surface temperatures by about a degree Celsius.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "667",
+    "stance_label": "REFUTES",
+    "claim": "The failure of the 2007 polar bear survival model is a simple fact that explodes the myth that polar bears are on their way to extinction.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1381",
+    "stance_label": "SUPPORTS",
+    "claim": "It projects that temperatures are likely to be anything from 1.5 to 4.5 degrees Celsius (2.7 to 8.1 degrees Fahrenheit) warmer by the latter part of the century",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1619",
+    "stance_label": "SUPPORTS",
+    "claim": "Hansen predicted in 1988 the West Side Highway would be underwater in 20 years.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "812",
+    "stance_label": "SUPPORTS",
+    "claim": "The human contribution can be up to 30 percent or so of the total rainfall coming out of the storm",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "237",
+    "stance_label": "SUPPORTS",
+    "claim": "However the warming trend is slower than most climate models have forecast",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1567",
+    "stance_label": "REFUTES",
+    "claim": "IPCC overestimate temperature rise.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1098",
+    "stance_label": "REFUTES",
+    "claim": "Marine life has nothing whatsoever to fear from ocean acidification.”",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "331",
+    "stance_label": "SUPPORTS",
+    "claim": "But each serial adjustment has tended to make the early years colder, which increases the warming trend.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2623",
+    "stance_label": "REFUTES",
+    "claim": "(2009) have demonstrated recently  – the upper troposphere (the only place where adding CO2 to the  atmosphere could make any difference to temperature) is considerably  drier than the models are tuned to expect.\"",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "5",
+    "stance_label": "REFUTES",
+    "claim": "The sun has gone into ‘lockdown’ which could cause freezing weather, earthquakes and famine, say scientists",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2961",
+    "stance_label": "REFUTES",
+    "claim": "Cooks ’97% consensus’ disproven by a new peer",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2888",
+    "stance_label": "REFUTES",
+    "claim": "But Trenberth’s \"lack of warming at the moment\" has been going on at least a decade.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "861",
+    "stance_label": "SUPPORTS",
+    "claim": "None of these places, which today supply much of the world’s food, will be reliable sources of any.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2502",
+    "stance_label": "SUPPORTS",
+    "claim": "Fundamental physics and global climate models both make testable predictions as to how the global climate should change in response to anthropogenic warming.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2099",
+    "stance_label": "REFUTES",
+    "claim": "2nd law of thermodynamics contradicts greenhouse theory",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1678",
+    "stance_label": "SUPPORTS",
+    "claim": "No known natural forcing fits the fingerprints of observed warming except anthropogenic greenhouse gases.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2600",
+    "stance_label": "REFUTES",
+    "claim": "\"We have been grossly misled to think there is tens of thousands of times as much CO2 as there is!",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "33",
+    "stance_label": "SUPPORTS",
+    "claim": "Harvard study finds that wind turbines create MORE global warming than the fossil fuels they eliminate",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2631",
+    "stance_label": "SUPPORTS",
+    "claim": "The temperatures are expected to change by as much as 10 Fahrenheit degrees at different places of the globe.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1917",
+    "stance_label": "SUPPORTS",
+    "claim": "May 2018 marked the 401st straight month of global temperatures exceeding the 20th century average.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "839",
+    "stance_label": "SUPPORTS",
+    "claim": "“Even if we meet the Paris goals of two degrees warming, cities like Karachi and Kolkata will become close to uninhabitable, annually encountering deadly heat waves like those that crippled them in 2015.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1952",
+    "stance_label": "SUPPORTS",
+    "claim": "Scientists project that the Arctic will be ice-free in the summer of 2013.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "765",
+    "stance_label": "SUPPORTS",
+    "claim": "The broader term covers changes beyond warmer temperatures, such as shifting rainfall patterns.”",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1350",
+    "stance_label": "REFUTES",
+    "claim": "Until last June, most scientists acknowledged that warming reached a peak in the late 1990s",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "275",
+    "stance_label": "REFUTES",
+    "claim": "until temperature increases began to slow down after 1998 and remained relatively stable for a period of 15 years",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1874",
+    "stance_label": "SUPPORTS",
+    "claim": "Donald Trump signed an executive order naming climate change as a threat \"both to the economy and national security.\"",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "375",
+    "stance_label": "REFUTES",
+    "claim": "when 3 per cent of total annual global emissions of carbon dioxide are from humans and Australia prod­uces 1.3 per cent of this 3 per cent, then no amount of emissions reductio­n here will have any effect on global climate.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "27",
+    "stance_label": "REFUTES",
+    "claim": "Earth about to enter 30-YEAR ‘Mini Ice Age’",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2827",
+    "stance_label": "SUPPORTS",
+    "claim": "However, volcanoes have had very little impact on the last 40 years of global warming.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "3069",
+    "stance_label": "SUPPORTS",
+    "claim": "Continued greenhouse gas emissions at or above current rates would cause further warming and induce many changes in the global climate system during the 21st century that would very likely be larger than those observed during the 20th century.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2982",
+    "stance_label": "SUPPORTS",
+    "claim": "Statistical analysis of the rate of warming over different periods find that warming from 1970 to 2001 is greater than the warming from both 1860 to 1880 and 1910 to 1940.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "126",
+    "stance_label": "SUPPORTS",
+    "claim": "El Niño drove record highs in global temperatures suggesting rise may not be down to man-made emissions.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2428",
+    "stance_label": "REFUTES",
+    "claim": "It was the post war  industrialization that caused the rapid rise in global CO2 emissions,  but by 1945 when this began, the Earth was already in a cooling phase  that started around 1942 and continued until 1975.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2468",
+    "stance_label": "REFUTES",
+    "claim": "\"Satellite measurements indicate an absence of significant global warming since 1979, the very period that human carbon dioxide emissions have been increasing rapidly.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "828",
+    "stance_label": "SUPPORTS",
+    "claim": "Famine, economic collapse, a sun that cooks us: What climate change could wreak — sooner than you think.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "388",
+    "stance_label": "SUPPORTS",
+    "claim": "We have also been told the problem is DEFINITELY NOT a billions-year-old planet running through cycles where the temperature might fluctuate a bit.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "128",
+    "stance_label": "REFUTES",
+    "claim": "Sea level rise, which was occurring long before humans could be blamed, has not accelerated.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "86",
+    "stance_label": "REFUTES",
+    "claim": "There isn’t yet any empirical evidence for their claim that greenhouse gases even cause temperatures to increase.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2036",
+    "stance_label": "REFUTES",
+    "claim": "The global surface mean temperature-change data no longer have any scientific value and are nothing more than a propaganda tool to the public.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2736",
+    "stance_label": "REFUTES",
+    "claim": "The observed behavior of radiation fluxes implies negative feedback processes associated with relatively low climate sensitivity.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1375",
+    "stance_label": "SUPPORTS",
+    "claim": "the world is barely half a degree Celsius (0.9 degrees Fahrenheit) warmer than it was about 35 years ago",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2223",
+    "stance_label": "SUPPORTS",
+    "claim": "Because current climate change is so rapid, the way species typically adapt (eg - migration) is, in most cases, simply not be possible.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1594",
+    "stance_label": "REFUTES",
+    "claim": "Water vapor in the stratosphere stopped global warming.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2027",
+    "stance_label": "SUPPORTS",
+    "claim": "You're going to have an increase in the amount of ice in Antarctica because of global warming.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2333",
+    "stance_label": "REFUTES",
+    "claim": "\"While major green house gas  H2O substantially warms the Earth, minor green house gases such as CO2  have little effect....",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1909",
+    "stance_label": "SUPPORTS",
+    "claim": "In South Florida, \"we've had nine inches of sea-level rise since the 1920s.\"",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1786",
+    "stance_label": "SUPPORTS",
+    "claim": "CFCs contribute to global waerming at a small level.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2298",
+    "stance_label": "SUPPORTS",
+    "claim": "(2012 is now the hottest by a wide margin), but the USA only comprises 2% of the globe.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1084",
+    "stance_label": "SUPPORTS",
+    "claim": "[Jonathan Overpeck:] ‘No doubt about it anymore — humans, mainly by burning fossil fuels, are cooking the planet,’ Overpeck said.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "390",
+    "stance_label": "SUPPORTS",
+    "claim": "there were no ice sheets covering either Greenland or West Antarctica, and much of the East Antarctic ice sheet was gone.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1410",
+    "stance_label": "REFUTES",
+    "claim": "“Temperature, like viscosity and density, and of course phone numbers, is not something that can be meaningfully averaged. ‘",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "392",
+    "stance_label": "REFUTES",
+    "claim": "a study that totally debunks the whole concept of man-made Global Warming",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "698",
+    "stance_label": "SUPPORTS",
+    "claim": "A recent study led by Lawrence Livermore National Laboratory climate scientist Ben Santer found that while the models ran hot, the ‘overestimation’ was ‘partly due to systematic deficiencies in some of the post-2000 external forcings used in the model simulations.’",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2922",
+    "stance_label": "REFUTES",
+    "claim": "Soares looks at short-term trends which are swamped by natural variations.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2052",
+    "stance_label": "REFUTES",
+    "claim": "Nor is there any evidence that levels as high as 7,000 ppm of CO2 did or could cause ocean acidity.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "847",
+    "stance_label": "SUPPORTS",
+    "claim": "“The IPCC reports also don’t fully account for the albedo effect (less ice means less reflected and more absorbed sunlight, hence more warming); more cloud cover (which traps heat); or the dieback of forests and other flora (which extract carbon from the atmosphere).",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1831",
+    "stance_label": "SUPPORTS",
+    "claim": "(Koch Industries) is among the worst in toxic air pollution in the entire United States ... and churns out more climate-changing greenhouse gases than oil giants Chevron, Shell and Valero.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "1545",
+    "stance_label": "REFUTES",
+    "claim": "Increasing CO2 in the atmosphere has little to no effect.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "10",
+    "stance_label": "REFUTES",
+    "claim": "Human additions of CO2 are in the margin of error of current measurements and the gradual increase in CO2 is mainly from oceans degassing as the planet slowly emerges from the last ice age.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2939",
+    "stance_label": "REFUTES",
+    "claim": "\"The climate of this planet oscillates between periods of approximately  30 years of warming followed by approximately 30 years of cooling.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2587",
+    "stance_label": "REFUTES",
+    "claim": "If the CO2 effect was saturated, adding more CO2 should add no additional greenhouse effect.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "257",
+    "stance_label": "REFUTES",
+    "claim": "The MWP lasted from about 950 to 1250AD, and temperature records appear to show it was even hotter than today",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "2020",
+    "stance_label": "REFUTES",
+    "claim": "Weather Channel Co-Founder John Coleman Calls Global Warming a Hoax",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "665",
+    "stance_label": "SUPPORTS",
+    "claim": "many scientists were surprised when other researchers subsequently found that ringed and bearded seals (the primary prey of polar bears) north of the Bering Strait especially thrived with a longer open-water season, which is particularly conducive to fishing",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "3105",
+    "stance_label": "SUPPORTS",
+    "claim": "Global warming theory holds that one of the fingerprints of human-induced global warming is more rapid warming in the lower troposphere than at the surface (James Taylor)",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "199",
+    "stance_label": "REFUTES",
+    "claim": "In the past, warming has never been a threat to life on Earth.",
+    "claim_label": "REFUTES"
+  },
+  {
+    "claim_id": "2041",
+    "stance_label": "REFUTES",
+    "claim": "There are fundamental faults in the statistical and scientific analyses used to justify the need for early and comprehensive mitigatory action by governments.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "1743",
+    "stance_label": "SUPPORTS",
+    "claim": "Arctic sea ice has shrunk by an area equal to Western Australia, and summer or multi-year sea ice might be all gone within a decade.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1230",
+    "stance_label": "SUPPORTS",
+    "claim": "On the Pacific Coast, a climate pattern that had pushed billions of gallons of water toward Asia is now ending, so that in coming decades the sea is likely to rise quickly off states like Oregon and California.",
+    "claim_label": "NOT_ENOUGH_INFO"
+  },
+  {
+    "claim_id": "2318",
+    "stance_label": "REFUTES",
+    "claim": "A paper by Ross McKitrick, an economics professor at the  University of Guelph, and Patrick Michaels, an environmental studies  professor at the University of Virginia, concludes that half of the  global warming trend from 1980 to 2002 is caused by Urban Heat Island.",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "1021",
+    "stance_label": "SUPPORTS",
+    "claim": "The corals may save themselves, as many other creatures are attempting to do, by moving toward the poles as the Earth warms, establishing new reefs in cooler water.”",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "967",
+    "stance_label": "REFUTES",
+    "claim": "He said: ‘We have had five warming cycles since about 900AD, each followed by a dramatic cooling cycle.’",
+    "claim_label": "SUPPORTS"
+  },
+  {
+    "claim_id": "692",
+    "stance_label": "REFUTES",
+    "claim": "“We indicated 23 years ago — in our 1994 Nature article — that climate models had the atmosphere’s sensitivity to CO2 much too high,” Christy said in a statement.",
+    "claim_label": "SUPPORTS"
+  }
+]
