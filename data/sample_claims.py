@@ -9,7 +9,7 @@ import sys
 import os
 import random
 
-def sample_claims_dataset(input_file, output_file=None, sample_size=90, random_seed=42):
+def sample_claims_dataset(input_file, output_file=None, sample_size=90, random_seed=42, evidence_level=2):
     """
     Sample the claims dataset by randomly selecting SUPPORTS and REFUTES claims.
     
@@ -18,6 +18,9 @@ def sample_claims_dataset(input_file, output_file=None, sample_size=90, random_s
         output_file (str): Path to the output CSV file (optional)
         sample_size (int): Number of rows to sample per stance_label (default: 90)
         random_seed (int): Random seed for reproducibility (default: 42)
+        evidence_level (int): Evidence exposure level (default: 2)
+                             1 = No evidence (evidences column removed)
+                             2 = Evidence included (evidences column kept)
     """
     
     # Check if input file exists
@@ -89,9 +92,22 @@ def sample_claims_dataset(input_file, output_file=None, sample_size=90, random_s
         # Shuffle the final dataset to mix the stance_label values
         df_sampled = df_sampled.sample(frac=1, random_state=random_seed).reset_index(drop=True)
         
-        print(f"\nSampled dataset shape: {df_sampled.shape}")
+        # Handle evidence level
+        print(f"\nEvidence level: {evidence_level}")
+        if evidence_level == 1:
+            # Remove evidences column if it exists
+            if 'evidences' in df_sampled.columns:
+                df_sampled = df_sampled.drop('evidences', axis=1)
+                print("  -> Evidences column removed (evidence_level = 1)")
+            else:
+                print("  -> Evidences column not found in dataset")
+        elif evidence_level == 2:
+            print("  -> Evidences column kept (evidence_level = 2)")
+        else:
+            print(f"  -> Warning: Invalid evidence_level {evidence_level}. Using default (2)")
+            evidence_level = 2
         
-        # Show final distribution
+        print(f"\nFinal dataset shape after evidence processing: {df_sampled.shape}")
         print(f"\nFinal distribution:")
         final_counts = df_sampled['stance_label'].value_counts()
         for value, count in final_counts.items():
@@ -134,13 +150,14 @@ def main():
     """Main function to handle command line arguments"""
     
     # Default input file
-    default_input = "processing/climate-fever-dataset_filtered.csv"
+    default_input = "dataset_processing/climate-fever-dataset_filtered.csv"
     
     # Parse command line arguments
     input_file = default_input
     output_file = None
     sample_size = 90
     random_seed = 42
+    evidence_level = 2
     
     # Simple argument parsing
     args = sys.argv[1:]
@@ -182,13 +199,30 @@ def main():
             else:
                 print("Error: --seed requires a number")
                 sys.exit(1)
+        elif args[i] == "--evidence-level" or args[i] == "-e":
+            if i + 1 < len(args):
+                try:
+                    evidence_level = int(args[i + 1])
+                    if evidence_level not in [1, 2]:
+                        print("Error: --evidence-level must be 1 or 2")
+                        sys.exit(1)
+                    i += 2
+                except ValueError:
+                    print("Error: --evidence-level must be an integer (1 or 2)")
+                    sys.exit(1)
+            else:
+                print("Error: --evidence-level requires a number (1 or 2)")
+                sys.exit(1)
         elif args[i] == "--help" or args[i] == "-h":
             print("Usage: python sample_claims.py [options]")
             print("Options:")
-            print("  -i, --input FILE        Input CSV file (default: processing/climate-fever-dataset_filtered.csv)")
+            print("  -i, --input FILE        Input CSV file (default: dataset_processing/climate-fever-dataset_filtered.csv)")
             print("  -o, --output FILE      Output CSV file (default: sampled_claims.csv)")
             print("  -s, --sample-size N    Number of rows to sample per stance_label (default: 90)")
             print("  -r, --seed N           Random seed for reproducibility (default: 42)")
+            print("  -e, --evidence-level N Evidence exposure level (default: 2)")
+            print("                        1 = No evidence (evidences column removed)")
+            print("                        2 = Evidence included (evidences column kept)")
             print("  -h, --help             Show this help message")
             sys.exit(0)
         else:
@@ -205,10 +239,11 @@ def main():
     print(f"Output file: {output_file or 'sampled_claims.csv'}")
     print(f"Sample size per stance_label: {sample_size}")
     print(f"Random seed: {random_seed}")
+    print(f"Evidence level: {evidence_level}")
     print()
     
     # Run the sampling
-    success = sample_claims_dataset(input_file, output_file, sample_size, random_seed)
+    success = sample_claims_dataset(input_file, output_file, sample_size, random_seed, evidence_level)
     
     if success:
         print("\nSampling completed successfully!")

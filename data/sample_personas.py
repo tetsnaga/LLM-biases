@@ -115,7 +115,7 @@ def main():
     """Main function to handle command line arguments"""
     
     # Default input file
-    default_input = "processing/synthetic_climate_personas.csv"
+    default_input = "dataset_processing/synthetic_climate_personas.csv"
     
     # Parse command line arguments
     input_file = default_input
@@ -166,7 +166,7 @@ def main():
         elif args[i] == "--help" or args[i] == "-h":
             print("Usage: python sample_personas.py [options]")
             print("Options:")
-            print("  -i, --input FILE        Input CSV file (default: processing/synthetic_climate_personas.csv)")
+            print("  -i, --input FILE        Input CSV file (default: dataset_processing/synthetic_climate_personas.csv)")
             print("  -o, --output FILE       Output CSV file (default: sampled_personas.csv)")
             print("  -s, --sample-size N     Number of rows to sample per Belief_ClimateExists (default: 100)")
             print("  -r, --seed N            Random seed for reproducibility (default: 42)")
