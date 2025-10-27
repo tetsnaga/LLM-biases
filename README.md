@@ -9,5 +9,6 @@ Quick Review:<br>
 
 To run the personExp01 file through command line, use following commands:<br>
     1. `chmod +x personaExp01.py`<br>
-    2. `python personaExp01.py --model deepseek-r1:1.5b --personas Data/synthetic_climate_personas.csv --claims Data/climate-fever-dataset.csv`<br>
+    2. `python personaExp02.py --model deepseek-r1:1.5b --personas Data/synthetic_climate_personas.csv --claims Data/climate-fever-dataset.csv`<br>
     (Model name, claim dataset path and person file path are required, optional inputs: temperature, number of personas and number of claims)
+
