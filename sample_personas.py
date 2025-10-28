@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 """
-Sample script for synthetic_climate_personas.csv
-Randomly samples 100 rows for each value of Belief_ClimateExists
+Sample script for sorted_personas.csv
+Randomly samples 50 rows for each value of Belief_ClimateExists
 """
 
 import pandas as pd
@@ -9,14 +8,14 @@ import sys
 import os
 import random
 
-def sample_personas_dataset(input_file, output_file=None, sample_size=100, random_seed=42):
+def sample_personas_dataset(input_file, output_file=None, sample_size=50, random_seed=42):
     """
     Sample the personas dataset by randomly selecting rows for each Belief_ClimateExists value.
     
     Args:
         input_file (str): Path to the input CSV file
         output_file (str): Path to the output CSV file (optional)
-        sample_size (int): Number of rows to sample per Belief_ClimateExists value (default: 100)
+        sample_size (int): Number of rows to sample per Belief_ClimateExists value (default: 50)
         random_seed (int): Random seed for reproducibility (default: 42)
     """
     
@@ -90,7 +89,7 @@ def sample_personas_dataset(input_file, output_file=None, sample_size=100, rando
         
         # Generate output filename if not provided
         if output_file is None:
-            output_file = "Data/sampled_personas.csv"
+            output_file = "Data/personas.csv"
         
         # Save the sampled dataset
         print(f"\nSaving sampled dataset to {output_file}...")
@@ -115,12 +114,12 @@ def main():
     """Main function to handle command line arguments"""
     
     # Default input file
-    default_input = "Data/synthetic_climate_personas.csv"
+    default_input = "Data/sorted_personas.csv"
     
     # Parse command line arguments
     input_file = default_input
     output_file = None
-    sample_size = 100
+    sample_size = 50
     random_seed = 42
     
     # Simple argument parsing
@@ -166,9 +165,9 @@ def main():
         elif args[i] == "--help" or args[i] == "-h":
             print("Usage: python sample_personas.py [options]")
             print("Options:")
-            print("  -i, --input FILE        Input CSV file (default: dataset_processing/synthetic_climate_personas.csv)")
-            print("  -o, --output FILE       Output CSV file (default: sampled_personas.csv)")
-            print("  -s, --sample-size N     Number of rows to sample per Belief_ClimateExists (default: 100)")
+            print("  -i, --input FILE        Input CSV file (default: Data/sorted_personas.csv)")
+            print("  -o, --output FILE       Output CSV file (default: Data/personas.csv)")
+            print("  -s, --sample-size N     Number of rows to sample per Belief_ClimateExists (default: 50)")
             print("  -r, --seed N            Random seed for reproducibility (default: 42)")
             print("  -h, --help              Show this help message")
             sys.exit(0)
@@ -180,7 +179,7 @@ def main():
                 output_file = args[i]
             i += 1
     
-    print("Synthetic Climate Personas Dataset Sampler")
+    print("Personas Dataset Sampler")
     print("=" * 60)
     print(f"Input file: {input_file}")
     print(f"Output file: {output_file or 'auto-generated'}")
