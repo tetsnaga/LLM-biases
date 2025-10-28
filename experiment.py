@@ -222,13 +222,36 @@ def main():
     persona_tmpl = DEFAULT_PERSONA_TMPL
 
     records = []
-    for _, prow in tqdm(personas.iterrows(), total=len(personas), desc="Personas"):
+    total_personas = len(personas)
+    total_claims = len(dfc)
+    total_combinations = total_personas * total_claims
+    
+    print(f"Starting experiment:")
+    print(f"  - Personas: {total_personas}")
+    print(f"  - Claims: {total_claims}")
+    print(f"  - Total combinations: {total_combinations}")
+    print(f"  - Evidence level: {args.evidenceLevel}")
+    print(f"  - Model: {args.model}")
+    print()
+    
+    # Create outer progress bar for personas
+    persona_pbar = tqdm(total=total_personas, desc="Personas", position=0, leave=True)
+    
+    combination_count = 0
+    for persona_idx, (_, prow) in enumerate(personas.iterrows()):
         persona_id = prow.get("PersonaID")
         persona_desc = render_template(prow, persona_tmpl)
         system_msg = system_prompt_raw.replace("{PERSONA_DESCRIPTION}", persona_desc)
         base_belief = str(prow.get("Belief_ClimateExists", "Neutral"))
         dfp = dfc.sample(frac=1, random_state=random.randint(0, 10_000))
-        for _, row in dfp.iterrows():
+        
+        # Create inner progress bar for claims within this persona
+        claim_pbar = tqdm(total=len(dfp), desc=f"Claims (Persona {persona_id})", 
+                         position=1, leave=False, 
+                         bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]')
+        
+        for claim_idx, (_, row) in enumerate(dfp.iterrows()):
+            combination_count += 1
             claim_id = row.get("claim_id")
             claim_text = str(row.get("claim_text"))
             claim_stance_label = str(row.get("claim_stance_label"))
@@ -294,7 +317,27 @@ def main():
 
 
             })
+            
+            # Update claim progress bar
+            claim_pbar.update(1)
+            
+            # Update claim progress bar description with timing info
+            if combination_count % 10 == 0:  # Update every 10 claims
+                progress_pct = (combination_count / total_combinations) * 100
+                claim_pbar.set_description(f"Claims (Persona {persona_id}) - {progress_pct:.1f}% total")
+        
+        # Close claim progress bar and update persona progress bar
+        claim_pbar.close()
+        persona_pbar.update(1)
+        persona_pbar.set_description(f"Personas - {persona_idx + 1}/{total_personas}")
 
+    # Close persona progress bar
+    persona_pbar.close()
+    
+    print(f"\nExperiment completed!")
+    print(f"Total combinations processed: {combination_count}")
+    print(f"Records created: {len(records)}")
+    
     df_out = pd.DataFrame(records)
     cols = [
         "PersonaID",
