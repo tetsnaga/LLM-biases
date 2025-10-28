@@ -146,7 +146,9 @@ def join_evidence_text(evs):
     for i, e in enumerate(evs, 1):
         txt = (e.get("evidence") or "").strip()
         if txt:
-            parts.append(f"({i}) {html.unescape(txt.replace('\n', ' ').strip())}")
+            # parts.append(f"({i}) {html.unescape(txt.replace('\n', ' ').strip())}")
+            clean_txt = html.unescape(txt.replace("\n", " ").strip())
+            parts.append(f"({i}) {clean_txt}")
     return " ".join(parts) if parts else ""
 
 def join_evidence_ids(evs):

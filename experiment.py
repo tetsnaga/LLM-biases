@@ -279,7 +279,7 @@ def main():
                 "BeliefClimateExists": base_belief,
                 "ClaimID": claim_id,
                 "ClaimStanceLabel": claim_stance_label,
-                "EvidencesVerdict": parsed["claim_label"],
+                "EvidencesVerdict": row.get("claim_label"),
                 "EvidenceLevel": evidencelevel,
                 "ModelDecisionOfClaim": parsed["claim_decision"],
                 "ModelDecisionOfClaim_Reason": parsed["claim_decision_reason"],
