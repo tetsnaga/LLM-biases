@@ -21,7 +21,7 @@ def main():
     print("=" * 30)
     
     # Check if input file exists
-    if not os.path.exists("dataset.json"):
+    if not os.path.exists("Data/dataset.json"):
         print("❌ Error: dataset.json not found in current directory")
         return
     

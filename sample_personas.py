@@ -115,7 +115,7 @@ def main():
     """Main function to handle command line arguments"""
     
     # Default input file
-    default_input = "dataset_processing/synthetic_climate_personas.csv"
+    default_input = "Data/synthetic_climate_personas.csv"
     
     # Parse command line arguments
     input_file = default_input
