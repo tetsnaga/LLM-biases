@@ -236,6 +236,8 @@ def main():
             ev_source = None
             ev_ids = []
             evs = []
+            ev_text = ""
+            
             evidencelevel = args.evidenceLevel
             if evidencelevel == 1:
                 user_msg = claim_prompt_raw.replace("{CLAIM_TEXT}", claim_text)
