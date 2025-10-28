@@ -90,7 +90,7 @@ def sample_personas_dataset(input_file, output_file=None, sample_size=100, rando
         
         # Generate output filename if not provided
         if output_file is None:
-            output_file = "sampled_personas.csv"
+            output_file = "Data/sampled_personas.csv"
         
         # Save the sampled dataset
         print(f"\nSaving sampled dataset to {output_file}...")

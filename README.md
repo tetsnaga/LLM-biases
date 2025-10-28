@@ -68,9 +68,9 @@ LLM-biases/
 
 ## 📋 Setup Instructions
 
-### 1️⃣ Generate Claims
+### 1️⃣ Generate Claims and Personas
 
-You have two options:
+For claims You have two options:
 
 **Option A:** Generate claims for a specific evidence level
 ```bash
@@ -83,6 +83,14 @@ python example_usage.py
 ```
 
 This creates `claims_EL1.json`, `claims_EL2.json`, `claims_EL3.json`, and `claims_EL4.json` in the `Data/` directory.
+
+
+For creating Personas:
+```bash
+python sample_personas.py
+```
+
+This creats `sample_personas.csv` in the `Data/` directory.
 
 ### 2️⃣ Set Permissions
 
