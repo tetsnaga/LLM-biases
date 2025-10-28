@@ -273,7 +273,7 @@ def main():
     """Main function to handle command line arguments"""
     
     # Default input file
-    default_input = "dataset.json"
+    default_input = "Data/climate-fever-dataset.json"
     
     # Parse command line arguments
     input_file = default_input
@@ -339,7 +339,7 @@ def main():
         elif args[i] == "--help" or args[i] == "-h":
             print("Usage: python sample_claims.py [options]")
             print("Options:")
-            print("  -i, --input FILE        Input JSON file (default: dataset.json)")
+            print("  -i, --input FILE        Input JSON file (default: climate-fever-dataset.json.json)")
             print("  -o, --output FILE      Output JSON file (default: claims_EL{level}.json)")
             print("  -s, --sample-size N    Number of rows to sample per stance_label, claim_label combination (default: 30)")
             print("  -r, --seed N           Random seed for reproducibility (default: 42)")

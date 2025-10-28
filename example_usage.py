@@ -21,25 +21,25 @@ def main():
     print("=" * 30)
     
     # Check if input file exists
-    if not os.path.exists("Data/dataset.json"):
-        print("❌ Error: dataset.json not found in current directory")
+    if not os.path.exists("Data/climate-fever-dataset.json"):
+        print("❌ Error:climate-fever-dataset.json not found in current directory")
         return
     
     # Evidence Level 1: No evidence
     print("\n1️⃣ Evidence Level 1: No evidence")
-    sample_claims_dataset("dataset.json", evidence_level=1)
+    sample_claims_dataset("climate-fever-dataset.json", evidence_level=1)
     
     # Evidence Level 2: Basic evidence
     print("\n2️⃣ Evidence Level 2: Basic evidence")
-    sample_claims_dataset("dataset.json", evidence_level=2)
+    sample_claims_dataset("climate-fever-dataset.json", evidence_level=2)
     
     # Evidence Level 3: Evidence with source type
     print("\n3️⃣ Evidence Level 3: Evidence with source type")
-    sample_claims_dataset("dataset.json", evidence_level=3)
+    sample_claims_dataset("climate-fever-dataset.json", evidence_level=3)
     
     # Evidence Level 4: Evidence with claim entropy
     print("\n4️⃣ Evidence Level 4: Evidence with claim entropy")
-    sample_claims_dataset("dataset.json", evidence_level=4)
+    sample_claims_dataset("climate-fever-dataset.json", evidence_level=4)
     
     print("\n✅ All evidence levels completed!")
     print("\nGenerated files:")

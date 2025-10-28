@@ -167,8 +167,8 @@ def to_signed_label(label: str) -> int:
 def main():
     ap = argparse.ArgumentParser(description="PersonaClaim evaluation")
     ap.add_argument("--model", required=True)
-    ap.add_argument("--personas", required=False, default='Data/synthetic_climate_personas.csv')
-    ap.add_argument("--claims", required=False,default='Data/climate-fever-dataset.csv')
+    ap.add_argument("--personas", required=True, default='Data/synthetic_climate_personas.csv')
+    ap.add_argument("--claims", required=True,default='Data/climate-fever-dataset.csv')
     ap.add_argument("--outdir", default="outputs")
     ap.add_argument("--temperature", type=float, default=0.2)
     ap.add_argument("--top_p", type=float, default=None)
@@ -176,7 +176,7 @@ def main():
     ap.add_argument("--n_claims", type=int, default=None)
     ap.add_argument("--evidenceLevel",type=int)
     ap.add_argument("--n_evidence", type=int, default=1)
-    ap.add_argument("--evidence_random", default=False)
+    ap.add_argument("--evidence_random", required=False, default=False)
 
     args = ap.parse_args()
 
@@ -231,7 +231,7 @@ def main():
         for _, row in dfp.iterrows():
             claim_id = row.get("claim_id")
             claim_text = str(row.get("claim_text"))
-            claim_label = str(row.get("claim_stance_label"))
+            claim_stance_label = str(row.get("claim_stance_label"))
             claim_entropy = None
             ev_source = None
             ev_ids = []
@@ -278,8 +278,9 @@ def main():
                 "PersonaID": persona_id,
                 "BeliefClimateExists": base_belief,
                 "ClaimID": claim_id,
-                "ClaimStanceLabel": claim_label,
-                "EvidenceStrength": evidencelevel,
+                "ClaimStanceLabel": claim_stance_label,
+                "EvidencesVerdict": parsed["claim_label"],
+                "EvidenceLevel": evidencelevel,
                 "ModelDecisionOfClaim": parsed["claim_decision"],
                 "ModelDecisionOfClaim_Reason": parsed["claim_decision_reason"],
                 "ModelBeliefClimateExists": parsed["climateChange_belief"],
@@ -298,7 +299,7 @@ def main():
         "BeliefClimateExists",
         "ClaimID",
         "ClaimStanceLabel",
-        "EvidenceStrength",
+        "EvidenceLevel",
         "ModelDecisionOfClaim",
         "ModelDecisionOfClaim_Reason",
         "ModelBeliefClimateExists",
