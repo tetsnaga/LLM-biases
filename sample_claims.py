@@ -339,7 +339,7 @@ def main():
         elif args[i] == "--help" or args[i] == "-h":
             print("Usage: python sample_claims.py [options]")
             print("Options:")
-            print("  -i, --input FILE        Input JSON file (default: climate-fever-dataset.json.json)")
+            print("  -i, --input FILE        Input JSON file (default: climate-fever-dataset.json)")
             print("  -o, --output FILE      Output JSON file (default: claims_EL{level}.json)")
             print("  -s, --sample-size N    Number of rows to sample per stance_label, claim_label combination (default: 30)")
             print("  -r, --seed N           Random seed for reproducibility (default: 42)")

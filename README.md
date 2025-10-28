@@ -3,7 +3,7 @@ Cognitive Bias Quantification and Propagation in LLMs
 
 Quick Review:<br>
     1. Run the requirements.txt file to install required depenedencies (pip install -r requirements.txt)<br>
-    2. The Persona file (synthetic_climate_personas) and dataset (climate-fever-dataset.json) should be under Data/ folder.<br>
+    2. The Persona file (sorted_personas.csv) and dataset (climate-fever-dataset.json) should be under Data/ folder.<br>
     3. All the results will go to outputs/ folder.<br>
     4. Template of the prompts are available in the prompts.txt file. 
 
@@ -13,9 +13,9 @@ To run the code for a specific persona file and claim do the following:
     2. Run `chmod +x experiment.py`<br> in project directory.
     3. Run `python experiment.py --model [model name] --personas [path to the personas] --claims [path to claims] --evidenceLevel [evidencelevel 1,2,3 or 4] --n_evidence [between 1 to 5]`<br>
 
-For exmaple command for evidece level claims will be:<br>
+For example command for evidece level claims will be:<br>
 
-`python experiment.py --model deepseek-r1:1.5b  --claims Data/claims_EL1.json  --evidenceLevel 1  --n_evidence 3 --personas Data/sampled_personas.csv`
+`python experiment.py --model deepseek-r1:1.5b  --claims Data/claims_EL1.json  --evidenceLevel 1  --n_evidence 3 --personas Data/personas.csv`
 
 # Command Line Arguments
 
@@ -90,7 +90,7 @@ For creating Personas:
 python sample_personas.py
 ```
 
-This creats `sample_personas.csv` in the `Data/` directory.
+This creates `personas.csv` in the `Data/` directory.
 
 ### 2️⃣ Set Permissions
 
@@ -121,7 +121,7 @@ python experiment.py \
   --claims Data/claims_EL1.json \
   --evidenceLevel 1 \
   --n_evidence 3 \
-  --personas Data/sampled_personas.csv
+  --personas Data/personas.csv
 ```
 
 ---
@@ -132,7 +132,7 @@ python experiment.py \
 |----------|----------|---------|-------------|
 | `--model` | ✅ Yes | — | Ollama model name to use |
 | `--evidenceLevel` | ✅ Yes | — | Evidence level (1, 2, 3, or 4) determines prompt template |
-| `--personas` | ✅ Yes | `Data/synthetic_climate_personas.csv` | Path to personas CSV file - use Data/personas.csv |
+| `--personas` | ✅ Yes | `Data/sorted_personas.csv` | Path to personas CSV file - use Data/personas.csv |
 | `--claims` | ✅ Yes | `Data/climate-fever-dataset.csv` | Path to claims JSON file |
 | `--n_evidence` | ❌ No | `1` | Number of evidence snippets (for levels 2–4) |
 | `--outdir` | ❌ No | `outputs` | Output directory for results |
