@@ -148,3 +148,22 @@ python experiment.py \
 All experimental results are saved to the `outputs/` folder as CSV files containing:
 - Model responses
 ---
+
+
+
+
+# Group Level Bias (Polarization)
+
+
+``` bash
+ython group_experiment.py \
+  --model deepseek-r1:1.5b \
+  --personas Data/sorted_personas.csv \
+  --claims Data/claims_EL1.json \
+  --claims_format json \
+  --graph_type fully_connected \
+  --steps 5 \
+  --n_personas 4 \
+  --n_claims 1 \
+  --out_prefix fully_connected_run
+```
