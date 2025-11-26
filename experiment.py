@@ -11,8 +11,8 @@ from tqdm import tqdm
 import ollama
 
 
-from sample_personas import sample_personas_dataset
-from sample_claims import sample_claims_dataset
+# from sample_personas import sample_personas_dataset
+# from sample_claims import sample_claims_dataset
 
 # ---------------------------
 # Likert utilities
@@ -232,6 +232,7 @@ def main():
             claim_id = row.get("claim_id")
             claim_text = str(row.get("claim_text"))
             claim_stance_label = str(row.get("claim_stance_label"))
+            evidence_verdict = str(row.get("claim_label"))
             claim_entropy = None
             ev_source = None
             ev_ids = []
@@ -258,6 +259,7 @@ def main():
                 user_msg = (claim_prompt_raw
                             .replace("{CLAIM_TEXT}", claim_text)
                             .replace("{EVIDENCE}", ev_text)
+                            .replace("{EVIDENCE_VERDICT}", evidence_verdict)
                             .replace("{EVIDENCE_SOURCE}", ev_source))
 
             elif evidencelevel == 4:
@@ -267,6 +269,7 @@ def main():
                 user_msg = (claim_prompt_raw
                             .replace("{CLAIM_TEXT}", claim_text)
                             .replace("{EVIDENCE}", ev_text)
+                            .replace("{EVIDENCE_VERDICT}", evidence_verdict)
                             .replace("{CLAIM_ENTROPY}", claim_entropy))  
 
             else:
@@ -281,7 +284,7 @@ def main():
                 "BeliefClimateExists": base_belief,
                 "ClaimID": claim_id,
                 "ClaimStanceLabel": claim_stance_label,
-                "EvidencesVerdict": row.get("claim_label"),
+                "EvidencesVerdict": evidence_verdict,
                 "EvidenceLevel": evidencelevel,
                 "ModelDecisionOfClaim": parsed["claim_decision"],
                 "ModelDecisionOfClaim_Reason": parsed["claim_decision_reason"],
