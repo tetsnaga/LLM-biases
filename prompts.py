@@ -2,27 +2,6 @@ import random
 import html
 import pandas as pd
 
-
-
-
-EACH_ROUND_PROMPT = """Claim: {CLAIM_TEXT}
-
-Here is what other people in your focus group have recently said about climate change and this type of claim:
-{NEIGHBOUR_ID}{NEIGHBOR_OPINIONS}
-
-Now, as this persona, decide how you personally respond.
-
-Return ONLY a single-line JSON object. No explanations, no code fences, no extra text.
-It MUST use these exact keys and values:
-
-{{
-"claim_decision":"<Accept | Neutral | Refute>",
-"claim_decision_reason":"your reason",
-"climateChange_belief":"<Strongly disagree | Slightly Disagree | Neutral | Slightly Agree | Strongly Agree>",
-"climateChange_belief_reason":"your reason",
-}}
-"""
-
 FIRST_ROUND_PROMPT = """
 
 Here is the first claim for this focus-group discussion:
@@ -39,8 +18,39 @@ It MUST use these exact keys and values:
 "claim_decision_reason":"your reason",
 "climateChange_belief":"<Strongly disagree | Slightly Disagree | Neutral | Slightly Agree | Strongly Agree>",
 "climateChange_belief_reason":"your reason",
+"group_opinion":"<Support | Neutral | Oppose>",                # your read of how the group currently leans (may be empty if unknown)
+"group_opinion_reason":"why you think the group leans that way",
+"consensus_attempt":"<Yes | No>"                              # will you try to move toward consensus in later rounds?
 }}
 """
+
+EACH_ROUND_PROMPT = """Claim: {CLAIM_TEXT}
+
+Here is what other people in your focus group have recently said about climate change and this type of claim:
+{NEIGHBOUR_ID}{NEIGHBOR_OPINIONS}
+
+Phase-1 summary (every participant's last stated position on this claim):
+{PHASE1_SUMMARY}
+
+Phase-1 majority: {PHASE1_MAJORITY_TEXT}
+
+Now, as this persona, decide how you personally respond to the claim and reflect on the group.
+Consider the Phase-1 majority and other participants' reasons. Try to move the group toward consensus where it makes sense; explicitly state whether you will attempt consensus this round.
+
+Return ONLY a single-line JSON object. No explanations, no code fences, no extra text.
+It MUST use these exact keys and values:
+
+{{
+"claim_decision":"<Accept | Neutral | Refute>",
+"claim_decision_reason":"your reason",
+"climateChange_belief":"<Strongly disagree | Slightly Disagree | Neutral | Slightly Agree | Strongly Agree>",
+"climateChange_belief_reason":"your reason",
+"group_opinion":"<Support | Neutral | Oppose>",                # your read of how the group currently leans toward the claim
+"group_opinion_reason":"why you think the group leans that way",
+"consensus_attempt":"<Yes | No>"                              # will you try to move toward consensus this round?
+}}
+"""
+
 
 
 GROUP_SYSTEM_TMPL = """You are a participant in a simulated focus group discussion. 

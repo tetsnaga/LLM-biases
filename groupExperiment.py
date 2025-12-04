@@ -14,6 +14,13 @@ from sklearn.cluster import KMeans
 import ollama
 from prompts import *
 
+
+
+# TODO: use only one claim for each focus group , not changing claim at each time step 
+# TODO: update the prompts and code to also ask for agent opinion toward the group about the claim and what they said in the previous round
+# TODO: update the prompts to nudge agents in each round to try to reach consensus with others in the group so they should count majority opinions in each round internally
+
+
 def build_persona_description(row: pd.Series) -> str:
     return (
         f"- PersonaID: {row.get('PersonaID')}\n"
@@ -146,12 +153,15 @@ def filter_balanced_claims(claims: List[Dict[str, Any]], n_each: int = 100) -> L
 def coerce_json(text: str) -> Dict[str, Any]:
     """
     Forgiving JSON parser for the agent's response.
-    Expects the structure:
+    Expects the structure (added fields):
     {
       "claim_decision":"<Accept | Neutral | Refute>",
       "claim_decision_reason":"...",
       "climateChange_belief":"<Strongly disagree | Slightly Disagree | Neutral | Slightly Agree | Strongly Agree>",
-      "climateChange_belief_reason":"..."
+      "climateChange_belief_reason":"...",
+      "group_opinion":"<Support | Neutral | Oppose>",                # NEW (agent's read of group stance)
+      "group_opinion_reason":"...",                                 # NEW (why they think the group leans that way)
+      "consensus_attempt":"<Yes | No>"                              # NEW (will they try to reach consensus this round)
     }
     Falls back to extracting fields by regex if strict JSON parsing fails.
     """
@@ -168,6 +178,10 @@ def coerce_json(text: str) -> Dict[str, Any]:
             "claim_decision_reason": parsed.get("claim_decision_reason") or parsed.get("claimDecisionReason") or parsed.get("claim_decision_reasoning") or parsed.get("reason"),
             "climateChange_belief": parsed.get("climateChange_belief") or parsed.get("climateChange_belief_label") or parsed.get("climateChangeBelief") or parsed.get("climateChangeStance"),
             "climateChange_belief_reason": parsed.get("climateChange_belief_reason") or parsed.get("climateChangeBeliefReason") or parsed.get("climateChange_belief_reasoning"),
+            # new normalized fields
+            "group_opinion": parsed.get("group_opinion") or parsed.get("groupOpinion") or parsed.get("group_stance") or parsed.get("groupStance"),
+            "group_opinion_reason": parsed.get("group_opinion_reason") or parsed.get("groupOpinionReason"),
+            "consensus_attempt": parsed.get("consensus_attempt") or parsed.get("consensusAttempt"),
         }
         # fill defaults
         out = {k: (v if v is not None else "") for k, v in out.items()}
@@ -182,14 +196,19 @@ def coerce_json(text: str) -> Dict[str, Any]:
         claim_decision_reason = rex("claim_decision_reason") or rex("claimDecisionReason") or rex("reason")
         climateChange_belief = rex("climateChange_belief") or rex("climateChangeStance") or rex("climateChangeBelief")
         climateChange_belief_reason = rex("climateChange_belief_reason") or rex("climateChangeBeliefReason")
+        group_opinion = rex("group_opinion") or rex("groupOpinion") or rex("group_stance")
+        group_opinion_reason = rex("group_opinion_reason") or rex("groupOpinionReason")
+        consensus_attempt = rex("consensus_attempt") or rex("consensusAttempt")
 
         return {
             "claim_decision": claim_decision or "Neutral",
             "claim_decision_reason": claim_decision_reason or "",
             "climateChange_belief": climateChange_belief or "Neutral",
             "climateChange_belief_reason": climateChange_belief_reason or "",
+            "group_opinion": group_opinion or "",
+            "group_opinion_reason": group_opinion_reason or "",
+            "consensus_attempt": consensus_attempt or "",
         }
-
 
 def chat_once(model: str, temperature: float, system_msg: str, user_msg: str) -> str:
     r = ollama.chat(
@@ -364,11 +383,17 @@ def simulate_polarization(
     if not claims:
         raise ValueError("No claims loaded.")
 
-    # We'll iterate steps times; each step uses claim t for Phase1 and claim t+1 for Phase2 (wrap-around)
+    # Use ONE claim for the entire focus-group (TODO: user requested single-claim per focus group)
+    # pick the first claim and reuse it across all time steps
+    base_claim = claims[0]
+    base_claim_id = base_claim.get("claim_id")
+    base_claim_text = str(base_claim.get("claim_text"))
+
+    # We'll iterate steps times; each step uses the same base_claim for both Phase1 and Phase2
     for t in range(steps):
-        claim = claims[t % len(claims)]
-        claim_id = claim.get("claim_id")
-        claim_text = str(claim.get("claim_text"))
+        claim = base_claim
+        claim_id = base_claim_id
+        claim_text = base_claim_text
 
         # -------------------------
         # Phase 1: give claim to all agents and collect responses
@@ -380,7 +405,7 @@ def simulate_polarization(
             user_prompt = FIRST_ROUND_PROMPT.format(
                 CLAIM_TEXT=claim_text)
 
-            print("phase 1 prompt for time ", t, " agent ", agent.idx, user_prompt)
+            # print("phase 1 prompt for time ", t, " agent ", agent.idx, user_prompt)
             raw = chat_once(
                 model=model,
                 temperature=temperature,
@@ -428,9 +453,120 @@ def simulate_polarization(
                 "claim_decision_reason": parsed.get("claim_decision_reason"),
                 "climateChange_belief": parsed.get("climateChange_belief"),
                 "climateChange_belief_reason": parsed.get("climateChange_belief_reason"),
+                "group_opinion": parsed.get("group_opinion"),
+                "group_opinion_reason": parsed.get("group_opinion_reason"),
+                "consensus_attempt": parsed.get("consensus_attempt"),
                 "belief_numeric": agent.current_belief,
                 "llm_response_raw": raw,
             })
+
+        # After Phase 1 for this time t, compute majority (>2/3) of claim_decision
+        decisions = [
+            phase1_responses[i]["llm_response_struct"].get("claim_decision", "Neutral")
+            for i in range(n_agents)
+        ]
+        # normalize decisions (capitalization)
+        decisions_clean = [d.strip().title() if isinstance(d, str) else "Neutral" for d in decisions]
+        counts = {}
+        for d in decisions_clean:
+            counts[d] = counts.get(d, 0) + 1
+        # find top decision
+        top_decision, top_count = None, 0
+        for k, v in counts.items():
+            if v > top_count:
+                top_decision, top_count = k, v
+        majority_reached = (top_count > (2/3) * n_agents)
+        # Update the last n_agents logs entries (phase1 rows) with majority info
+        for i in range(len(logs) - n_agents, len(logs)):
+            logs[i]["majority_decision"] = top_decision
+            logs[i]["majority_count"] = top_count
+            logs[i]["majority_reached"] = bool(majority_reached)
+
+        # -------------------------
+        # Phase 2: give everyone the Phase1 responses (including themselves), and present same claim
+        # -------------------------
+        # Build a textual summary of phase1 responses to pass to agents
+        phase1_summary_lines = []
+        for idx in range(n_agents):
+            r = phase1_responses[idx]["llm_response_struct"]
+            persona_id = phase1_responses[idx]["persona_id"]
+            cd = r.get("claim_decision", "Neutral")
+            cd_reason = r.get("claim_decision_reason", "")
+            cb = r.get("climateChange_belief", "Neutral")
+            cb_reason = r.get("climateChange_belief_reason", "")
+            phase1_summary_lines.append(
+                f"{persona_id}: claim_decision='{cd}' reason='{cd_reason}' | belief='{cb}' reason='{cb_reason}'"
+            )
+        phase1_summary_text = "\n".join(phase1_summary_lines)
+        phase1_majority_text = f"{top_decision} ({top_count}/{n_agents})" if top_decision else "No majority"
+
+        # Phase 2 loop (next claim is same base claim)
+        next_claim_id = base_claim_id
+        next_claim_text = base_claim_text
+
+        for agent in tqdm(agents, desc=f"Time {t} Phase 2", leave=False):
+            system_msg = GROUP_SYSTEM_TMPL.replace("{PERSONA_DESCRIPTION}", agent.persona_desc)
+
+            neighbor_opinions = summarize_neighbors_all(agent.idx, agents, G)
+            
+            user_prompt = EACH_ROUND_PROMPT.format(
+            CLAIM_TEXT=next_claim_text,
+            NEIGHBOUR_ID="",
+            NEIGHBOR_OPINIONS=neighbor_opinions,
+            PHASE1_SUMMARY=phase1_summary_text,
+            PHASE1_MAJORITY_TEXT=phase1_majority_text,
+        )
+
+
+            # print("here is the prompt in time ", t, " for agent ", agent.idx, user_prompt)
+
+            raw = chat_once(
+                model=model,
+                temperature=temperature,
+                system_msg=system_msg,
+                user_msg=user_prompt
+            )
+
+            parsed = coerce_json(raw)
+            new_belief = stance_to_numeric(parsed.get("climateChange_belief", "Neutral"))
+            agent.current_belief = new_belief
+
+            # append to history
+            agent.history.append({
+                "time": t,
+                "phase": 2,
+                "llm_response": parsed,
+                "llm_response_struct": parsed,
+                "llm_response_raw": raw,
+                "claim_id": next_claim_id,
+                "claim_text": next_claim_text,
+                "received_phase1_summary": phase1_summary_text,
+            })
+
+            # log phase2 row
+            logs.append({
+                "time": t,
+                "phase": 2,
+                "persona_id": agent.persona_id,
+                "agent_idx": agent.idx,
+                "claim_id": next_claim_id,
+                "claim_text": next_claim_text,
+                "graph_type": graph_type,
+                "claim_decision": parsed.get("claim_decision"),
+                "claim_decision_reason": parsed.get("claim_decision_reason"),
+                "climateChange_belief": parsed.get("climateChange_belief"),
+                "climateChange_belief_reason": parsed.get("climateChange_belief_reason"),
+                "group_opinion": parsed.get("group_opinion"),
+                "group_opinion_reason": parsed.get("group_opinion_reason"),
+                "consensus_attempt": parsed.get("consensus_attempt"),
+                "belief_numeric": agent.current_belief,
+                "llm_response_raw": raw,
+                # include the Phase 1 majority for convenience
+                "phase1_majority_decision": top_decision,
+                "phase1_majority_count": top_count,
+                "phase1_majority_reached": bool(majority_reached),
+            })
+
 
         # After Phase 1 for this time t, compute majority (>2/3) of claim_decision
         decisions = [phase1_responses[i]["llm_response_struct"].get("claim_decision", "Neutral") for i in range(n_agents)]
@@ -478,12 +614,15 @@ def simulate_polarization(
             neighbor_opinions = summarize_neighbors_all(agent.idx, agents, G)
             
             user_prompt = EACH_ROUND_PROMPT.format(
-                CLAIM_TEXT=next_claim_text,
-                NEIGHBOUR_ID="",
-                NEIGHBOR_OPINIONS=neighbor_opinions
-            )
+            CLAIM_TEXT=next_claim_text,
+            NEIGHBOUR_ID="",
+            NEIGHBOR_OPINIONS=neighbor_opinions,
+            PHASE1_SUMMARY=phase1_summary_text,
+            PHASE1_MAJORITY_TEXT=phase1_majority_text,
+        )
 
-            print("here is the prompt in time ", t, " for agent ", agent.idx, user_prompt)
+
+            # print("here is the prompt in time ", t, " for agent ", agent.idx, user_prompt)
 
             raw = chat_once(
                 model=model,
@@ -573,10 +712,174 @@ def compute_polarization_metrics(df_logs: pd.DataFrame) -> pd.DataFrame:
 
     return pd.DataFrame(metrics)
 
+def _normalize_label_alias(label: str) -> str:
+    """Map common aliases / abbreviations to the canonical 5-point labels."""
+    if not isinstance(label, str):
+        return ""
+    s = label.strip().lower()
+    mapping = {
+        "sd": "Strongly disagree",
+        "sdis": "Strongly disagree",
+        "strongly disagree": "Strongly disagree",
+        "slightly disagree": "Slightly Disagree",
+        "slightdis": "Slightly Disagree",
+        "neutral": "Neutral",
+        "n": "Neutral",
+        "sa": "Strongly Agree",
+        "sag": "Strongly Agree",
+        "strongly agree": "Strongly Agree",
+        "slightly agree": "Slightly Agree",
+        "slightagree": "Slightly Agree",
+    }
+    # try exact keys
+    if s in mapping:
+        return mapping[s]
+    # try to match words
+    if "strong" in s and "dis" in s:
+        return "Strongly disagree"
+    if "slight" in s and "dis" in s:
+        return "Slightly Disagree"
+    if s.startswith("neutral"):
+        return "Neutral"
+    if "slight" in s and "agree" in s:
+        return "Slightly Agree"
+    if "strong" in s and "agree" in s:
+        return "Strongly Agree"
+    # fallback: capitalize each word
+    return label.strip().title()
+def _parse_allocation_string(s: str) -> Dict[str, int]:
+    """
+    Parse strings like "Strongly disagree:5,Strongly Agree:5" or "SD:5,SA:5"
+    Returns a dict canonical_label -> count
+    """
+    if not s:
+        return {}
+    parts = [p.strip() for p in s.split(",") if p.strip()]
+    out = {}
+    for p in parts:
+        if ":" not in p:
+            continue
+        k, v = p.split(":", 1)
+        lbl = _normalize_label_alias(k)
+        try:
+            cnt = int(v.strip())
+        except Exception:
+            raise ValueError(f"Invalid count for {k}: {v}")
+        out[lbl] = out.get(lbl, 0) + cnt
+    return out
+def select_personas_with_allocation(
+    personas_df: pd.DataFrame,
+    n_personas: int,
+    allocation: Dict[str, int],
+    seed: int = 42,
+) -> pd.DataFrame:
+    """
+    Select n_personas rows from personas_df so that the counts per canonical belief label
+    match allocation when possible.
 
-# ============================================================
-# 9. CLI main
-# ============================================================
+    Steps:
+    1. Normalize persona reported belief into canonical labels when possible.
+    2. For each requested label, pick up to that many personas who already match.
+    3. If insufficient, fill by choosing closest personas by numeric distance to label center (stance_to_numeric),
+       then fill remaining from the pool randomly.
+    4. If allocation sums to 0 or allocation empty -> fall back to random sample (current behavior).
+    Deterministic due to numpy RandomState(seed).
+    """
+    rng = np.random.RandomState(seed)
+    df = personas_df.copy().reset_index(drop=False)  # keep original index for uniqueness
+    original_idx_col = "index"
+
+    # canonical 5 labels
+    canonical = [
+        "Strongly disagree",
+        "Slightly Disagree",
+        "Neutral",
+        "Slightly Agree",
+        "Strongly Agree",
+    ]
+
+    # if allocation empty -> fallback to sampling as before
+    allocation = allocation or {}
+    total_requested = sum(allocation.values())
+    if allocation and total_requested != n_personas:
+        raise ValueError(f"Sum of allocation counts ({total_requested}) must equal n_personas ({n_personas}).")
+
+    # helper: get persona's reported label (try to parse string, otherwise numeric to nearest)
+    def persona_label_from_row(row):
+        v = row.get("Belief_ClimateExists")
+        if isinstance(v, str) and v.strip():
+            lbl = _normalize_label_alias(v)
+            # ensure it's one of canonical (case-insensitively)
+            for c in canonical:
+                if lbl.lower() == c.lower():
+                    return c
+            # try mapping via stance_to_numeric
+            try:
+                num = stance_to_numeric(v)
+            except Exception:
+                num = 0.0
+        else:
+            try:
+                num = float(v)
+            except Exception:
+                num = 0.0
+        # map numeric to nearest label
+        diffs = [abs(num - stance_to_numeric(c)) for c in canonical]
+        return canonical[int(np.argmin(diffs))]
+
+    df["_reported_label"] = df.apply(persona_label_from_row, axis=1)
+    df["_reported_numeric"] = df.apply(lambda r: stance_to_numeric(r.get("Belief_ClimateExists") or r.get("_reported_label")), axis=1)
+
+    selected_indices = []  # will store original index values (to avoid double-pick)
+
+    if allocation:
+        # 1) try to pick exact matches first
+        remaining_pool = df.copy()
+        for label, need in allocation.items():
+            if need <= 0:
+                continue
+            matches = remaining_pool[remaining_pool["_reported_label"] == label]
+            take = min(len(matches), need)
+            if take > 0:
+                picks = matches.sample(n=take, random_state=rng.randint(0, 2**32))
+                selected_indices.extend(list(picks[original_idx_col].values))
+                # drop them from pool
+                remaining_pool = remaining_pool[~remaining_pool[original_idx_col].isin(selected_indices)]
+            # if still need more for this label, fill by nearest distance
+            still_needed = need - take
+            if still_needed > 0:
+                # compute distance to label center
+                label_num = stance_to_numeric(label)
+                remaining_pool["_dist_to_label"] = remaining_pool["_reported_numeric"].apply(lambda x: abs(x - label_num))
+                picks = remaining_pool.sort_values("_dist_to_label").head(still_needed)
+                if not picks.empty:
+                    selected_indices.extend(list(picks[original_idx_col].values))
+                    remaining_pool = remaining_pool[~remaining_pool[original_idx_col].isin(selected_indices)]
+        # if we still have fewer than requested (rare), fill from remaining randomly
+        if len(selected_indices) < n_personas:
+            pool = df[~df[original_idx_col].isin(selected_indices)]
+            need = n_personas - len(selected_indices)
+            if len(pool) <= need:
+                selected_indices.extend(list(pool[original_idx_col].values))
+            else:
+                picks = pool.sample(n=need, random_state=rng.randint(0, 2**32))
+                selected_indices.extend(list(picks[original_idx_col].values))
+    else:
+        # no allocation -> random sampling
+        if n_personas >= len(df):
+            selected_indices = list(df[original_idx_col].values)
+        else:
+            picks = df.sample(n=n_personas, random_state=rng.randint(0, 2**32))
+            selected_indices = list(picks[original_idx_col].values)
+
+    # return the selected rows in a shuffled but deterministic order
+    selected_df = df[df[original_idx_col].isin(selected_indices)].copy()
+    # shuffle deterministically
+    selected_df = selected_df.sample(frac=1, random_state=rng.randint(0, 2**32)).reset_index(drop=True)
+    # drop helper cols
+    selected_df = selected_df.drop(columns=[original_idx_col, "_reported_label", "_reported_numeric"], errors="ignore")
+    return selected_df
+
 
 def main():
     parser = argparse.ArgumentParser(description="Multi-agent climate polarization simulation with LLM personas.")
@@ -606,15 +909,46 @@ def main():
                         help="If set, balance SUPPORTS / REFUTES (only for labeled datasets)")
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     parser.add_argument("--out_prefix", default="group_polarization", help="Output prefix")
+    parser.add_argument(
+        "--initial_belief_allocation",
+        type=str,
+        default="",
+        help=(
+            "Optional allocation for initial beliefs when sampling personas. "
+            "Format: 'LabelA:count,LabelB:count,...' e.g. "
+            "'Strongly disagree:5,Strongly Agree:5' . "
+            "Accepted short forms: SD, SDis, SlightlyDisagree, Neutral, SA, SAg, SlightlyAgree."
+        ),
+    )
+
 
     args = parser.parse_args()
 
     # Personas
+    # personas_df = pd.read_csv(args.personas)
+    # if args.n_personas is not None:
+    #     personas_df = personas_df.sample(
+    #         n=min(args.n_personas, len(personas_df)),
+    #         random_state=args.seed)
+
     personas_df = pd.read_csv(args.personas)
+
+    # parse allocation string if given
+    alloc = {}
+    if getattr(args, "initial_belief_allocation", None):
+        alloc = _parse_allocation_string(args.initial_belief_allocation)
+
     if args.n_personas is not None:
-        personas_df = personas_df.sample(
-            n=min(args.n_personas, len(personas_df)),
-            random_state=args.seed)
+        n = min(args.n_personas, len(personas_df))
+        if alloc:
+            # validate sum matches
+            total_alloc = sum(alloc.values())
+            if total_alloc != n:
+                raise ValueError(f"Sum of counts in --initial_belief_allocation ({total_alloc}) must equal --n_personas ({n}).")
+            personas_df = select_personas_with_allocation(personas_df, n, alloc, seed=args.seed)
+        else:
+            personas_df = personas_df.sample(n=n, random_state=args.seed)
+
 
     # Claims
     if args.claims_format == "csv":
