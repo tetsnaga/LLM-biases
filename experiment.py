@@ -174,6 +174,8 @@ def main():
     ap.add_argument("--top_p", type=float, default=None)
     ap.add_argument("--n_personas", type=int, default=None)
     ap.add_argument("--n_claims", type=int, default=None)
+    ap.add_argument("--start_persona", type=int, default=None, help="Persona index to start from (0-based)")
+    ap.add_argument("--end_persona", type=int, default=None, help="Persona index to end at (exclusive, 0-based)")
     ap.add_argument("--evidenceLevel",type=int)
     ap.add_argument("--n_evidence", type=int, default=1)
     ap.add_argument("--evidence_random", required=False, default=False)
@@ -199,8 +201,23 @@ def main():
     else:
         dfc["t_j"] = 0
 
-    if args.n_personas:
-            personas = personas.sample(n=min(args.n_personas, len(personas)))
+    # Track persona range for filename
+    persona_start_idx = None
+    persona_end_idx = None
+    
+    # Filter personas by start/end indices
+    if args.start_persona is not None:
+        start_idx = max(0, args.start_persona)
+        end_idx = args.end_persona if args.end_persona is not None else len(personas)
+        end_idx = min(end_idx, len(personas))
+        if start_idx >= end_idx:
+            raise ValueError(f"start_persona ({start_idx}) must be less than end_persona ({end_idx})")
+        persona_start_idx = start_idx
+        persona_end_idx = end_idx - 1  # end_idx is exclusive, so subtract 1 for filename
+        personas = personas.iloc[start_idx:end_idx]
+        print(f"📝 Processing personas {start_idx} to {persona_end_idx} (inclusive)")
+    elif args.n_personas:
+        personas = personas.sample(n=min(args.n_personas, len(personas)))
     if args.n_claims:
             dfc = dfc.sample(n=min(args.n_claims, len(dfc)))
 
@@ -316,7 +333,13 @@ def main():
 
     ]
     df_out = df_out[cols]
-    out_path = outdir / f"{args.model}_E{args.evidenceLevel}_N{args.n_evidence}.csv"
+    
+    # Build filename with persona range if specified
+    filename_parts = [args.model, f"E{args.evidenceLevel}", f"N{args.n_evidence}"]
+    if persona_start_idx is not None:
+        filename_parts.append(f"P{persona_start_idx}-{persona_end_idx}")
+    
+    out_path = outdir / f"{'_'.join(filename_parts)}.csv"
     df_out.to_csv(out_path, index=False)
     print(f"wrote {len(df_out)} rows to {out_path}")
 
